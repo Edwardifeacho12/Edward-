@@ -1,1296 +1,1245 @@
-DOCTYPE html>
-<html class="avada-html-layout-wide avada-html-header-position-top avada-is-100-percent-template" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>Home | Corporate Affairs Commission</title>
-<meta name='robots' content='max-image-preview:large' />
-<meta name="description" content="[fusion_builder_container hundred_percent=&quot;no&quot; equal_height_columns=&quot;no&quot; menu_anchor=&quot;&quot;." />
-<meta name="robots" content="index,follow" />
-<link rel="canonical" href="https://news.cac.gov.ng/" />
-<meta property="og:locale" content="en_US" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Home, Corporate Affairs Commission" />
-<meta property="og:description" content="[fusion_builder_container hundred_percent=&quot;no&quot; equal_height_columns=&quot;no&quot; menu_anchor=&quot;&quot;." />
-<meta property="og:url" content="https://news.cac.gov.ng/" />
-<meta property="og:site_name" name="copyright" content="Corporate Affairs Commission" />
-<link rel="alternate" type="application/rss+xml" title="Corporate Affairs Commission &raquo; Feed" href="https://news.cac.gov.ng/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Corporate Affairs Commission &raquo; Comments Feed" href="https://news.cac.gov.ng/comments/feed/" />
-		
-		
-		
-				<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://news.cac.gov.ng/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnews.cac.gov.ng%2F" />
-<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://news.cac.gov.ng/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnews.cac.gov.ng%2F&#038;format=xml" />
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>MedGuide Nexus v4.0 — AI Clinical Suite</title>
 
-		<meta property="og:title" content="Home"/>
-		<meta property="og:type" content="article"/>
-		<meta property="og:url" content="https://news.cac.gov.ng/"/>
-		<meta property="og:site_name" content="Corporate Affairs Commission"/>
-		<meta property="og:description" content="Public Search  Online registration     
-View Timelines  
-Watch  
-Fees for our services   
-Step by step registration  
+<!-- React + Babel (browser build) -->
+<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-Find out the step by step process for Registration of company. 
-
-Find out the step by step process for Business Name Registration. 
-
-All you need"/>
-
-									<meta property="og:image" content="https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png"/>
-							<style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
-img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
-/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
-</style>
-<link rel='stylesheet' id='wc-gallery-style-css' href='https://news.cac.gov.ng/wp-content/plugins/boldgrid-gallery/includes/css/style.css?ver=1.55' type='text/css' media='all' />
-<link rel='stylesheet' id='wc-gallery-popup-style-css' href='https://news.cac.gov.ng/wp-content/plugins/boldgrid-gallery/includes/css/magnific-popup.css?ver=1.1.0' type='text/css' media='all' />
-<link rel='stylesheet' id='wc-gallery-flexslider-style-css' href='https://news.cac.gov.ng/wp-content/plugins/boldgrid-gallery/includes/vendors/flexslider/flexslider.css?ver=2.6.1' type='text/css' media='all' />
-<link rel='stylesheet' id='wc-gallery-owlcarousel-style-css' href='https://news.cac.gov.ng/wp-content/plugins/boldgrid-gallery/includes/vendors/owlcarousel/assets/owl.carousel.css?ver=2.1.4' type='text/css' media='all' />
-<link rel='stylesheet' id='wc-gallery-owlcarousel-theme-style-css' href='https://news.cac.gov.ng/wp-content/plugins/boldgrid-gallery/includes/vendors/owlcarousel/assets/owl.theme.default.css?ver=2.1.4' type='text/css' media='all' />
-<link rel='stylesheet' id='boldgrid-components-css' href='https://news.cac.gov.ng/wp-content/plugins/post-and-page-builder/assets/css/components.min.css?ver=2.16.5' type='text/css' media='all' />
-<link rel='stylesheet' id='font-awesome-css' href='https://news.cac.gov.ng/wp-content/plugins/post-and-page-builder/assets/css/font-awesome.min.css?ver=4.7' type='text/css' media='all' />
-<link rel='stylesheet' id='boldgrid-fe-css' href='https://news.cac.gov.ng/wp-content/plugins/post-and-page-builder/assets/css/editor-fe.min.css?ver=1.27.10' type='text/css' media='all' />
-<link rel='stylesheet' id='boldgrid-custom-styles-css' href='https://news.cac.gov.ng/wp-content/plugins/post-and-page-builder/assets/css/custom-styles.css?ver=6.9' type='text/css' media='all' />
-<link rel='stylesheet' id='fusion-dynamic-css-css' href='https://news.cac.gov.ng/wp-content/uploads/fusion-styles/79271dc2cdd456adac15b46f76a14e6d.min.css?ver=3.9.2' type='text/css' media='all' />
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
-<link rel="https://api.w.org/" href="https://news.cac.gov.ng/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://news.cac.gov.ng/wp-json/wp/v2/pages/3372" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://news.cac.gov.ng/xmlrpc.php?rsd" />
-<meta name="generator" content="WordPress 6.9" />
-<link rel='shortlink' href='https://news.cac.gov.ng/' />
-<style type="text/css" id="css-fb-visibility">@media screen and (max-width: 640px){.fusion-no-small-visibility{display:none !important;}body .sm-text-align-center{text-align:center !important;}body .sm-text-align-left{text-align:left !important;}body .sm-text-align-right{text-align:right !important;}body .sm-flex-align-center{justify-content:center !important;}body .sm-flex-align-flex-start{justify-content:flex-start !important;}body .sm-flex-align-flex-end{justify-content:flex-end !important;}body .sm-mx-auto{margin-left:auto !important;margin-right:auto !important;}body .sm-ml-auto{margin-left:auto !important;}body .sm-mr-auto{margin-right:auto !important;}body .fusion-absolute-position-small{position:absolute;top:auto;width:100%;}.awb-sticky.awb-sticky-small{ position: sticky; top: var(--awb-sticky-offset,0); }}@media screen and (min-width: 641px) and (max-width: 1024px){.fusion-no-medium-visibility{display:none !important;}body .md-text-align-center{text-align:center !important;}body .md-text-align-left{text-align:left !important;}body .md-text-align-right{text-align:right !important;}body .md-flex-align-center{justify-content:center !important;}body .md-flex-align-flex-start{justify-content:flex-start !important;}body .md-flex-align-flex-end{justify-content:flex-end !important;}body .md-mx-auto{margin-left:auto !important;margin-right:auto !important;}body .md-ml-auto{margin-left:auto !important;}body .md-mr-auto{margin-right:auto !important;}body .fusion-absolute-position-medium{position:absolute;top:auto;width:100%;}.awb-sticky.awb-sticky-medium{ position: sticky; top: var(--awb-sticky-offset,0); }}@media screen and (min-width: 1025px){.fusion-no-large-visibility{display:none !important;}body .lg-text-align-center{text-align:center !important;}body .lg-text-align-left{text-align:left !important;}body .lg-text-align-right{text-align:right !important;}body .lg-flex-align-center{justify-content:center !important;}body .lg-flex-align-flex-start{justify-content:flex-start !important;}body .lg-flex-align-flex-end{justify-content:flex-end !important;}body .lg-mx-auto{margin-left:auto !important;margin-right:auto !important;}body .lg-ml-auto{margin-left:auto !important;}body .lg-mr-auto{margin-right:auto !important;}body .fusion-absolute-position-large{position:absolute;top:auto;width:100%;}.awb-sticky.awb-sticky-large{ position: sticky; top: var(--awb-sticky-offset,0); }}</style><style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="icon" href="https://news.cac.gov.ng/wp-content/uploads/2019/11/cropped-logos-32x32.png" sizes="32x32" />
-<link rel="icon" href="https://news.cac.gov.ng/wp-content/uploads/2019/11/cropped-logos-192x192.png" sizes="192x192" />
-<link rel="apple-touch-icon" href="https://news.cac.gov.ng/wp-content/uploads/2019/11/cropped-logos-180x180.png" />
-<meta name="msapplication-TileImage" content="https://news.cac.gov.ng/wp-content/uploads/2019/11/cropped-logos-270x270.png" />
-		<script type="text/javascript">
-			var doc = document.documentElement;
-			doc.setAttribute( 'data-useragent', navigator.userAgent );
-		</script>
-		
-	<style id='global-styles-inline-css' type='text/css'>
-:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 12px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 24px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--normal: 16px;--wp--preset--font-size--xlarge: 32px;--wp--preset--font-size--huge: 48px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
-/*# sourceURL=global-styles-inline-css */
-</style>
-<style id='wp-block-library-inline-css' type='text/css'>
-:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
-/*wp_block_styles_on_demand_placeholder:696f4139ec8d4*/
-/*# sourceURL=wp-block-library-inline-css */
-</style>
-<style id='wp-block-library-theme-inline-css' type='text/css'>
-.wp-block-audio :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio :where(figcaption){color:#ffffffa6}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed :where(figcaption){color:#ffffffa6}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:#ffffffa6}:root :where(.wp-block-image figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme :root :where(.wp-block-image figcaption){color:#ffffffa6}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote :where(cite),.wp-block-pullquote :where(footer),.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote:where(.has-text-align-right){border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote:where(.has-text-align-center){border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote:where(.is-style-plain){border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table :where(figcaption){color:#ffffffa6}.wp-block-video :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video :where(figcaption){color:#ffffffa6}.wp-block-video{margin:0 0 1em}:root :where(.wp-block-template-part.has-background){margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
-/*# sourceURL=/wp-includes/css/dist/block-library/theme.min.css */
-</style>
-<style id='classic-theme-styles-inline-css' type='text/css'>
-/*! This file is auto-generated */
-.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
-/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+<style>
+  html,body { margin:0;padding:0;background:#020509; }
+  #root { min-height:100vh; }
 </style>
 </head>
+<body>
+<div id="root"></div>
 
-<body class="home wp-singular page-template page-template-100-width page-template-100-width-php page page-id-3372 wp-theme-Avada boldgrid-ppb fusion-image-hovers fusion-pagination-sizing fusion-button_type-flat fusion-button_span-no fusion-button_gradient-linear avada-image-rollover-circle-yes avada-image-rollover-yes avada-image-rollover-direction-top dont-animate fusion-body ltr fusion-sticky-header no-mobile-sticky-header no-mobile-slidingbar no-mobile-totop avada-has-rev-slider-styles fusion-disable-outline fusion-sub-menu-fade mobile-logo-pos-left layout-wide-mode avada-has-boxed-modal-shadow-none layout-scroll-offset-full avada-has-zero-margin-offset-top fusion-top-header menu-text-align-center mobile-menu-design-modern fusion-show-pagination-text fusion-header-layout-v2 avada-responsive avada-footer-fx-none avada-menu-highlight-style-bar fusion-search-form-classic fusion-main-menu-search-dropdown fusion-avatar-square avada-dropdown-styles avada-blog-layout-grid avada-blog-archive-layout-large avada-header-shadow-no avada-menu-icon-position-left avada-has-megamenu-shadow avada-has-mainmenu-dropdown-divider avada-has-pagetitle-bg-full avada-has-pagetitle-bg-parallax avada-has-main-nav-search-icon avada-has-titlebar-hide avada-has-slidingbar-widgets avada-has-slidingbar-position-top avada-slidingbar-toggle-style-triangle avada-has-slidingbar-sticky avada-has-pagination-padding avada-flyout-menu-direction-fade avada-ec-views-v1" data-awb-post-id="3372">
-		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+<!-- NOTE: This app calls the Anthropic API directly from the browser.
+     You need a valid Anthropic API key. Enter it when prompted on first load,
+     or hardcode it below where indicated. -->
 
-	<div id="boxed-wrapper">
-		
-		<div id="wrapper" class="fusion-wrapper">
-			<div id="home" style="position:relative;top:-1px;"></div>
-							
-					
-			<header class="fusion-header-wrapper">
-				<div class="fusion-header-v2 fusion-logo-alignment fusion-logo-left fusion-sticky-menu- fusion-sticky-logo-1 fusion-mobile-logo-1  fusion-mobile-menu-design-modern">
-					
-<div class="fusion-secondary-header">
-	<div class="fusion-row">
-					<div class="fusion-alignleft">
-				<div class="fusion-contact-info"><span class="fusion-contact-info-phone-number">Call Us Today! 234 708-062-9000</span><span class="fusion-header-separator">|</span><span class="fusion-contact-info-email-address"><a href="mailto:he&#108;pdes&#107;&#64;&#99;ac.gov.ng">he&#108;pdes&#107;&#64;&#99;ac.gov.ng</a></span></div>			</div>
-							<div class="fusion-alignright">
-				<div class="fusion-social-links-header"><div class="fusion-social-networks boxed-icons"><div class="fusion-social-networks-wrapper"><a  class="fusion-social-network-icon fusion-tooltip fusion-facebook awb-icon-facebook" style="color:#ffffff;background-color:#3b5998;border-color:#3b5998;" data-placement="bottom" data-title="Facebook" data-toggle="tooltip" title="Facebook" href="https://www.facebook.com/cacnigeria1" target="_blank" rel="noreferrer"><span class="screen-reader-text">Facebook</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-twitter awb-icon-twitter" style="color:#ffffff;background-color:#55acee;border-color:#55acee;" data-placement="bottom" data-title="Twitter" data-toggle="tooltip" title="Twitter" href="https://www.twitter.com/cacnigeria1" target="_blank" rel="noopener noreferrer"><span class="screen-reader-text">Twitter</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-instagram awb-icon-instagram" style="color:#ffffff;background-color:#3f729b;border-color:#3f729b;" data-placement="bottom" data-title="Instagram" data-toggle="tooltip" title="Instagram" href="https://www.instagram.com/corporateaffairsc/" target="_blank" rel="noopener noreferrer"><span class="screen-reader-text">Instagram</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-mail awb-icon-mail" style="color:#ffffff;background-color:#000000;border-color:#000000;" data-placement="bottom" data-title="Email" data-toggle="tooltip" title="Email" href="mailto:c&#115;erv&#105;&#099;e&#064;&#099;a&#099;&#046;go&#118;&#046;&#110;&#103;" target="_self" rel="noopener noreferrer"><span class="screen-reader-text">Email</span></a></div></div></div>			</div>
-			</div>
-</div>
-<div class="fusion-header-sticky-height"></div>
-<div class="fusion-header">
-	<div class="fusion-row">
-					<div class="fusion-logo" data-margin-top="31px" data-margin-bottom="31px" data-margin-left="0px" data-margin-right="0px">
-			<a class="fusion-logo-link"  href="https://news.cac.gov.ng/" >
+<script type="text/babel" data-presets="react">
+// ─── Globals from React UMD ───────────────────────────────────────────────
+const { useState, useEffect, useRef } = React;
 
-						<!-- standard logo -->
-			<img src="https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png" srcset="https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png 1x, https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png 2x" width="300" height="100" style="max-height:100px;height:auto;" alt="Corporate Affairs Commission Logo" data-retina_logo_url="https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png" class="fusion-standard-logo" />
+// ─── API KEY MANAGEMENT ───────────────────────────────────────────────────
+function getApiKey() {
+  let key = localStorage.getItem("mg_api_key");
+  if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) {
+    key = prompt("🔑 Enter your Anthropic API Key to use MedGuide Nexus:\n(Get one at console.anthropic.com)");
+    if (edward ifeacho) localStorage.setItem("mg_api_key", key.trim());
+  }
+  return key ? key.trim() : "";
+}
 
-											<!-- mobile logo -->
-				<img src="https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png" srcset="https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png 1x, https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png 2x" width="300" height="100" style="max-height:100px;height:auto;" alt="Corporate Affairs Commission Logo" data-retina_logo_url="https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png" class="fusion-mobile-logo" />
-			
-											<!-- sticky header logo -->
-				<img src="https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png" srcset="https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png 1x, https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png 2x" width="300" height="100" style="max-height:100px;height:auto;" alt="Corporate Affairs Commission Logo" data-retina_logo_url="https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png" class="fusion-sticky-logo" />
-					</a>
-		</div>		<nav class="fusion-main-menu" aria-label="Main Menu"><ul id="menu-main-menu" class="fusion-menu"><li  id="menu-item-3512"  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3512"  data-item-id="3512"><a  href="https://news.cac.gov.ng" class="fusion-bar-highlight"><span class="menu-text">Home</span></a></li><li  id="menu-item-3713"  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-3713 fusion-dropdown-menu"  data-item-id="3713"><a  href="https://news.cac.gov.ng" class="fusion-bar-highlight"><span class="menu-text">About Us</span></a><ul class="sub-menu"><li  id="menu-item-3573"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3573 fusion-dropdown-submenu" ><a  href="https://news.cac.gov.ng/about/" class="fusion-bar-highlight"><span>Who we are</span></a></li><li  id="menu-item-3852"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3852 fusion-dropdown-submenu" ><a  href="https://news.cac.gov.ng/board-members/" class="fusion-bar-highlight"><span>Board Members</span></a></li><li  id="menu-item-5285"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5285 fusion-dropdown-submenu" ><a  href="https://news.cac.gov.ng/list-of-heads-of-departments-units-and-state-offices/" class="fusion-bar-highlight"><span>Heads of Departments/Units and State Offices</span></a></li><li  id="menu-item-3575"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3575 fusion-dropdown-submenu" ><a  href="https://news.cac.gov.ng/organizational-structure/" class="fusion-bar-highlight"><span>Organizational Structure</span></a></li></ul></li><li  id="menu-item-3711"  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-3711 fusion-dropdown-menu"  data-item-id="3711"><a  href="https://news.cac.gov.ng" class="fusion-bar-highlight"><span class="menu-text">Services</span></a><ul class="sub-menu"><li  id="menu-item-3712"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3712 fusion-dropdown-submenu" ><a  href="https://news.cac.gov.ng/companies/" class="fusion-bar-highlight"><span>Companies</span></a></li><li  id="menu-item-3535"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3535 fusion-dropdown-submenu" ><a  href="https://news.cac.gov.ng/business-names/" class="fusion-bar-highlight"><span>Business Names</span></a></li><li  id="menu-item-3536"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3536 fusion-dropdown-submenu" ><a  href="https://news.cac.gov.ng/incorporated-trustees/" class="fusion-bar-highlight"><span>Incorporated Trustees</span></a></li><li  id="menu-item-3533"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3533 fusion-dropdown-submenu" ><a  href="https://news.cac.gov.ng/?page_id=3498" class="fusion-bar-highlight"><span>Summary of fees</span></a></li><li  id="menu-item-4430"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4430 fusion-dropdown-submenu" ><a  href="https://news.cac.gov.ng/4341-2/" class="fusion-bar-highlight"><span>Service Timelines</span></a></li><li  id="menu-item-3534"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3534 fusion-dropdown-submenu" ><a  href="https://news.cac.gov.ng/?page_id=3450" class="fusion-bar-highlight"><span>Timelines</span></a></li></ul></li><li  id="menu-item-3542"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3542"  data-item-id="3542"><a  href="https://news.cac.gov.ng/resources/" class="fusion-bar-highlight"><span class="menu-text">Resources</span></a></li><li  id="menu-item-3539"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3539"  data-item-id="3539"><a  href="https://news.cac.gov.ng/news/" class="fusion-bar-highlight"><span class="menu-text">News</span></a></li><li  id="menu-item-3540"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3540"  data-item-id="3540"><a  href="https://news.cac.gov.ng/foi-portal/" class="fusion-bar-highlight"><span class="menu-text">FOI Portal</span></a></li><li  id="menu-item-3538"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3538"  data-item-id="3538"><a  href="https://news.cac.gov.ng/contact-us/" class="fusion-bar-highlight"><span class="menu-text">Contact Us</span></a></li><li  id="menu-item-5380"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5380"  data-item-id="5380"><a  href="https://reportgov.ng" class="fusion-bar-highlight"><span class="menu-text"><img src="https://news.cac.gov.ng/wp-content/uploads/2024/05/cropped-reportgov1-1.jpg" alt="" width="144" height="34" class="alignnone size-full wp-image-5375" /></span></a></li><li class="fusion-custom-menu-item fusion-main-menu-search"><a class="fusion-main-menu-icon fusion-bar-highlight" href="#" aria-label="Search" data-title="Search" title="Search" role="button" aria-expanded="false"></a><div class="fusion-custom-menu-item-contents">		<form role="search" class="searchform fusion-search-form  fusion-live-search fusion-search-form-classic" method="get" action="https://news.cac.gov.ng/">
-			<div class="fusion-search-form-content">
-
-				
-				<div class="fusion-search-field search-field">
-					<label><span class="screen-reader-text">Search for:</span>
-													<input type="search" class="s fusion-live-search-input" name="s" id="fusion-live-search-input-0" autocomplete="off" placeholder="Search..." required aria-required="true" aria-label="Search..."/>
-											</label>
-				</div>
-				<div class="fusion-search-button search-button">
-					<input type="submit" class="fusion-search-submit searchsubmit" aria-label="Search" value="&#xf002;" />
-										<div class="fusion-slider-loading"></div>
-									</div>
-
-				
-			</div>
-
-
-							<div class="fusion-search-results-wrapper"><div class="fusion-search-results"></div></div>
-			
-		</form>
-		</div></li></ul></nav>	<div class="fusion-mobile-menu-icons">
-							<a href="#" class="fusion-icon awb-icon-bars" aria-label="Toggle mobile menu" aria-expanded="false"></a>
-		
-		
-		
-			</div>
-
-<nav class="fusion-mobile-nav-holder fusion-mobile-menu-text-align-left" aria-label="Main Menu Mobile"></nav>
-
-					</div>
-</div>
-				</div>
-				<div class="fusion-clearfix"></div>
-			</header>
-								
-							<div id="sliders-container" class="fusion-slider-visibility">
-			<div id="fusion-slider-66" data-id="66" class="fusion-slider-container fusion-slider-3372 full-width-slider-container" style="height:450px;max-width:100%;">
-	<style type="text/css">
-		#fusion-slider-66 .flex-direction-nav a {width:63px;height:63px;line-height:63px;font-size:25px;}	</style>
-	<div class="fusion-slider-loading">Loading...</div>
-		<div class="tfs-slider flexslider main-flex full-width-slider" style="max-width:100%;--typography_sensitivity:1;" data-slider_width="100%" data-slider_height="450px" data-full_screen="0" data-parallax="0" data-nav_arrows="1" data-nav_box_width="63px" data-nav_box_height="63px" data-nav_arrow_size="25px" data-autoplay="1" data-loop="0" data-orderby="date" data-order="DESC" data-animation="fade" data-slideshow_speed="8000" data-animation_speed="600" data-typo_sensitivity="1" data-typo_factor="1.5" data-slider_indicator="" data-slider_indicator_color="#ffffff" >
-		<ul class="slides" style="max-width:100%;">
-															<li class="slide-id-5249" data-mute="no" data-loop="no" data-autoplay="yes">
-					<div class="slide-content-container slide-content-center" style="display: none;">
-						<div class="slide-content" style="">
-																											</div>
-					</div>
-																					<div class="mobile_video_image" style="background-image: url('https://news.cac.gov.ng/wp-content/uploads/2023/12/WhatsApp-Video-2023-12-14-at-10.14.45-1.mp4');"></div>
-															<div class="background self-hosted-video-bg" style="max-width:100%;height:450px;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='', sizingMethod='scale');" data-imgwidth="">
-													<span
-								class="fusion-slider-self-hosted-video-placeholder"
-								data-ogg=""
-								data-webm="https://news.cac.gov.ng/wp-content/uploads/2023/12/WhatsApp-Video-2023-12-14-at-10.14.45-1.mp4"
-								data-mp4="https://news.cac.gov.ng/wp-content/uploads/2023/12/WhatsApp-Video-2023-12-14-at-10.14.45-1.mp4"
-								 autoplay								preload="auto"
-							></span>
-																							</div>
-				</li>
-															<li class="slide-id-3382" data-mute="yes" data-loop="yes" data-autoplay="yes">
-					<div class="slide-content-container slide-content-center" style="display: none;">
-						<div class="slide-content" style="">
-															<div class="heading ">
-									<div class="fusion-title-sc-wrapper" style="">
-										<div class="fusion-title title fusion-title-1 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-two" style="--awb-text-color:#000000;--awb-margin-bottom:0px;--awb-sep-color:#000000;--awb-font-size:60px;"><h2 class="title-heading-center fusion-responsive-typography-calculated" style="margin:0;font-size:1em;--fontSize:60;line-height:1.33;">Nigerian
-Corporate Registry</h2></div>									</div>
-								</div>
-																													<div class="buttons" >
-																										</div>
-													</div>
-					</div>
-																									<div class="background background-image" style="background-image: url(https://news.cac.gov.ng/wp-content/uploads/2019/12/cac-office-hq.jpg);max-width:100%;height:450px;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://news.cac.gov.ng/wp-content/uploads/2019/12/cac-office-hq.jpg', sizingMethod='scale');" data-imgwidth="2560">
-																							</div>
-				</li>
-					</ul>
-	</div>
-</div>
-		</div>
-				
-					
-							
-			
-						<main id="main" class="clearfix width-100">
-				<div class="fusion-row" style="max-width:100%;">
-<section id="content" class="full-width">
-					<div id="post-3372" class="post-3372 page type-page status-publish hentry">
-			<span class="entry-title rich-snippet-hidden">Home</span><span class="vcard rich-snippet-hidden"><span class="fn"><a href="https://news.cac.gov.ng/author/cac/" title="Posts by Muhammad Abdullahi" rel="author">Muhammad Abdullahi</a></span></span><span class="updated rich-snippet-hidden">2024-05-09T14:08:41+01:00</span>						<div class="post-content">
-				<div class="fusion-fullwidth fullwidth-box fusion-builder-row-1 nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;" ><div class="fusion-builder-row fusion-row"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-0 fusion_builder_column_1_2 1_2 fusion-one-half fusion-column-first" style="--awb-bg-size:cover;--awb-margin-bottom:0px;width:48%; margin-right: 4%;"><div class="fusion-column-wrapper fusion-flex-column-wrapper-legacy"><div class="fusion-align-block"><a class="fusion-button button-3d fusion-button-default-size button-darkgreen fusion-button-darkgreen button-1 fusion-button-span-yes " style="--button_text_transform:uppercase;" target="_blank" rel="noopener noreferrer" href="https://search.cac.gov.ng/home"><i class="fa-search fas button-icon-left" aria-hidden="true"></i><span class="fusion-button-text">Public Search</span></a></div><div class="fusion-clearfix"></div></div></div><div class="fusion-layout-column fusion_builder_column fusion-builder-column-1 fusion_builder_column_1_2 1_2 fusion-one-half fusion-column-last" style="--awb-bg-size:cover;--awb-margin-bottom:0px;width:48%;"><div class="fusion-column-wrapper fusion-flex-column-wrapper-legacy"><div class="fusion-align-block"><a class="fusion-button button-3d fusion-button-default-size button-darkgreen fusion-button-darkgreen button-2 fusion-button-span-yes " style="--button_text_transform:uppercase;" target="_blank" rel="noopener noreferrer" href="https://pre.cac.gov.ng"><i class="fa-laptop fas button-icon-left" aria-hidden="true"></i><span class="fusion-button-text">Online registration</span></a></div><div class="fusion-clearfix"></div></div></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-builder-row-2 nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;" ><div class="fusion-builder-row fusion-row"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-2 fusion_builder_column_1_1 1_1 fusion-one-full fusion-column-first fusion-column-last" style="--awb-bg-size:cover;"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-column-wrapper-legacy"><div class="fusion-section-separator section-separator custom fusion-section-separator-1" style="--awb-spacer-height:;"><div class="fusion-section-separator-svg fusion-section-separator-fullwidth"></div><div class="fusion-section-separator-spacer fusion-section-separator-fullwidth"><div class="fusion-section-separator-spacer-height"></div></div></div><div class="fusion-flip-boxes flip-boxes row fusion-columns-3 fusion-no-small-visibility flip-effect-3d equal-heights"><div class="fusion-flip-box-wrapper fusion-column col-lg-4 col-md-4 col-sm-4"><div class="fusion-flip-box flip-up" tabindex="0"><div class="flip-box-inner-wrapper"><div class="flip-box-front"><div class="flip-box-front-inner"><div class="flip-box-grafix flip-box-circle"><i aria-hidden="true" class="fa-calendar-check far"></i></div><h2 class="flip-box-heading">Revised Service Timelines</h2>Timelines for our services</div></div><div class="flip-box-back"><div class="flip-box-back-inner"><h3 class="flip-box-heading-back">Check our Turnaround Time</h3>
-<h5><div class="fusion-button-wrapper"><a class="fusion-button button-flat fusion-button-default-size button-default fusion-button-default button-3 fusion-button-default-span fusion-button-default-type" target="_self" href="https://news.cac.gov.ng/4341-2/"><span class="fusion-button-text">View Timelines</span></a></div></h5>
-</div></div></div></div></div><div class="fusion-flip-box-wrapper fusion-column col-lg-4 col-md-4 col-sm-4"><div class="fusion-flip-box flip-up" tabindex="0"><div class="flip-box-inner-wrapper"><div class="flip-box-front"><div class="flip-box-front-inner"><div class="flip-box-grafix flip-box-circle"><i aria-hidden="true" class="fa-wpforms fab"></i></div><h2 class="flip-box-heading">How to use CRP</h2>click to view</div></div><div class="flip-box-back"><div class="flip-box-back-inner"><h3 class="flip-box-heading-back">Instructional Videos</h3>
-<h5><div class="fusion-button-wrapper"><a class="fusion-button button-flat fusion-button-default-size button-default fusion-button-default button-4 fusion-button-default-span fusion-button-default-type" target="_self" href="https://news.cac.gov.ng/instructional-videos/"><span class="fusion-button-text">Watch</span></a></div></h5>
-</div></div></div></div></div><div class="fusion-flip-box-wrapper fusion-column col-lg-4 col-md-4 col-sm-4"><div class="fusion-flip-box flip-up" tabindex="0"><div class="flip-box-inner-wrapper"><div class="flip-box-front"><div class="flip-box-front-inner"><div class="flip-box-grafix flip-box-circle"><i aria-hidden="true" class="fa-money-bill-alt far"></i></div><h2 class="flip-box-heading">Summary of Fees</h2>Fees for our services</div></div><div class="flip-box-back"><div class="flip-box-back-inner"><h3 class="flip-box-heading-back">Fees for our services</h3>
-<h5><div class="fusion-button-wrapper"><a class="fusion-button button-flat fusion-button-default-size button-default fusion-button-default button-5 fusion-button-default-span fusion-button-default-type" target="_self" href="https://news.cac.gov.ng/schedule-of-fees/"><span class="fusion-button-text">Fees for our services</span></a></div></h5>
-</div></div></div></div></div></div><div class="clearfix"></div><div class="fusion-title title fusion-title-2 fusion-title-center fusion-title-text fusion-title-size-two"><div class="title-sep-container title-sep-container-left"><div class="title-sep sep-single sep-solid" style="border-color:#e0dede;"></div></div><span class="awb-title-spacer"></span><h2 class="title-heading-center fusion-responsive-typography-calculated" style="margin:0;--fontSize:48;line-height:1.2;"><h2 style="text-align: center;"><span style="color: #339966;">Step by step registration</span><span style="color: #339966;"> </span></h2></h2><span class="awb-title-spacer"></span><div class="title-sep-container title-sep-container-right"><div class="title-sep sep-single sep-solid" style="border-color:#e0dede;"></div></div></div><div class="fusion-content-boxes content-boxes columns row fusion-columns-3 fusion-columns-total-3 fusion-content-boxes-1 content-boxes-clean-vertical content-left content-boxes-icon-on-top" style="--awb-hover-accent-color:#a0ce4e;--awb-circle-hover-accent-color:#a0ce4e;" data-animationOffset="top-into-view"><div style="--awb-backgroundcolor:transparent;border-color:rgba(255,255,255,0);" class="fusion-column content-box-column content-box-column content-box-column-1 col-lg-4 col-md-4 col-sm-4 fusion-content-box-hover content-box-column-first-in-row"><div class="col content-box-wrapper content-wrapper link-area-link-icon link-type-text icon-hover-animation-pulsate fusion-animated" data-animationType="flash" data-animationDuration="0.3" data-animationOffset="top-into-view"><div class="heading heading-with-icon icon-left"><a class="heading-link" href=" https://news.cac.gov.ng/companies/" target="_self"><div class="icon"><i style="border-color:rgba(255,255,255,0);border-width:0px;background-color:#a0ce4e;box-sizing:content-box;height:112px;width:112px;line-height:112px;border-radius:50%;font-size:56px;" aria-hidden="true" class="fontawesome-icon fa-landmark fas circle-yes"></i></div><h2 class="content-box-heading fusion-responsive-typography-calculated" style="--h2_typography-font-size:18px;--fontSize:18;line-height:1.2;">Companies</h2></a></div><div class="fusion-clearfix"></div><div class="content-container">
-<p>Find out the step by step process for Registration of company.</p>
-</div></div></div><div style="--awb-backgroundcolor:transparent;border-color:rgba(255,255,255,0);" class="fusion-column content-box-column content-box-column content-box-column-2 col-lg-4 col-md-4 col-sm-4 fusion-content-box-hover "><div class="col content-box-wrapper content-wrapper link-area-link-icon link-type-text icon-hover-animation-pulsate fusion-animated" data-animationType="flash" data-animationDuration="0.3" data-animationOffset="top-into-view"><div class="heading heading-with-icon icon-left"><a class="heading-link" href="https://news.cac.gov.ng/business-names/" target="_self"><div class="icon"><i style="border-color:rgba(255,255,255,0);border-width:0px;background-color:#a0ce4e;box-sizing:content-box;height:112px;width:112px;line-height:112px;border-radius:50%;font-size:56px;" aria-hidden="true" class="fontawesome-icon fa-user-tie fas circle-yes"></i></div><h2 class="content-box-heading fusion-responsive-typography-calculated" style="--h2_typography-font-size:18px;--fontSize:18;line-height:1.2;">Business Names</h2></a></div><div class="fusion-clearfix"></div><div class="content-container"><!DOCTYPE html>
-<html class="avada-html-layout-wide avada-html-header-position-top avada-is-100-percent-template" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
-<head>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>Home | Corporate Affairs Commission</title>
-<meta name='robots' content='max-image-preview:large' />
-<meta name="description" content="[fusion_builder_container hundred_percent=&quot;no&quot; equal_height_columns=&quot;no&quot; menu_anchor=&quot;&quot;." />
-<meta name="robots" content="index,follow" />
-<link rel="canonical" href="https://news.cac.gov.ng/" />
-<meta property="og:locale" content="en_US" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Home, Corporate Affairs Commission" />
-<meta property="og:description" content="[fusion_builder_container hundred_percent=&quot;no&quot; equal_height_columns=&quot;no&quot; menu_anchor=&quot;&quot;." />
-<meta property="og:url" content="https://news.cac.gov.ng/" />
-<meta property="og:site_name" name="copyright" content="Corporate Affairs Commission" />
-<link rel="alternate" type="application/rss+xml" title="Corporate Affairs Commission &raquo; Feed" href="https://news.cac.gov.ng/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Corporate Affairs Commission &raquo; Comments Feed" href="https://news.cac.gov.ng/comments/feed/" />
-		
-		
-		
-				<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://news.cac.gov.ng/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnews.cac.gov.ng%2F" />
-<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://news.cac.gov.ng/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnews.cac.gov.ng%2F&#038;format=xml" />
-
-		<meta property="og:title" content="Home"/>
-		<meta property="og:type" content="article"/>
-		<meta property="og:url" content="https://news.cac.gov.ng/"/>
-		<meta property="og:site_name" content="Corporate Affairs Commission"/>
-		<meta property="og:description" content="Public Search  Online registration     
-View Timelines  
-Watch  
-Fees for our services   
-Step by step registration  
-
-Find out the step by step process for Registration of company. 
-
-Find out the step by step process for Business Name Registration. 
-
-All you need"/>
-
-									<meta property="og:image" content="https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png"/>
-							<style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
-img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
-/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
-</style>
-<link rel='stylesheet' id='wc-gallery-style-css' href='https://news.cac.gov.ng/wp-content/plugins/boldgrid-gallery/includes/css/style.css?ver=1.55' type='text/css' media='all' />
-<link rel='stylesheet' id='wc-gallery-popup-style-css' href='https://news.cac.gov.ng/wp-content/plugins/boldgrid-gallery/includes/css/magnific-popup.css?ver=1.1.0' type='text/css' media='all' />
-<link rel='stylesheet' id='wc-gallery-flexslider-style-css' href='https://news.cac.gov.ng/wp-content/plugins/boldgrid-gallery/includes/vendors/flexslider/flexslider.css?ver=2.6.1' type='text/css' media='all' />
-<link rel='stylesheet' id='wc-gallery-owlcarousel-style-css' href='https://news.cac.gov.ng/wp-content/plugins/boldgrid-gallery/includes/vendors/owlcarousel/assets/owl.carousel.css?ver=2.1.4' type='text/css' media='all' />
-<link rel='stylesheet' id='wc-gallery-owlcarousel-theme-style-css' href='https://news.cac.gov.ng/wp-content/plugins/boldgrid-gallery/includes/vendors/owlcarousel/assets/owl.theme.default.css?ver=2.1.4' type='text/css' media='all' />
-<link rel='stylesheet' id='boldgrid-components-css' href='https://news.cac.gov.ng/wp-content/plugins/post-and-page-builder/assets/css/components.min.css?ver=2.16.5' type='text/css' media='all' />
-<link rel='stylesheet' id='font-awesome-css' href='https://news.cac.gov.ng/wp-content/plugins/post-and-page-builder/assets/css/font-awesome.min.css?ver=4.7' type='text/css' media='all' />
-<link rel='stylesheet' id='boldgrid-fe-css' href='https://news.cac.gov.ng/wp-content/plugins/post-and-page-builder/assets/css/editor-fe.min.css?ver=1.27.10' type='text/css' media='all' />
-<link rel='stylesheet' id='boldgrid-custom-styles-css' href='https://news.cac.gov.ng/wp-content/plugins/post-and-page-builder/assets/css/custom-styles.css?ver=6.9' type='text/css' media='all' />
-<link rel='stylesheet' id='fusion-dynamic-css-css' href='https://news.cac.gov.ng/wp-content/uploads/fusion-styles/79271dc2cdd456adac15b46f76a14e6d.min.css?ver=3.9.2' type='text/css' media='all' />
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
-<link rel="https://api.w.org/" href="https://news.cac.gov.ng/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://news.cac.gov.ng/wp-json/wp/v2/pages/3372" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://news.cac.gov.ng/xmlrpc.php?rsd" />
-<meta name="generator" content="WordPress 6.9" />
-<link rel='shortlink' href='https://news.cac.gov.ng/' />
-<style type="text/css" id="css-fb-visibility">@media screen and (max-width: 640px){.fusion-no-small-visibility{display:none !important;}body .sm-text-align-center{text-align:center !important;}body .sm-text-align-left{text-align:left !important;}body .sm-text-align-right{text-align:right !important;}body .sm-flex-align-center{justify-content:center !important;}body .sm-flex-align-flex-start{justify-content:flex-start !important;}body .sm-flex-align-flex-end{justify-content:flex-end !important;}body .sm-mx-auto{margin-left:auto !important;margin-right:auto !important;}body .sm-ml-auto{margin-left:auto !important;}body .sm-mr-auto{margin-right:auto !important;}body .fusion-absolute-position-small{position:absolute;top:auto;width:100%;}.awb-sticky.awb-sticky-small{ position: sticky; top: var(--awb-sticky-offset,0); }}@media screen and (min-width: 641px) and (max-width: 1024px){.fusion-no-medium-visibility{display:none !important;}body .md-text-align-center{text-align:center !important;}body .md-text-align-left{text-align:left !important;}body .md-text-align-right{text-align:right !important;}body .md-flex-align-center{justify-content:center !important;}body .md-flex-align-flex-start{justify-content:flex-start !important;}body .md-flex-align-flex-end{justify-content:flex-end !important;}body .md-mx-auto{margin-left:auto !important;margin-right:auto !important;}body .md-ml-auto{margin-left:auto !important;}body .md-mr-auto{margin-right:auto !important;}body .fusion-absolute-position-medium{position:absolute;top:auto;width:100%;}.awb-sticky.awb-sticky-medium{ position: sticky; top: var(--awb-sticky-offset,0); }}@media screen and (min-width: 1025px){.fusion-no-large-visibility{display:none !important;}body .lg-text-align-center{text-align:center !important;}body .lg-text-align-left{text-align:left !important;}body .lg-text-align-right{text-align:right !important;}body .lg-flex-align-center{justify-content:center !important;}body .lg-flex-align-flex-start{justify-content:flex-start !important;}body .lg-flex-align-flex-end{justify-content:flex-end !important;}body .lg-mx-auto{margin-left:auto !important;margin-right:auto !important;}body .lg-ml-auto{margin-left:auto !important;}body .lg-mr-auto{margin-right:auto !important;}body .fusion-absolute-position-large{position:absolute;top:auto;width:100%;}.awb-sticky.awb-sticky-large{ position: sticky; top: var(--awb-sticky-offset,0); }}</style><style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="icon" href="https://news.cac.gov.ng/wp-content/uploads/2019/11/cropped-logos-32x32.png" sizes="32x32" />
-<link rel="icon" href="https://news.cac.gov.ng/wp-content/uploads/2019/11/cropped-logos-192x192.png" sizes="192x192" />
-<link rel="apple-touch-icon" href="https://news.cac.gov.ng/wp-content/uploads/2019/11/cropped-logos-180x180.png" />
-<meta name="msapplication-TileImage" content="https://news.cac.gov.ng/wp-content/uploads/2019/11/cropped-logos-270x270.png" />
-		<script type="text/javascript">
-			var doc = document.documentElement;
-			doc.setAttribute( 'data-useragent', navigator.userAgent );
-		</script>
-		
-	<style id='global-styles-inline-css' type='text/css'>
-:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 12px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 24px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--normal: 16px;--wp--preset--font-size--xlarge: 32px;--wp--preset--font-size--huge: 48px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
-/*# sourceURL=global-styles-inline-css */
-</style>
-<style id='wp-block-library-inline-css' type='text/css'>
-:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
-/*wp_block_styles_on_demand_placeholder:696f4139ec8d4*/
-/*# sourceURL=wp-block-library-inline-css */
-</style>
-<style id='wp-block-library-theme-inline-css' type='text/css'>
-.wp-block-audio :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio :where(figcaption){color:#ffffffa6}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed :where(figcaption){color:#ffffffa6}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:#ffffffa6}:root :where(.wp-block-image figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme :root :where(.wp-block-image figcaption){color:#ffffffa6}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote :where(cite),.wp-block-pullquote :where(footer),.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote:where(.has-text-align-right){border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote:where(.has-text-align-center){border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote:where(.is-style-plain){border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table :where(figcaption){color:#ffffffa6}.wp-block-video :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video :where(figcaption){color:#ffffffa6}.wp-block-video{margin:0 0 1em}:root :where(.wp-block-template-part.has-background){margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
-/*# sourceURL=/wp-includes/css/dist/block-library/theme.min.css */
-</style>
-<style id='classic-theme-styles-inline-css' type='text/css'>
-/*! This file is auto-generated */
-.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
-/*# sourceURL=/wp-includes/css/classic-themes.min.css */
-</style>
-</head>
-
-<body class="home wp-singular page-template page-template-100-width page-template-100-width-php page page-id-3372 wp-theme-Avada boldgrid-ppb fusion-image-hovers fusion-pagination-sizing fusion-button_type-flat fusion-button_span-no fusion-button_gradient-linear avada-image-rollover-circle-yes avada-image-rollover-yes avada-image-rollover-direction-top dont-animate fusion-body ltr fusion-sticky-header no-mobile-sticky-header no-mobile-slidingbar no-mobile-totop avada-has-rev-slider-styles fusion-disable-outline fusion-sub-menu-fade mobile-logo-pos-left layout-wide-mode avada-has-boxed-modal-shadow-none layout-scroll-offset-full avada-has-zero-margin-offset-top fusion-top-header menu-text-align-center mobile-menu-design-modern fusion-show-pagination-text fusion-header-layout-v2 avada-responsive avada-footer-fx-none avada-menu-highlight-style-bar fusion-search-form-classic fusion-main-menu-search-dropdown fusion-avatar-square avada-dropdown-styles avada-blog-layout-grid avada-blog-archive-layout-large avada-header-shadow-no avada-menu-icon-position-left avada-has-megamenu-shadow avada-has-mainmenu-dropdown-divider avada-has-pagetitle-bg-full avada-has-pagetitle-bg-parallax avada-has-main-nav-search-icon avada-has-titlebar-hide avada-has-slidingbar-widgets avada-has-slidingbar-position-top avada-slidingbar-toggle-style-triangle avada-has-slidingbar-sticky avada-has-pagination-padding avada-flyout-menu-direction-fade avada-ec-views-v1" data-awb-post-id="3372">
-		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
-
-	<div id="boxed-wrapper">
-		
-		<div id="wrapper" class="fusion-wrapper">
-			<div id="home" style="position:relative;top:-1px;"></div>
-							
-					
-			<header class="fusion-header-wrapper">
-				<div class="fusion-header-v2 fusion-logo-alignment fusion-logo-left fusion-sticky-menu- fusion-sticky-logo-1 fusion-mobile-logo-1  fusion-mobile-menu-design-modern">
-					
-<div class="fusion-secondary-header">
-	<div class="fusion-row">
-					<div class="fusion-alignleft">
-				<div class="fusion-contact-info"><span class="fusion-contact-info-phone-number">Call Us Today! 234 708-062-9000</span><span class="fusion-header-separator">|</span><span class="fusion-contact-info-email-address"><a href="mailto:he&#108;pdes&#107;&#64;&#99;ac.gov.ng">he&#108;pdes&#107;&#64;&#99;ac.gov.ng</a></span></div>			</div>
-							<div class="fusion-alignright">
-				<div class="fusion-social-links-header"><div class="fusion-social-networks boxed-icons"><div class="fusion-social-networks-wrapper"><a  class="fusion-social-network-icon fusion-tooltip fusion-facebook awb-icon-facebook" style="color:#ffffff;background-color:#3b5998;border-color:#3b5998;" data-placement="bottom" data-title="Facebook" data-toggle="tooltip" title="Facebook" href="https://www.facebook.com/cacnigeria1" target="_blank" rel="noreferrer"><span class="screen-reader-text">Facebook</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-twitter awb-icon-twitter" style="color:#ffffff;background-color:#55acee;border-color:#55acee;" data-placement="bottom" data-title="Twitter" data-toggle="tooltip" title="Twitter" href="https://www.twitter.com/cacnigeria1" target="_blank" rel="noopener noreferrer"><span class="screen-reader-text">Twitter</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-instagram awb-icon-instagram" style="color:#ffffff;background-color:#3f729b;border-color:#3f729b;" data-placement="bottom" data-title="Instagram" data-toggle="tooltip" title="Instagram" href="https://www.instagram.com/corporateaffairsc/" target="_blank" rel="noopener noreferrer"><span class="screen-reader-text">Instagram</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-mail awb-icon-mail" style="color:#ffffff;background-color:#000000;border-color:#000000;" data-placement="bottom" data-title="Email" data-toggle="tooltip" title="Email" href="mailto:c&#115;erv&#105;&#099;e&#064;&#099;a&#099;&#046;go&#118;&#046;&#110;&#103;" target="_self" rel="noopener noreferrer"><span class="screen-reader-text">Email</span></a></div></div></div>			</div>
-			</div>
-</div>
-<div class="fusion-header-sticky-height"></div>
-<div class="fusion-header">
-	<div class="fusion-row">
-					<div class="fusion-logo" data-margin-top="31px" data-margin-bottom="31px" data-margin-left="0px" data-margin-right="0px">
-			<a class="fusion-logo-link"  href="https://news.cac.gov.ng/" >
-
-						<!-- standard logo -->
-			<img src="https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png" srcset="https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png 1x, https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png 2x" width="300" height="100" style="max-height:100px;height:auto;" alt="Corporate Affairs Commission Logo" data-retina_logo_url="https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png" class="fusion-standard-logo" />
-
-											<!-- mobile logo -->
-				<img src="https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png" srcset="https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png 1x, https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png 2x" width="300" height="100" style="max-height:100px;height:auto;" alt="Corporate Affairs Commission Logo" data-retina_logo_url="https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png" class="fusion-mobile-logo" />
-			
-											<!-- sticky header logo -->
-				<img src="https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png" srcset="https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png 1x, https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png 2x" width="300" height="100" style="max-height:100px;height:auto;" alt="Corporate Affairs Commission Logo" data-retina_logo_url="https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png" class="fusion-sticky-logo" />
-					</a>
-		</div>		<nav class="fusion-main-menu" aria-label="Main Menu"><ul id="menu-main-menu" class="fusion-menu"><li  id="menu-item-3512"  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3512"  data-item-id="3512"><a  href="https://news.cac.gov.ng" class="fusion-bar-highlight"><span class="menu-text">Home</span></a></li><li  id="menu-item-3713"  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-3713 fusion-dropdown-menu"  data-item-id="3713"><a  href="https://news.cac.gov.ng" class="fusion-bar-highlight"><span class="menu-text">About Us</span></a><ul class="sub-menu"><li  id="menu-item-3573"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3573 fusion-dropdown-submenu" ><a  href="https://news.cac.gov.ng/about/" class="fusion-bar-highlight"><span>Who we are</span></a></li><li  id="menu-item-3852"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3852 fusion-dropdown-submenu" ><a  href="https://news.cac.gov.ng/board-members/" class="fusion-bar-highlight"><span>Board Members</span></a></li><li  id="menu-item-5285"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5285 fusion-dropdown-submenu" ><a  href="https://news.cac.gov.ng/list-of-heads-of-departments-units-and-state-offices/" class="fusion-bar-highlight"><span>Heads of Departments/Units and State Offices</span></a></li><li  id="menu-item-3575"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3575 fusion-dropdown-submenu" ><a  href="https://news.cac.gov.ng/organizational-structure/" class="fusion-bar-highlight"><span>Organizational Structure</span></a></li></ul></li><li  id="menu-item-3711"  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-3711 fusion-dropdown-menu"  data-item-id="3711"><a  href="https://news.cac.gov.ng" class="fusion-bar-highlight"><span class="menu-text">Services</span></a><ul class="sub-menu"><li  id="menu-item-3712"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3712 fusion-dropdown-submenu" ><a  href="https://news.cac.gov.ng/companies/" class="fusion-bar-highlight"><span>Companies</span></a></li><li  id="menu-item-3535"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3535 fusion-dropdown-submenu" ><a  href="https://news.cac.gov.ng/business-names/" class="fusion-bar-highlight"><span>Business Names</span></a></li><li  id="menu-item-3536"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3536 fusion-dropdown-submenu" ><a  href="https://news.cac.gov.ng/incorporated-trustees/" class="fusion-bar-highlight"><span>Incorporated Trustees</span></a></li><li  id="menu-item-3533"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3533 fusion-dropdown-submenu" ><a  href="https://news.cac.gov.ng/?page_id=3498" class="fusion-bar-highlight"><span>Summary of fees</span></a></li><li  id="menu-item-4430"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4430 fusion-dropdown-submenu" ><a  href="https://news.cac.gov.ng/4341-2/" class="fusion-bar-highlight"><span>Service Timelines</span></a></li><li  id="menu-item-3534"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3534 fusion-dropdown-submenu" ><a  href="https://news.cac.gov.ng/?page_id=3450" class="fusion-bar-highlight"><span>Timelines</span></a></li></ul></li><li  id="menu-item-3542"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3542"  data-item-id="3542"><a  href="https://news.cac.gov.ng/resources/" class="fusion-bar-highlight"><span class="menu-text">Resources</span></a></li><li  id="menu-item-3539"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3539"  data-item-id="3539"><a  href="https://news.cac.gov.ng/news/" class="fusion-bar-highlight"><span class="menu-text">News</span></a></li><li  id="menu-item-3540"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3540"  data-item-id="3540"><a  href="https://news.cac.gov.ng/foi-portal/" class="fusion-bar-highlight"><span class="menu-text">FOI Portal</span></a></li><li  id="menu-item-3538"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3538"  data-item-id="3538"><a  href="https://news.cac.gov.ng/contact-us/" class="fusion-bar-highlight"><span class="menu-text">Contact Us</span></a></li><li  id="menu-item-5380"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5380"  data-item-id="5380"><a  href="https://reportgov.ng" class="fusion-bar-highlight"><span class="menu-text"><img src="https://news.cac.gov.ng/wp-content/uploads/2024/05/cropped-reportgov1-1.jpg" alt="" width="144" height="34" class="alignnone size-full wp-image-5375" /></span></a></li><li class="fusion-custom-menu-item fusion-main-menu-search"><a class="fusion-main-menu-icon fusion-bar-highlight" href="#" aria-label="Search" data-title="Search" title="Search" role="button" aria-expanded="false"></a><div class="fusion-custom-menu-item-contents">		<form role="search" class="searchform fusion-search-form  fusion-live-search fusion-search-form-classic" method="get" action="https://news.cac.gov.ng/">
-			<div class="fusion-search-form-content">
-
-				
-				<div class="fusion-search-field search-field">
-					<label><span class="screen-reader-text">Search for:</span>
-													<input type="search" class="s fusion-live-search-input" name="s" id="fusion-live-search-input-0" autocomplete="off" placeholder="Search..." required aria-required="true" aria-label="Search..."/>
-											</label>
-				</div>
-				<div class="fusion-search-button search-button">
-					<input type="submit" class="fusion-search-submit searchsubmit" aria-label="Search" value="&#xf002;" />
-										<div class="fusion-slider-loading"></div>
-									</div>
-
-				
-			</div>
-
-
-							<div class="fusion-search-results-wrapper"><div class="fusion-search-results"></div></div>
-			
-		</form>
-		</div></li></ul></nav>	<div class="fusion-mobile-menu-icons">
-							<a href="#" class="fusion-icon awb-icon-bars" aria-label="Toggle mobile menu" aria-expanded="false"></a>
-		
-		
-		
-			</div>
-
-<nav class="fusion-mobile-nav-holder fusion-mobile-menu-text-align-left" aria-label="Main Menu Mobile"></nav>
-
-					</div>
-</div>
-				</div>
-				<div class="fusion-clearfix"></div>
-			</header>
-								
-							<div id="sliders-container" class="fusion-slider-visibility">
-			<div id="fusion-slider-66" data-id="66" class="fusion-slider-container fusion-slider-3372 full-width-slider-container" style="height:450px;max-width:100%;">
-	<style type="text/css">
-		#fusion-slider-66 .flex-direction-nav a {width:63px;height:63px;line-height:63px;font-size:25px;}	</style>
-	<div class="fusion-slider-loading">Loading...</div>
-		<div class="tfs-slider flexslider main-flex full-width-slider" style="max-width:100%;--typography_sensitivity:1;" data-slider_width="100%" data-slider_height="450px" data-full_screen="0" data-parallax="0" data-nav_arrows="1" data-nav_box_width="63px" data-nav_box_height="63px" data-nav_arrow_size="25px" data-autoplay="1" data-loop="0" data-orderby="date" data-order="DESC" data-animation="fade" data-slideshow_speed="8000" data-animation_speed="600" data-typo_sensitivity="1" data-typo_factor="1.5" data-slider_indicator="" data-slider_indicator_color="#ffffff" >
-		<ul class="slides" style="max-width:100%;">
-															<li class="slide-id-5249" data-mute="no" data-loop="no" data-autoplay="yes">
-					<div class="slide-content-container slide-content-center" style="display: none;">
-						<div class="slide-content" style="">
-																											</div>
-					</div>
-																					<div class="mobile_video_image" style="background-image: url('https://news.cac.gov.ng/wp-content/uploads/2023/12/WhatsApp-Video-2023-12-14-at-10.14.45-1.mp4');"></div>
-															<div class="background self-hosted-video-bg" style="max-width:100%;height:450px;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='', sizingMethod='scale');" data-imgwidth="">
-													<span
-								class="fusion-slider-self-hosted-video-placeholder"
-								data-ogg=""
-								data-webm="https://news.cac.gov.ng/wp-content/uploads/2023/12/WhatsApp-Video-2023-12-14-at-10.14.45-1.mp4"
-								data-mp4="https://news.cac.gov.ng/wp-content/uploads/2023/12/WhatsApp-Video-2023-12-14-at-10.14.45-1.mp4"
-								 autoplay								preload="auto"
-							></span>
-																							</div>
-				</li>
-															<li class="slide-id-3382" data-mute="yes" data-loop="yes" data-autoplay="yes">
-					<div class="slide-content-container slide-content-center" style="display: none;">
-						<div class="slide-content" style="">
-															<div class="heading ">
-									<div class="fusion-title-sc-wrapper" style="">
-										<div class="fusion-title title fusion-title-1 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-two" style="--awb-text-color:#000000;--awb-margin-bottom:0px;--awb-sep-color:#000000;--awb-font-size:60px;"><h2 class="title-heading-center fusion-responsive-typography-calculated" style="margin:0;font-size:1em;--fontSize:60;line-height:1.33;">Nigerian
-Corporate Registry</h2></div>									</div>
-								</div>
-																													<div class="buttons" >
-																										</div>
-													</div>
-					</div>
-																									<div class="background background-image" style="background-image: url(https://news.cac.gov.ng/wp-content/uploads/2019/12/cac-office-hq.jpg);max-width:100%;height:450px;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://news.cac.gov.ng/wp-content/uploads/2019/12/cac-office-hq.jpg', sizingMethod='scale');" data-imgwidth="2560">
-																							</div>
-				</li>
-					</ul>
-	</div>
-</div>
-		</div>
-				
-					
-							
-			
-						<main id="main" class="clearfix width-100">
-				<div class="fusion-row" style="max-width:100%;">
-<section id="content" class="full-width">
-					<div id="post-3372" class="post-3372 page type-page status-publish hentry">
-			<span class="entry-title rich-snippet-hidden">Home</span><span class="vcard rich-snippet-hidden"><span class="fn"><a href="https://news.cac.gov.ng/author/cac/" title="Posts by Muhammad Abdullahi" rel="author">Muhammad Abdullahi</a></span></span><span class="updated rich-snippet-hidden">2024-05-09T14:08:41+01:00</span>						<div class="post-content">
-				<div class="fusion-fullwidth fullwidth-box fusion-builder-row-1 nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;" ><div class="fusion-builder-row fusion-row"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-0 fusion_builder_column_1_2 1_2 fusion-one-half fusion-column-first" style="--awb-bg-size:cover;--awb-margin-bottom:0px;width:48%; margin-right: 4%;"><div class="fusion-column-wrapper fusion-flex-column-wrapper-legacy"><div class="fusion-align-block"><a class="fusion-button button-3d fusion-button-default-size button-darkgreen fusion-button-darkgreen button-1 fusion-button-span-yes " style="--button_text_transform:uppercase;" target="_blank" rel="noopener noreferrer" href="https://search.cac.gov.ng/home"><i class="fa-search fas button-icon-left" aria-hidden="true"></i><span class="fusion-button-text">Public Search</span></a></div><div class="fusion-clearfix"></div></div></div><div class="fusion-layout-column fusion_builder_column fusion-builder-column-1 fusion_builder_column_1_2 1_2 fusion-one-half fusion-column-last" style="--awb-bg-size:cover;--awb-margin-bottom:0px;width:48%;"><div class="fusion-column-wrapper fusion-flex-column-wrapper-legacy"><div class="fusion-align-block"><a class="fusion-button button-3d fusion-button-default-size button-darkgreen fusion-button-darkgreen button-2 fusion-button-span-yes " style="--button_text_transform:uppercase;" target="_blank" rel="noopener noreferrer" href="https://pre.cac.gov.ng"><i class="fa-laptop fas button-icon-left" aria-hidden="true"></i><span class="fusion-button-text">Online registration</span></a></div><div class="fusion-clearfix"></div></div></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-builder-row-2 nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;" ><div class="fusion-builder-row fusion-row"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-2 fusion_builder_column_1_1 1_1 fusion-one-full fusion-column-first fusion-column-last" style="--awb-bg-size:cover;"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-column-wrapper-legacy"><div class="fusion-section-separator section-separator custom fusion-section-separator-1" style="--awb-spacer-height:;"><div class="fusion-section-separator-svg fusion-section-separator-fullwidth"></div><div class="fusion-section-separator-spacer fusion-section-separator-fullwidth"><div class="fusion-section-separator-spacer-height"></div></div></div><div class="fusion-flip-boxes flip-boxes row fusion-columns-3 fusion-no-small-visibility flip-effect-3d equal-heights"><div class="fusion-flip-box-wrapper fusion-column col-lg-4 col-md-4 col-sm-4"><div class="fusion-flip-box flip-up" tabindex="0"><div class="flip-box-inner-wrapper"><div class="flip-box-front"><div class="flip-box-front-inner"><div class="flip-box-grafix flip-box-circle"><i aria-hidden="true" class="fa-calendar-check far"></i></div><h2 class="flip-box-heading">Revised Service Timelines</h2>Timelines for our services</div></div><div class="flip-box-back"><div class="flip-box-back-inner"><h3 class="flip-box-heading-back">Check our Turnaround Time</h3>
-<h5><div class="fusion-button-wrapper"><a class="fusion-button button-flat fusion-button-default-size button-default fusion-button-default button-3 fusion-button-default-span fusion-button-default-type" target="_self" href="https://news.cac.gov.ng/4341-2/"><span class="fusion-button-text">View Timelines</span></a></div></h5>
-</div></div></div></div></div><div class="fusion-flip-box-wrapper fusion-column col-lg-4 col-md-4 col-sm-4"><div class="fusion-flip-box flip-up" tabindex="0"><div class="flip-box-inner-wrapper"><div class="flip-box-front"><div class="flip-box-front-inner"><div class="flip-box-grafix flip-box-circle"><i aria-hidden="true" class="fa-wpforms fab"></i></div><h2 class="flip-box-heading">How to use CRP</h2>click to view</div></div><div class="flip-box-back"><div class="flip-box-back-inner"><h3 class="flip-box-heading-back">Instructional Videos</h3>
-<h5><div class="fusion-button-wrapper"><a class="fusion-button button-flat fusion-button-default-size button-default fusion-button-default button-4 fusion-button-default-span fusion-button-default-type" target="_self" href="https://news.cac.gov.ng/instructional-videos/"><span class="fusion-button-text">Watch</span></a></div></h5>
-</div></div></div></div></div><div class="fusion-flip-box-wrapper fusion-column col-lg-4 col-md-4 col-sm-4"><div class="fusion-flip-box flip-up" tabindex="0"><div class="flip-box-inner-wrapper"><div class="flip-box-front"><div class="flip-box-front-inner"><div class="flip-box-grafix flip-box-circle"><i aria-hidden="true" class="fa-money-bill-alt far"></i></div><h2 class="flip-box-heading">Summary of Fees</h2>Fees for our services</div></div><div class="flip-box-back"><div class="flip-box-back-inner"><h3 class="flip-box-heading-back">Fees for our services</h3>
-<h5><div class="fusion-button-wrapper"><a class="fusion-button button-flat fusion-button-default-size button-default fusion-button-default button-5 fusion-button-default-span fusion-button-default-type" target="_self" href="https://news.cac.gov.ng/schedule-of-fees/"><span class="fusion-button-text">Fees for our services</span></a></div></h5>
-</div></div></div></div></div></div><div class="clearfix"></div><div class="fusion-title title fusion-title-2 fusion-title-center fusion-title-text fusion-title-size-two"><div class="title-sep-container title-sep-container-left"><div class="title-sep sep-single sep-solid" style="border-color:#e0dede;"></div></div><span class="awb-title-spacer"></span><h2 class="title-heading-center fusion-responsive-typography-calculated" style="margin:0;--fontSize:48;line-height:1.2;"><h2 style="text-align: center;"><span style="color: #339966;">Step by step registration</span><span style="color: #339966;"> </span></h2></h2><span class="awb-title-spacer"></span><div class="title-sep-container title-sep-container-right"><div class="title-sep sep-single sep-solid" style="border-color:#e0dede;"></div></div></div><div class="fusion-content-boxes content-boxes columns row fusion-columns-3 fusion-columns-total-3 fusion-content-boxes-1 content-boxes-clean-vertical content-left content-boxes-icon-on-top" style="--awb-hover-accent-color:#a0ce4e;--awb-circle-hover-accent-color:#a0ce4e;" data-animationOffset="top-into-view"><div style="--awb-backgroundcolor:transparent;border-color:rgba(255,255,255,0);" class="fusion-column content-box-column content-box-column content-box-column-1 col-lg-4 col-md-4 col-sm-4 fusion-content-box-hover content-box-column-first-in-row"><div class="col content-box-wrapper content-wrapper link-area-link-icon link-type-text icon-hover-animation-pulsate fusion-animated" data-animationType="flash" data-animationDuration="0.3" data-animationOffset="top-into-view"><div class="heading heading-with-icon icon-left"><a class="heading-link" href=" https://news.cac.gov.ng/companies/" target="_self"><div class="icon"><i style="border-color:rgba(255,255,255,0);border-width:0px;background-color:#a0ce4e;box-sizing:content-box;height:112px;width:112px;line-height:112px;border-radius:50%;font-size:56px;" aria-hidden="true" class="fontawesome-icon fa-landmark fas circle-yes"></i></div><h2 class="content-box-heading fusion-responsive-typography-calculated" style="--h2_typography-font-size:18px;--fontSize:18;line-height:1.2;">Companies</h2></a></div><div class="fusion-clearfix"></div><div class="content-container">
-<p>Find out the step by step process for Registration of company.</p>
-</div></div></div><div style="--awb-backgroundcolor:transparent;border-color:rgba(255,255,255,0);" class="fusion-column content-box-column content-box-column content-box-column-2 col-lg-4 col-md-4 col-sm-4 fusion-content-box-hover "><div class="col content-box-wrapper content-wrapper link-area-link-icon link-type-text icon-hover-animation-pulsate fusion-animated" data-animationType="flash" data-animationDuration="0.3" data-animationOffset="top-into-view"><div class="heading heading-with-icon icon-left"><a class="heading-link" href="https://news.cac.gov.ng/business-names/" target="_self"><div class="icon"><i style="border-color:rgba(255,255,255,0);border-width:0px;background-color:#a0ce4e;box-sizing:content-box;height:112px;width:112px;line-height:112px;border-radius:50%;font-size:56px;" aria-hidden="true" class="fontawesome-icon fa-user-tie fas circle-yes"></i></div><h2 class="content-box-heading fusion-responsive-typography-calculated" style="--h2_typography-font-size:18px;--fontSize:18;line-height:1.2;">Business Names</h2></a></div><div class="fusion-clearfix"></div><div class="content-container">
-<p>Find out the step by step process for Business Name Registration.</p>
-</div></div></div><div style="--awb-backgroundcolor:transparent;border-color:rgba(255,255,255,0);" class="fusion-column content-box-column content-box-column content-box-column-3 col-lg-4 col-md-4 col-sm-4 fusion-content-box-hover content-box-column-last content-box-column-last-in-row"><div class="col content-box-wrapper content-wrapper link-area-link-icon link-type-text icon-hover-animation-pulsate fusion-animated" data-animationType="flash" data-animationDuration="0.3" data-animationOffset="top-into-view"><div class="heading heading-with-icon icon-left"><a class="heading-link" href="https://news.cac.gov.ng/incorporated-trustees/" target="_self"><div class="icon"><i style="border-color:rgba(255,255,255,0);border-width:0px;background-color:#a0ce4e;box-sizing:content-box;height:112px;width:112px;line-height:112px;border-radius:50%;font-size:56px;" aria-hidden="true" class="fontawesome-icon fa-users fas circle-yes"></i></div><h2 class="content-box-heading fusion-responsive-typography-calculated" style="--h2_typography-font-size:18px;--fontSize:18;line-height:1.2;">Incorporated Trustee</h2></a></div><div class="fusion-clearfix"></div><div class="content-container">
-<p>All you need to know about registering an Incorporated Trustees.</p>
-</div></div></div><div class="fusion-clearfix"></div></div><div class="fusion-clearfix"></div></div></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-builder-row-3 nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;" ><div class="fusion-builder-row fusion-row"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-3 fusion_builder_column_1_1 1_1 fusion-one-full fusion-column-first fusion-column-last" style="--awb-bg-size:cover;"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-column-wrapper-legacy"><div class="fusion-alert alert notice alert-warning fusion-alert-center fusion-alert-capitalize alert-dismissable" role="alert"><div class="fusion-alert-content-wrapper"><span class="alert-icon"><i class="awb-icon-cog" aria-hidden="true"></i></span><span class="fusion-alert-content"><a href="https://news.cac.gov.ng/frequently-ask-questions/">Frequently Ask Questions (FAQs) on Company Registration Portal (CRP)</a></span></div><button type="button" class="close toggle-alert" data-dismiss="alert" aria-label="Close">&times;</button></div><div class="fusion-image-carousel fusion-image-carousel-fixed fusion-image-carousel-1 lightbox-enabled fusion-carousel-border"><div class="awb-carousel awb-swiper awb-swiper-carousel" data-autoplay="yes" data-columns="3" data-itemmargin="13" data-itemwidth="180" data-touchscroll="no" data-imagesize="fixed" style="--awb-columns:3;"><div class="swiper-wrapper fusion-flex-align-items-center"></div><div class="awb-swiper-button awb-swiper-button-prev"><i class="awb-icon-angle-left" aria-hidden="true"></i></div><div class="awb-swiper-button awb-swiper-button-next"><i class="awb-icon-angle-right" aria-hidden="true"></i></div></div></div><div class="fusion-clearfix"></div></div></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-builder-row-4 nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;" ><div class="fusion-builder-row fusion-row"></div></div>
-							</div>
-												</div>
-	</section>
-						
-					</div>  <!-- fusion-row -->
-				</main>  <!-- #main -->
-				
-				
-								
-					
-		<div class="fusion-footer">
-					
-	<footer class="fusion-footer-widget-area fusion-widget-area">
-		<div class="fusion-row">
-			<div class="fusion-columns fusion-columns-4 fusion-widget-area">
-				
-																									<div class="fusion-column col-lg-3 col-md-3 col-sm-3">
-							<section id="text-2" class="fusion-footer-widget-column widget widget_text"><h4 class="widget-title">Corporate Headquarters</h4>			<div class="textwidget"><p><img decoding="async" class="alignnone wp-image-3601 size-full" src="https://news.cac.gov.ng/wp-content/uploads/2019/12/coat2-150x150.jpg" alt="" width="150" height="150" srcset="https://news.cac.gov.ng/wp-content/uploads/2019/12/coat2-150x150-48x48.jpg 48w, https://news.cac.gov.ng/wp-content/uploads/2019/12/coat2-150x150-66x66.jpg 66w, https://news.cac.gov.ng/wp-content/uploads/2019/12/coat2-150x150.jpg 150w" sizes="(max-width: 150px) 100vw, 150px" /></p>
-<p style="padding-right: 5%;">Plot 420, Tigris Crescent,<br />
-Off Aguiyi Ironsi Street,<br />
-Maitama, Abuja.<br />
-Nigeria.</p>
-</div>
-		<div style="clear:both;"></div></section>																					</div>
-																										<div class="fusion-column col-lg-3 col-md-3 col-sm-3">
-																												</div>
-																										<div class="fusion-column col-lg-3 col-md-3 col-sm-3">
-							<section id="block-4" class="fusion-footer-widget-column widget widget_block"><p>  <iframe src="https://cac.gov.ng/chatbot_iframe/index1.html" id="my_iframe" scrolling="no" frameborder="0" style="z-index:999"></iframe> </p>
-<div style="clear:both;"></div></section>																					</div>
-																										<div class="fusion-column fusion-column-last col-lg-3 col-md-3 col-sm-3">
-													</div>
-																											
-				<div class="fusion-clearfix"></div>
-			</div> <!-- fusion-columns -->
-		</div> <!-- fusion-row -->
-	</footer> <!-- fusion-footer-widget-area -->
-
-	
-	<footer id="footer" class="fusion-footer-copyright-area">
-		<div class="fusion-row">
-			<div class="fusion-copyright-content">
-
-				<div class="fusion-copyright-notice">
-		<div>
-		© Copyright 2019 - <script>document.write(new Date().getFullYear());</script>   |    <a href='https://cac.gov.ng' target='_blank'>CAC</a>   |   All Rights Reserved   |   Powered by CAC <a href='https://cac.gov.ng' target='_blank'>Corporate Affairs Commission</a>	</div>
-</div>
-<div class="fusion-social-links-footer">
-	<div class="fusion-social-networks"><div class="fusion-social-networks-wrapper"><a  class="fusion-social-network-icon fusion-tooltip fusion-facebook awb-icon-facebook" style data-placement="top" data-title="Facebook" data-toggle="tooltip" title="Facebook" href="https://www.facebook.com/cacnigeria1" target="_blank" rel="noreferrer"><span class="screen-reader-text">Facebook</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-twitter awb-icon-twitter" style data-placement="top" data-title="Twitter" data-toggle="tooltip" title="Twitter" href="https://www.twitter.com/cacnigeria1" target="_blank" rel="noopener noreferrer"><span class="screen-reader-text">Twitter</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-instagram awb-icon-instagram" style data-placement="top" data-title="Instagram" data-toggle="tooltip" title="Instagram" href="https://www.instagram.com/corporateaffairsc/" target="_blank" rel="noopener noreferrer"><span class="screen-reader-text">Instagram</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-mail awb-icon-mail" style data-placement="top" data-title="Email" data-toggle="tooltip" title="Email" href="mailto:&#099;s&#101;&#114;&#118;&#105;ce&#064;&#099;a&#099;.go&#118;&#046;n&#103;" target="_self" rel="noopener noreferrer"><span class="screen-reader-text">Email</span></a></div></div></div>
-
-			</div> <!-- fusion-fusion-copyright-content -->
-		</div> <!-- fusion-row -->
-	</footer> <!-- #footer -->
-		</div> <!-- fusion-footer -->
-
-		
-											<div class="fusion-sliding-bar-wrapper">
-									<div id="slidingbar-area" class="slidingbar-area fusion-sliding-bar-area fusion-widget-area fusion-sliding-bar-position-top fusion-sliding-bar-text-align-left fusion-sliding-bar-toggle-triangle fusion-sliding-bar-sticky" data-breakpoint="800" data-toggle="triangle">
-					<div class="fusion-sb-toggle-wrapper">
-				<a class="fusion-sb-toggle" href="#"><span class="screen-reader-text">Toggle Sliding Bar Area</span></a>
-			</div>
-		
-		<div id="slidingbar" class="fusion-sliding-bar">
-						<div class="fusion-row">
-								<div class="fusion-columns row fusion-columns-3 columns columns-3">
-
-																														<div class="fusion-column col-lg-4 col-md-4 col-sm-4">
-														</div>
-																															<div class="fusion-column col-lg-4 col-md-4 col-sm-4">
-														</div>
-																															<div class="fusion-column col-lg-4 col-md-4 col-sm-4">
-														</div>
-																																																	<div class="fusion-clearfix"></div>
-				</div>
-			</div>
-		</div>
-	</div>
-							</div>
-					
-												</div> <!-- wrapper -->
-		</div> <!-- #boxed-wrapper -->
-				<a class="fusion-one-page-text-link fusion-page-load-link" tabindex="-1" href="#" aria-hidden="true">Page load link</a>
-
-		<div class="avada-footer-scripts">
-			<script type="speculationrules">
-{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/Avada/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
-</script>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><script type="text/javascript">var fusionNavIsCollapsed=function(e){var t,n;window.innerWidth<=e.getAttribute("data-breakpoint")?(e.classList.add("collapse-enabled"),e.classList.remove("awb-menu_desktop"),e.classList.contains("expanded")||(e.setAttribute("aria-expanded","false"),window.dispatchEvent(new Event("fusion-mobile-menu-collapsed",{bubbles:!0,cancelable:!0}))),(n=e.querySelectorAll(".menu-item-has-children.expanded")).length&&n.forEach(function(e){e.querySelector(".awb-menu__open-nav-submenu_mobile").setAttribute("aria-expanded","false")})):(null!==e.querySelector(".menu-item-has-children.expanded .awb-menu__open-nav-submenu_click")&&e.querySelector(".menu-item-has-children.expanded .awb-menu__open-nav-submenu_click").click(),e.classList.remove("collapse-enabled"),e.classList.add("awb-menu_desktop"),e.setAttribute("aria-expanded","true"),null!==e.querySelector(".awb-menu__main-ul")&&e.querySelector(".awb-menu__main-ul").removeAttribute("style")),e.classList.add("no-wrapper-transition"),clearTimeout(t),t=setTimeout(()=>{e.classList.remove("no-wrapper-transition")},400),e.classList.remove("loading")},fusionRunNavIsCollapsed=function(){var e,t=document.querySelectorAll(".awb-menu");for(e=0;e<t.length;e++)fusionNavIsCollapsed(t[e])};function avadaGetScrollBarWidth(){var e,t,n,l=document.createElement("p");return l.style.width="100%",l.style.height="200px",(e=document.createElement("div")).style.position="absolute",e.style.top="0px",e.style.left="0px",e.style.visibility="hidden",e.style.width="200px",e.style.height="150px",e.style.overflow="hidden",e.appendChild(l),document.body.appendChild(e),t=l.offsetWidth,e.style.overflow="scroll",t==(n=l.offsetWidth)&&(n=e.clientWidth),document.body.removeChild(e),jQuery("html").hasClass("awb-scroll")&&10<t-n?10:t-n}fusionRunNavIsCollapsed(),window.addEventListener("fusion-resize-horizontal",fusionRunNavIsCollapsed);</script><script type="text/javascript" src="https://news.cac.gov.ng/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-includes/js/masonry.min.js?ver=4.2.2" id="masonry-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-includes/js/jquery/jquery.masonry.min.js?ver=3.1.2b" id="jquery-masonry-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1" id="wp-hooks-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375" id="wp-i18n-js"></script>
-<script type="text/javascript" id="wp-i18n-js-after">
-/* <![CDATA[ */
-wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
-//# sourceURL=wp-i18n-js-after
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.4" id="swv-js"></script>
-<script type="text/javascript" id="contact-form-7-js-before">
-/* <![CDATA[ */
-var wpcf7 = {
-    "api": {
-        "root": "https:\/\/news.cac.gov.ng\/wp-json\/",
-        "namespace": "contact-form-7\/v1"
-    },
-    "cached": 1
+// ─── STORAGE SHIM (localStorage instead of window.storage) ───────────────
+const storage = {
+  get: (key) => {
+    try { const v = localStorage.getItem(key); return v ? { value: v } : null; } catch { return null; }
+  },
+  set: (key, value) => {
+    try { localStorage.setItem(key, value); return true; } catch { return null; }
+  }
 };
-//# sourceURL=contact-form-7-js-before
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.4" id="contact-form-7-js"></script>
-<script type="text/javascript" id="boldgrid-editor-public-js-extra">
-/* <![CDATA[ */
-var BoldgridEditorPublic = {"is_boldgrid_theme":"","colors":{"defaults":["rgb(33, 150, 243)","rgb(13, 71, 161)","rgb(187, 222, 251)","rgb(238, 238, 238)","rgb(19, 19, 19)"],"neutral":"white"},"theme":"Avada"};
-//# sourceURL=boldgrid-editor-public-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/plugins/post-and-page-builder/assets/dist/public.min.js?ver=1.27.10" id="boldgrid-editor-public-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/plugins/fusion-builder/assets/js/min/general/fusion-title.js?ver=3.9.2" id="fusion-title-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/general/awb-tabs-widget.js?ver=3.9.2" id="awb-tabs-widget-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/general/awb-vertical-menu-widget.js?ver=3.9.2" id="awb-vertical-menu-widget-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/cssua.js?ver=2.1.28" id="cssua-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/modernizr.js?ver=3.3.1" id="modernizr-js"></script>
-<script type="text/javascript" id="fusion-js-extra">
-/* <![CDATA[ */
-var fusionJSVars = {"visibility_small":"640","visibility_medium":"1024"};
-//# sourceURL=fusion-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion.js?ver=3.9.2" id="fusion-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/swiper.js?ver=8.3.2" id="swiper-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/bootstrap.transition.js?ver=3.3.6" id="bootstrap-transition-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/bootstrap.tooltip.js?ver=3.3.5" id="bootstrap-tooltip-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.requestAnimationFrame.js?ver=1" id="jquery-request-animation-frame-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.easing.js?ver=1.3" id="jquery-easing-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.fitvids.js?ver=1.1" id="jquery-fitvids-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.flexslider.js?ver=2.7.2" id="jquery-flexslider-js"></script>
-<script type="text/javascript" id="jquery-lightbox-js-extra">
-/* <![CDATA[ */
-var fusionLightboxVideoVars = {"lightbox_video_width":"1280","lightbox_video_height":"720"};
-//# sourceURL=jquery-lightbox-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.ilightbox.js?ver=2.2.3" id="jquery-lightbox-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.mousewheel.js?ver=3.0.6" id="jquery-mousewheel-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.placeholder.js?ver=2.0.7" id="jquery-placeholder-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.fade.js?ver=1" id="jquery-fade-js"></script>
-<script type="text/javascript" id="fusion-equal-heights-js-extra">
-/* <![CDATA[ */
-var fusionEqualHeightVars = {"content_break_point":"800"};
-//# sourceURL=fusion-equal-heights-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-equal-heights.js?ver=1" id="fusion-equal-heights-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/fusion-parallax.js?ver=1" id="fusion-parallax-js"></script>
-<script type="text/javascript" id="fusion-video-general-js-extra">
-/* <![CDATA[ */
-var fusionVideoGeneralVars = {"status_vimeo":"1","status_yt":"1"};
-//# sourceURL=fusion-video-general-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/fusion-video-general.js?ver=1" id="fusion-video-general-js"></script>
-<script type="text/javascript" id="fusion-video-bg-js-extra">
-/* <![CDATA[ */
-var fusionVideoBgVars = {"status_vimeo":"1","status_yt":"1"};
-//# sourceURL=fusion-video-bg-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/fusion-video-bg.js?ver=1" id="fusion-video-bg-js"></script>
-<script type="text/javascript" id="fusion-lightbox-js-extra">
-/* <![CDATA[ */
-var fusionLightboxVars = {"status_lightbox":"1","lightbox_gallery":"1","lightbox_skin":"metro-white","lightbox_title":"1","lightbox_arrows":"1","lightbox_slideshow_speed":"5000","lightbox_autoplay":"","lightbox_opacity":"0.9","lightbox_desc":"1","lightbox_social":"1","lightbox_social_links":{"facebook":{"source":"https://www.facebook.com/sharer.php?u={URL}","text":"Share on Facebook"},"twitter":{"source":"https://twitter.com/share?url={URL}","text":"Share on Twitter"},"reddit":{"source":"https://reddit.com/submit?url={URL}","text":"Share on Reddit"},"linkedin":{"source":"https://www.linkedin.com/shareArticle?mini=true&url={URL}","text":"Share on LinkedIn"},"whatsapp":{"source":"https://api.whatsapp.com/send?text={URL}","text":"Share on WhatsApp"},"tumblr":{"source":"https://www.tumblr.com/share/link?url={URL}","text":"Share on Tumblr"},"pinterest":{"source":"https://pinterest.com/pin/create/button/?url={URL}","text":"Share on Pinterest"},"vk":{"source":"https://vk.com/share.php?url={URL}","text":"Share on Vk"},"mail":{"source":"mailto:?body={URL}","text":"Share by Email"}},"lightbox_deeplinking":"1","lightbox_path":"vertical","lightbox_post_images":"1","lightbox_animation_speed":"normal","l10n":{"close":"Press Esc to close","enterFullscreen":"Enter Fullscreen (Shift+Enter)","exitFullscreen":"Exit Fullscreen (Shift+Enter)","slideShow":"Slideshow","next":"Next","previous":"Previous"}};
-//# sourceURL=fusion-lightbox-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-lightbox.js?ver=1" id="fusion-lightbox-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-tooltip.js?ver=1" id="fusion-tooltip-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-sharing-box.js?ver=1" id="fusion-sharing-box-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.sticky-kit.js?ver=1.1.2" id="jquery-sticky-kit-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/fusion-youtube.js?ver=2.2.1" id="fusion-youtube-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/vimeoPlayer.js?ver=2.2.1" id="vimeo-player-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/assets/min/js/general/avada-general-footer.js?ver=7.9.2" id="avada-general-footer-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/assets/min/js/general/avada-quantity.js?ver=7.9.2" id="avada-quantity-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/assets/min/js/general/avada-crossfade-images.js?ver=7.9.2" id="avada-crossfade-images-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/assets/min/js/general/avada-select.js?ver=7.9.2" id="avada-select-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/assets/min/js/general/avada-contact-form-7.js?ver=7.9.2" id="avada-contact-form-7-js"></script>
-<script type="text/javascript" id="avada-live-search-js-extra">
-/* <![CDATA[ */
-var avadaLiveSearchVars = {"live_search":"1","ajaxurl":"https://news.cac.gov.ng/wp-admin/admin-ajax.php","no_search_results":"No search results match your query. Please try again","min_char_count":"4","per_page":"100","show_feat_img":"1","display_post_type":"1"};
-//# sourceURL=avada-live-search-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/assets/min/js/general/avada-live-search.js?ver=7.9.2" id="avada-live-search-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-alert.js?ver=6.9" id="fusion-alert-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/plugins/fusion-builder/assets/js/min/general/awb-off-canvas.js?ver=3.9.2" id="awb-off-canvas-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/plugins/fusion-builder/assets/js/min/library/jquery.textillate.js?ver=3.9.2" id="jquery-title-textillate-js"></script>
-<script type="text/javascript" id="fusion-flexslider-js-extra">
-/* <![CDATA[ */
-var fusionFlexSliderVars = {"status_vimeo":"1","slideshow_autoplay":"1","slideshow_speed":"7000","pagination_video_slide":"","status_yt":"1","flex_smoothHeight":"false"};
-//# sourceURL=fusion-flexslider-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-flexslider.js?ver=6.9" id="fusion-flexslider-js"></script>
-<script type="text/javascript" id="fusion-animations-js-extra">
-/* <![CDATA[ */
-var fusionAnimationsVars = {"status_css_animations":"desktop"};
-//# sourceURL=fusion-animations-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/plugins/fusion-builder/assets/js/min/general/fusion-animations.js?ver=6.9" id="fusion-animations-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/plugins/fusion-builder/assets/js/min/general/fusion-column-legacy.js?ver=6.9" id="fusion-column-legacy-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-button.js?ver=6.9" id="fusion-button-js"></script>
-<script type="text/javascript" id="awb-carousel-js-extra">
-/* <![CDATA[ */
-var awbCarouselVars = {"related_posts_speed":"2500","carousel_speed":"2500"};
-//# sourceURL=awb-carousel-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/general/awb-carousel.js?ver=6.9" id="awb-carousel-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/plugins/fusion-builder/assets/js/min/general/fusion-content-boxes.js?ver=3.9.2" id="fusion-content-boxes-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/plugins/fusion-builder/assets/js/min/general/fusion-flip-boxes.js?ver=3.9.2" id="fusion-flip-boxes-js"></script>
-<script type="text/javascript" id="fusion-container-js-extra">
-/* <![CDATA[ */
-var fusionContainerVars = {"content_break_point":"800","container_hundred_percent_height_mobile":"0","is_sticky_header_transparent":"0","hundred_percent_scroll_sensitivity":"450"};
-//# sourceURL=fusion-container-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/plugins/fusion-builder/assets/js/min/general/fusion-container.js?ver=3.9.2" id="fusion-container-js"></script>
-<script type="text/javascript" id="avada-header-js-extra">
-/* <![CDATA[ */
-var avadaHeaderVars = {"header_position":"top","header_sticky":"1","header_sticky_type2_layout":"menu_only","header_sticky_shadow":"1","side_header_break_point":"920","header_sticky_mobile":"","header_sticky_tablet":"1","mobile_menu_design":"modern","sticky_header_shrinkage":"","nav_height":"84","nav_highlight_border":"3","nav_highlight_style":"bar","logo_margin_top":"31px","logo_margin_bottom":"31px","layout_mode":"wide","header_padding_top":"0px","header_padding_bottom":"0px","scroll_offset":"full"};
-//# sourceURL=avada-header-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/assets/min/js/general/avada-header.js?ver=7.9.2" id="avada-header-js"></script>
-<script type="text/javascript" id="fusion-responsive-typography-js-extra">
-/* <![CDATA[ */
-var fusionTypographyVars = {"site_width":"1170px","typography_sensitivity":"0.54","typography_factor":"1.50","elements":"h1, h2, h3, h4, h5, h6"};
-//# sourceURL=fusion-responsive-typography-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-responsive-typography.js?ver=3.9.2" id="fusion-responsive-typography-js"></script>
-<script type="text/javascript" id="avada-fusion-slider-js-extra">
-/* <![CDATA[ */
-var avadaFusionSliderVars = {"side_header_break_point":"920","slider_position":"below","header_transparency":"0","mobile_header_transparency":"0","header_position":"top","content_break_point":"800","status_vimeo":"1"};
-//# sourceURL=avada-fusion-slider-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/plugins/fusion-core/js/min/avada-fusion-slider.js?ver=5.9.2" id="avada-fusion-slider-js"></script>
-<script type="text/javascript" id="avada-drop-down-js-extra">
-/* <![CDATA[ */
-var avadaSelectVars = {"avada_drop_down":"1"};
-//# sourceURL=avada-drop-down-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/assets/min/js/general/avada-drop-down.js?ver=7.9.2" id="avada-drop-down-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/assets/min/js/general/avada-sliding-bar.js?ver=7.9.2" id="avada-sliding-bar-js"></script>
-<script type="text/javascript" id="avada-to-top-js-extra">
-/* <![CDATA[ */
-var avadaToTopVars = {"status_totop":"desktop","totop_position":"right","totop_scroll_down_only":"0"};
-//# sourceURL=avada-to-top-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/assets/min/js/general/avada-to-top.js?ver=7.9.2" id="avada-to-top-js"></script>
-<script type="text/javascript" id="avada-menu-js-extra">
-/* <![CDATA[ */
-var avadaMenuVars = {"site_layout":"wide","header_position":"top","logo_alignment":"left","header_sticky":"1","header_sticky_mobile":"","header_sticky_tablet":"1","side_header_break_point":"920","megamenu_base_width":"site_width","mobile_menu_design":"modern","dropdown_goto":"Go to...","mobile_nav_cart":"Shopping Cart","mobile_submenu_open":"Open submenu of %s","mobile_submenu_close":"Close submenu of %s","submenu_slideout":"1"};
-//# sourceURL=avada-menu-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/assets/min/js/general/avada-menu.js?ver=7.9.2" id="avada-menu-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/assets/min/js/library/bootstrap.scrollspy.js?ver=7.9.2" id="bootstrap-scrollspy-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/assets/min/js/general/avada-scrollspy.js?ver=7.9.2" id="avada-scrollspy-js"></script>
-<script type="text/javascript" id="fusion-scroll-to-anchor-js-extra">
-/* <![CDATA[ */
-var fusionScrollToAnchorVars = {"content_break_point":"800","container_hundred_percent_height_mobile":"0","hundred_percent_scroll_sensitivity":"450"};
-//# sourceURL=fusion-scroll-to-anchor-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-scroll-to-anchor.js?ver=3.9.2" id="fusion-scroll-to-anchor-js"></script>
-<script type="text/javascript" src="https://new.edwardifeachoconsult.wordpress.com/wp-c<!DOCTYPE html>
-<html class="avada-html-layout-wide avada-html-header-position-top avada-is-100-percent-template" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
-<head>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>Home | Corporate Affairs Commission</title>
-<meta name='robots' content='max-image-preview:large' />
-<meta name="description" content="[fusion_builder_container hundred_percent=&quot;no&quot; equal_height_columns=&quot;no&quot; menu_anchor=&quot;&quot;." />
-<meta name="robots" content="index,follow" />
-<link rel="canonical" href="https://news.cac.gov.ng/" />
-<meta property="og:locale" content="en_US" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Home, Corporate Affairs Commission" />
-<meta property="og:description" content="[fusion_builder_container hundred_percent=&quot;no&quot; equal_height_columns=&quot;no&quot; menu_anchor=&quot;&quot;." />
-<meta property="og:url" content="https://news.cac.gov.ng/" />
-<meta property="og:site_name" name="copyright" content="Corporate Affairs Commission" />
-<link rel="alternate" type="application/rss+xml" title="Corporate Affairs Commission &raquo; Feed" href="https://news.cac.gov.ng/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Corporate Affairs Commission &raquo; Comments Feed" href="https://news.cac.gov.ng/comments/feed/" />
-		
-		
-		
-				<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://news.cac.gov.ng/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnews.cac.gov.ng%2F" />
-<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://news.cac.gov.ng/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnews.cac.gov.ng%2F&#038;format=xml" />
 
-		<meta property="og:title" content="Home"/>
-		<meta property="og:type" content="article"/>
-		<meta property="og:url" content="https://news.cac.gov.ng/"/>
-		<meta property="og:site_name" content="Corporate Affairs Commission"/>
-		<meta property="og:description" content="Public Search  Online registration     
-View Timelines  
-Watch  
-Fees for our services   
-Step by step registration  
+// Patch window.storage for app code
+window.storage = storage;
 
-Find out the step by step process for Registration of company. 
+// ─── PATCHED AI FUNCTION (uses stored API key) ────────────────────────────
+async function ai(prompt, sys = "") {
+  const apiKey = getApiKey();
+  if (!apiKey) { alert("No API key found. Please reload and enter your key."); return ""; }
+  const messages = [{ role: "user", content: prompt }];
+  const body = { model: "claude-sonnet-4-20250514", max_tokens: 1000, messages };
+  if (sys) body.system = sys;
+  try {
+    const r = await fetch("https://api.anthropic.com/v1/messages", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "x-api-key": apiKey, "anthropic-version": "2023-06-01", "anthropic-dangerous-direct-browser-access": "true" },
+      body: JSON.stringify(body),
+    });
+    const d = await r.json();
+    if (d.error) { alert("API Error: " + d.error.message); return ""; }
+    return d.content?.[0]?.text || "";
+  } catch(e) {
+    alert("Network error: " + e.message);
+    return "";
+  }
+}
 
-Find out the step by step process for Business Name Registration. 
+// ─── APP SOURCE ───────────────────────────────────────────────────────────
 
-All you need"/>
+/* ═══════════════════════════════════════════════════════════════════════
+   MEDGUIDE NEXUS v4.0 — FULL AI MEDICAL SUITE
+   6 AI Modules:
+   1. Drug Interaction Checker
+   2. AI Differential Diagnosis
+   3. Risk Score Calculator
+   4. Medication Dosage Calculator
+   5. Lab Results Interpreter
+   6. AI Patient Chatbot
+═══════════════════════════════════════════════════════════════════════ */
 
-									<meta property="og:image" content="https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png"/>
-							<style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
-img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
-/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
-</style>
-<link rel='stylesheet' id='wc-gallery-style-css' href='https://news.cac.gov.ng/wp-content/plugins/boldgrid-gallery/includes/css/style.css?ver=1.55' type='text/css' media='all' />
-<link rel='stylesheet' id='wc-gallery-popup-style-css' href='https://news.cac.gov.ng/wp-content/plugins/boldgrid-gallery/includes/css/magnific-popup.css?ver=1.1.0' type='text/css' media='all' />
-<link rel='stylesheet' id='wc-gallery-flexslider-style-css' href='https://news.cac.gov.ng/wp-content/plugins/boldgrid-gallery/includes/vendors/flexslider/flexslider.css?ver=2.6.1' type='text/css' media='all' />
-<link rel='stylesheet' id='wc-gallery-owlcarousel-style-css' href='https://news.cac.gov.ng/wp-content/plugins/boldgrid-gallery/includes/vendors/owlcarousel/assets/owl.carousel.css?ver=2.1.4' type='text/css' media='all' />
-<link rel='stylesheet' id='wc-gallery-owlcarousel-theme-style-css' href='https://news.cac.gov.ng/wp-content/plugins/boldgrid-gallery/includes/vendors/owlcarousel/assets/owl.theme.default.css?ver=2.1.4' type='text/css' media='all' />
-<link rel='stylesheet' id='boldgrid-components-css' href='https://news.cac.gov.ng/wp-content/plugins/post-and-page-builder/assets/css/components.min.css?ver=2.16.5' type='text/css' media='all' />
-<link rel='stylesheet' id='font-awesome-css' href='https://news.cac.gov.ng/wp-content/plugins/post-and-page-builder/assets/css/font-awesome.min.css?ver=4.7' type='text/css' media='all' />
-<link rel='stylesheet' id='boldgrid-fe-css' href='https://news.cac.gov.ng/wp-content/plugins/post-and-page-builder/assets/css/editor-fe.min.css?ver=1.27.10' type='text/css' media='all' />
-<link rel='stylesheet' id='boldgrid-custom-styles-css' href='https://news.cac.gov.ng/wp-content/plugins/post-and-page-builder/assets/css/custom-styles.css?ver=6.9' type='text/css' media='all' />
-<link rel='stylesheet' id='fusion-dynamic-css-css' href='https://news.cac.gov.ng/wp-content/uploads/fusion-styles/79271dc2cdd456adac15b46f76a14e6d.min.css?ver=3.9.2' type='text/css' media='all' />
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
-<link rel="https://api.w.org/" href="https://news.cac.gov.ng/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://news.cac.gov.ng/wp-json/wp/v2/pages/3372" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://news.cac.gov.ng/xmlrpc.php?rsd" />
-<meta name="generator" content="WordPress 6.9" />
-<link rel='shortlink' href='https://news.cac.gov.ng/' />
-<style type="text/css" id="css-fb-visibility">@media screen and (max-width: 640px){.fusion-no-small-visibility{display:none !important;}body .sm-text-align-center{text-align:center !important;}body .sm-text-align-left{text-align:left !important;}body .sm-text-align-right{text-align:right !important;}body .sm-flex-align-center{justify-content:center !important;}body .sm-flex-align-flex-start{justify-content:flex-start !important;}body .sm-flex-align-flex-end{justify-content:flex-end !important;}body .sm-mx-auto{margin-left:auto !important;margin-right:auto !important;}body .sm-ml-auto{margin-left:auto !important;}body .sm-mr-auto{margin-right:auto !important;}body .fusion-absolute-position-small{position:absolute;top:auto;width:100%;}.awb-sticky.awb-sticky-small{ position: sticky; top: var(--awb-sticky-offset,0); }}@media screen and (min-width: 641px) and (max-width: 1024px){.fusion-no-medium-visibility{display:none !important;}body .md-text-align-center{text-align:center !important;}body .md-text-align-left{text-align:left !important;}body .md-text-align-right{text-align:right !important;}body .md-flex-align-center{justify-content:center !important;}body .md-flex-align-flex-start{justify-content:flex-start !important;}body .md-flex-align-flex-end{justify-content:flex-end !important;}body .md-mx-auto{margin-left:auto !important;margin-right:auto !important;}body .md-ml-auto{margin-left:auto !important;}body .md-mr-auto{margin-right:auto !important;}body .fusion-absolute-position-medium{position:absolute;top:auto;width:100%;}.awb-sticky.awb-sticky-medium{ position: sticky; top: var(--awb-sticky-offset,0); }}@media screen and (min-width: 1025px){.fusion-no-large-visibility{display:none !important;}body .lg-text-align-center{text-align:center !important;}body .lg-text-align-left{text-align:left !important;}body .lg-text-align-right{text-align:right !important;}body .lg-flex-align-center{justify-content:center !important;}body .lg-flex-align-flex-start{justify-content:flex-start !important;}body .lg-flex-align-flex-end{justify-content:flex-end !important;}body .lg-mx-auto{margin-left:auto !important;margin-right:auto !important;}body .lg-ml-auto{margin-left:auto !important;}body .lg-mr-auto{margin-right:auto !important;}body .fusion-absolute-position-large{position:absolute;top:auto;width:100%;}.awb-sticky.awb-sticky-large{ position: sticky; top: var(--awb-sticky-offset,0); }}</style><style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="icon" href="https://news.cac.gov.ng/wp-content/uploads/2019/11/cropped-logos-32x32.png" sizes="32x32" />
-<link rel="icon" href="https://news.cac.gov.ng/wp-content/uploads/2019/11/cropped-logos-192x192.png" sizes="192x192" />
-<link rel="apple-touch-icon" href="https://news.cac.gov.ng/wp-content/uploads/2019/11/cropped-logos-180x180.png" />
-<meta name="msapplication-TileImage" content="https://news.cac.gov.ng/wp-content/uploads/2019/11/cropped-logos-270x270.png" />
-		<script type="text/javascript">
-			var doc = document.documentElement;
-			doc.setAttribute( 'data-useragent', navigator.userAgent );
-		</script>
-		
-	<style id='global-styles-inline-css' type='text/css'>
-:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 12px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 24px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--normal: 16px;--wp--preset--font-size--xlarge: 32px;--wp--preset--font-size--huge: 48px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
-/*# sourceURL=global-styles-inline-css */
-</style>
-<style id='wp-block-library-inline-css' type='text/css'>
-:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
-/*wp_block_styles_on_demand_placeholder:696f4139ec8d4*/
-/*# sourceURL=wp-block-library-inline-css */
-</style>
-<style id='wp-block-library-theme-inline-css' type='text/css'>
-.wp-block-audio :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio :where(figcaption){color:#ffffffa6}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed :where(figcaption){color:#ffffffa6}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:#ffffffa6}:root :where(.wp-block-image figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme :root :where(.wp-block-image figcaption){color:#ffffffa6}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote :where(cite),.wp-block-pullquote :where(footer),.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote:where(.has-text-align-right){border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote:where(.has-text-align-center){border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote:where(.is-style-plain){border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table :where(figcaption){color:#ffffffa6}.wp-block-video :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video :where(figcaption){color:#ffffffa6}.wp-block-video{margin:0 0 1em}:root :where(.wp-block-template-part.has-background){margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
-/*# sourceURL=/wp-includes/css/dist/block-library/theme.min.css */
-</style>
-<style id='classic-theme-styles-inline-css' type='text/css'>
-/*! This file is auto-generated */
-.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
-/*# sourceURL=/wp-includes/css/classic-themes.min.css */
-</style>
-</head>
+const GlobalStyles = () => (
+  <style>{`
+    @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Exo+2:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400&display=swap');
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    html,body{background:#020509;color:#c8e6ff;font-family:'Exo 2',sans-serif;min-height:100vh;}
+    ::-webkit-scrollbar{width:3px;}::-webkit-scrollbar-thumb{background:#00f5ff22;}
 
-<body class="home wp-singular page-template page-template-100-width page-template-100-width-php page page-id-3372 wp-theme-Avada boldgrid-ppb fusion-image-hovers fusion-pagination-sizing fusion-button_type-flat fusion-button_span-no fusion-button_gradient-linear avada-image-rollover-circle-yes avada-image-rollover-yes avada-image-rollover-direction-top dont-animate fusion-body ltr fusion-sticky-header no-mobile-sticky-header no-mobile-slidingbar no-mobile-totop avada-has-rev-slider-styles fusion-disable-outline fusion-sub-menu-fade mobile-logo-pos-left layout-wide-mode avada-has-boxed-modal-shadow-none layout-scroll-offset-full avada-has-zero-margin-offset-top fusion-top-header menu-text-align-center mobile-menu-design-modern fusion-show-pagination-text fusion-header-layout-v2 avada-responsive avada-footer-fx-none avada-menu-highlight-style-bar fusion-search-form-classic fusion-main-menu-search-dropdown fusion-avatar-square avada-dropdown-styles avada-blog-layout-grid avada-blog-archive-layout-large avada-header-shadow-no avada-menu-icon-position-left avada-has-megamenu-shadow avada-has-mainmenu-dropdown-divider avada-has-pagetitle-bg-full avada-has-pagetitle-bg-parallax avada-has-main-nav-search-icon avada-has-titlebar-hide avada-has-slidingbar-widgets avada-has-slidingbar-position-top avada-slidingbar-toggle-style-triangle avada-has-slidingbar-sticky avada-has-pagination-padding avada-flyout-menu-direction-fade avada-ec-views-v1" data-awb-post-id="3372">
-		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+    @keyframes scanline{0%{top:-2px}100%{top:100%}}
+    @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+    @keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    @keyframes pulseGlow{0%,100%{box-shadow:0 0 8px var(--gc,#00f5ff)}50%{box-shadow:0 0 24px var(--gc,#00f5ff)}}
+    @keyframes hbarFill{from{width:0}to{width:var(--tw)}}
+    @keyframes flicker{0%,92%,95%,100%{opacity:1}93%,96%{opacity:.4}}
+    @keyframes chatIn{from{opacity:0;transform:translateX(-10px)}to{opacity:1;transform:translateX(0)}}
+    @keyframes chatInR{from{opacity:0;transform:translateX(10px)}to{opacity:1;transform:translateX(0)}}
+    @keyframes matrixRain{0%{transform:translateY(-100%);opacity:0}10%{opacity:1}90%{opacity:.6}100%{transform:translateY(100vh);opacity:0}}
 
-	<div id="boxed-wrapper">
-		
-		<div id="wrapper" class="fusion-wrapper">
-			<div id="home" style="position:relative;top:-1px;"></div>
-							
-					
-			<header class="fusion-header-wrapper">
-				<div class="fusion-header-v2 fusion-logo-alignment fusion-logo-left fusion-sticky-menu- fusion-sticky-logo-1 fusion-mobile-logo-1  fusion-mobile-menu-design-modern">
-					
-<div class="fusion-secondary-header">
-	<div class="fusion-row">
-					<div class="fusion-alignleft">
-				<div class="fusion-contact-info"><span class="fusion-contact-info-phone-number">Call Us Today! 234 708-062-9000</span><span class="fusion-header-separator">|</span><span class="fusion-contact-info-email-address"><a href="mailto:he&#108;pdes&#107;&#64;&#99;ac.gov.ng">he&#108;pdes&#107;&#64;&#99;ac.gov.ng</a></span></div>			</div>
-							<div class="fusion-alignright">
-				<div class="fusion-social-links-header"><div class="fusion-social-networks boxed-icons"><div class="fusion-social-networks-wrapper"><a  class="fusion-social-network-icon fusion-tooltip fusion-facebook awb-icon-facebook" style="color:#ffffff;background-color:#3b5998;border-color:#3b5998;" data-placement="bottom" data-title="Facebook" data-toggle="tooltip" title="Facebook" href="https://www.facebook.com/cacnigeria1" target="_blank" rel="noreferrer"><span class="screen-reader-text">Facebook</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-twitter awb-icon-twitter" style="color:#ffffff;background-color:#55acee;border-color:#55acee;" data-placement="bottom" data-title="Twitter" data-toggle="tooltip" title="Twitter" href="https://www.twitter.com/cacnigeria1" target="_blank" rel="noopener noreferrer"><span class="screen-reader-text">Twitter</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-instagram awb-icon-instagram" style="color:#ffffff;background-color:#3f729b;border-color:#3f729b;" data-placement="bottom" data-title="Instagram" data-toggle="tooltip" title="Instagram" href="https://www.instagram.com/corporateaffairsc/" target="_blank" rel="noopener noreferrer"><span class="screen-reader-text">Instagram</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-mail awb-icon-mail" style="color:#ffffff;background-color:#000000;border-color:#000000;" data-placement="bottom" data-title="Email" data-toggle="tooltip" title="Email" href="mailto:c&#115;erv&#105;&#099;e&#064;&#099;a&#099;&#046;go&#118;&#046;&#110;&#103;" target="_self" rel="noopener noreferrer"><span class="screen-reader-text">Email</span></a></div></div></div>			</div>
-			</div>
-</div>
-<div class="fusion-header-sticky-height"></div>
-<div class="fusion-header">
-	<div class="fusion-row">
-					<div class="fusion-logo" data-margin-top="31px" data-margin-bottom="31px" data-margin-left="0px" data-margin-right="0px">
-			<a class="fusion-logo-link"  href="https://news.cac.gov.ng/" >
+    .fu{animation:fadeUp .35s ease both;}
+    .fu1{animation:fadeUp .35s .05s ease both;}
+    .fu2{animation:fadeUp .35s .1s ease both;}
+    .fu3{animation:fadeUp .35s .15s ease both;}
 
-						<!-- standard logo -->
-			<img src="https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png" srcset="https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png 1x, https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png 2x" width="300" height="100" style="max-height:100px;height:auto;" alt="Corporate Affairs Commission Logo" data-retina_logo_url="https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png" class="fusion-standard-logo" />
+    /* Panel */
+    .panel{background:linear-gradient(135deg,#020d18 0%,#020509 100%);border:1px solid #00f5ff15;border-radius:2px;position:relative;overflow:hidden;}
+    .panel::after{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,#00f5ff44,transparent);}
 
-											<!-- mobile logo -->
-				<img src="https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png" srcset="https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png 1x, https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png 2x" width="300" height="100" style="max-height:100px;height:auto;" alt="Corporate Affairs Commission Logo" data-retina_logo_url="https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png" class="fusion-mobile-logo" />
-			
-											<!-- sticky header logo -->
-				<img src="https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png" srcset="https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png 1x, https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png 2x" width="300" height="100" style="max-height:100px;height:auto;" alt="Corporate Affairs Commission Logo" data-retina_logo_url="https://news.cac.gov.ng/wp-content/uploads/2019/11/logos.png" class="fusion-sticky-logo" />
-					</a>
-		</div>		<nav class="fusion-main-menu" aria-label="Main Menu"><ul id="menu-main-menu" class="fusion-menu"><li  id="menu-item-3512"  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3512"  data-item-id="3512"><a  href="https://news.cac.gov.ng" class="fusion-bar-highlight"><span class="menu-text">Home</span></a></li><li  id="menu-item-3713"  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-3713 fusion-dropdown-menu"  data-item-id="3713"><a  href="https://news.cac.gov.ng" class="fusion-bar-highlight"><span class="menu-text">About Us</span></a><ul class="sub-menu"><li  id="menu-item-3573"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3573 fusion-dropdown-submenu" ><a  href="https://news.cac.gov.ng/about/" class="fusion-bar-highlight"><span>Who we are</span></a></li><li  id="menu-item-3852"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3852 fusion-dropdown-submenu" ><a  href="https://news.cac.gov.ng/board-members/" class="fusion-bar-highlight"><span>Board Members</span></a></li><li  id="menu-item-5285"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5285 fusion-dropdown-submenu" ><a  href="https://news.cac.gov.ng/list-of-heads-of-departments-units-and-state-offices/" class="fusion-bar-highlight"><span>Heads of Departments/Units and State Offices</span></a></li><li  id="menu-item-3575"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3575 fusion-dropdown-submenu" ><a  href="https://news.cac.gov.ng/organizational-structure/" class="fusion-bar-highlight"><span>Organizational Structure</span></a></li></ul></li><li  id="menu-item-3711"  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-3711 fusion-dropdown-menu"  data-item-id="3711"><a  href="https://news.cac.gov.ng" class="fusion-bar-highlight"><span class="menu-text">Services</span></a><ul class="sub-menu"><li  id="menu-item-3712"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3712 fusion-dropdown-submenu" ><a  href="https://news.cac.gov.ng/companies/" class="fusion-bar-highlight"><span>Companies</span></a></li><li  id="menu-item-3535"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3535 fusion-dropdown-submenu" ><a  href="https://news.cac.gov.ng/business-names/" class="fusion-bar-highlight"><span>Business Names</span></a></li><li  id="menu-item-3536"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3536 fusion-dropdown-submenu" ><a  href="https://news.cac.gov.ng/incorporated-trustees/" class="fusion-bar-highlight"><span>Incorporated Trustees</span></a></li><li  id="menu-item-3533"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3533 fusion-dropdown-submenu" ><a  href="https://news.cac.gov.ng/?page_id=3498" class="fusion-bar-highlight"><span>Summary of fees</span></a></li><li  id="menu-item-4430"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4430 fusion-dropdown-submenu" ><a  href="https://news.cac.gov.ng/4341-2/" class="fusion-bar-highlight"><span>Service Timelines</span></a></li><li  id="menu-item-3534"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3534 fusion-dropdown-submenu" ><a  href="https://news.cac.gov.ng/?page_id=3450" class="fusion-bar-highlight"><span>Timelines</span></a></li></ul></li><li  id="menu-item-3542"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3542"  data-item-id="3542"><a  href="https://news.cac.gov.ng/resources/" class="fusion-bar-highlight"><span class="menu-text">Resources</span></a></li><li  id="menu-item-3539"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3539"  data-item-id="3539"><a  href="https://news.cac.gov.ng/news/" class="fusion-bar-highlight"><span class="menu-text">News</span></a></li><li  id="menu-item-3540"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3540"  data-item-id="3540"><a  href="https://news.cac.gov.ng/foi-portal/" class="fusion-bar-highlight"><span class="menu-text">FOI Portal</span></a></li><li  id="menu-item-3538"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3538"  data-item-id="3538"><a  href="https://news.cac.gov.ng/contact-us/" class="fusion-bar-highlight"><span class="menu-text">Contact Us</span></a></li><li  id="menu-item-5380"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5380"  data-item-id="5380"><a  href="https://reportgov.ng" class="fusion-bar-highlight"><span class="menu-text"><img src="https://news.cac.gov.ng/wp-content/uploads/2024/05/cropped-reportgov1-1.jpg" alt="" width="144" height="34" class="alignnone size-full wp-image-5375" /></span></a></li><li class="fusion-custom-menu-item fusion-main-menu-search"><a class="fusion-main-menu-icon fusion-bar-highlight" href="#" aria-label="Search" data-title="Search" title="Search" role="button" aria-expanded="false"></a><div class="fusion-custom-menu-item-contents">		<form role="search" class="searchform fusion-search-form  fusion-live-search fusion-search-form-classic" method="get" action="https://news.cac.gov.ng/">
-			<div class="fusion-search-form-content">
+    /* Corner brackets */
+    .brk::before,.brk::after{content:'';position:absolute;width:10px;height:10px;}
+    .brk::before{top:0;left:0;border-top:1px solid #00f5ff;border-left:1px solid #00f5ff;}
+    .brk::after{bottom:0;right:0;border-bottom:1px solid #00f5ff;border-right:1px solid #00f5ff;}
 
-				
-				<div class="fusion-search-field search-field">
-					<label><span class="screen-reader-text">Search for:</span>
-													<input type="search" class="s fusion-live-search-input" name="s" id="fusion-live-search-input-0" autocomplete="off" placeholder="Search..." required aria-required="true" aria-label="Search..."/>
-											</label>
-				</div>
-				<div class="fusion-search-button search-button">
-					<input type="submit" class="fusion-search-submit searchsubmit" aria-label="Search" value="&#xf002;" />
-										<div class="fusion-slider-loading"></div>
-									</div>
+    /* Nav */
+    .nav-btn{width:100%;display:flex;align-items:center;gap:9px;padding:9px 12px;border:none;border-left:2px solid transparent;background:transparent;cursor:pointer;font-family:'Exo 2',sans-serif;color:#00f5ff33;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;transition:all .2s;text-align:left;}
+    .nav-btn:hover{color:#00f5ff77;background:#00f5ff06;border-left-color:#00f5ff22;}
+    .nav-btn.active{color:#00f5ff;background:#00f5ff0d;border-left-color:#00f5ff;}
 
-				
-			</div>
+    /* Inputs */
+    .hi{width:100%;background:#010a12;border:1px solid #00f5ff1a;border-radius:2px;padding:9px 13px;color:#00f5ff;font-family:'Share Tech Mono',monospace;font-size:12px;outline:none;transition:border-color .2s,box-shadow .2s;}
+    .hi:focus{border-color:#00f5ff66;box-shadow:0 0 10px #00f5ff18;}
+    .hi::placeholder{color:#00f5ff1a;}
+    select.hi option{background:#010a12;}
 
+    /* Buttons */
+    .btn-p{background:transparent;border:1px solid #00f5ff;color:#00f5ff;font-family:'Exo 2',sans-serif;font-weight:700;font-size:10px;letter-spacing:2px;text-transform:uppercase;padding:10px 22px;cursor:pointer;position:relative;overflow:hidden;transition:color .25s;clip-path:polygon(6px 0%,100% 0%,calc(100% - 6px) 100%,0% 100%);}
+    .btn-p::before{content:'';position:absolute;inset:0;background:#00f5ff;transform:translateX(-101%);transition:transform .25s;}
+    .btn-p:hover{color:#000;}
+    .btn-p:hover::before{transform:translateX(0);}
+    .btn-p span{position:relative;z-index:1;}
+    .btn-p:disabled{opacity:.2;cursor:not-allowed;}
+    .btn-g{background:transparent;border:1px solid #00f5ff1a;color:#00f5ff44;font-family:'Exo 2',sans-serif;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;padding:9px 18px;cursor:pointer;transition:all .2s;}
+    .btn-g:hover{border-color:#00f5ff44;color:#00f5ff88;}
+    .btn-sm{padding:6px 14px;font-size:9px;}
 
-							<div class="fusion-search-results-wrapper"><div class="fusion-search-results"></div></div>
-			
-		</form>
-		</div></li></ul></nav>	<div class="fusion-mobile-menu-icons">
-							<a href="#" class="fusion-icon awb-icon-bars" aria-label="Toggle mobile menu" aria-expanded="false"></a>
-		
-		
-		
-			</div>
+    /* Tags */
+    .tag{display:inline-block;border:1px solid #00f5ff15;padding:3px 9px;font-family:'Share Tech Mono',monospace;font-size:9px;color:#00f5ff33;letter-spacing:1px;border-radius:1px;}
+    .tag.active-tag{border-color:#39ff1444;color:#39ff14;background:#39ff1408;}
 
-<nav class="fusion-mobile-nav-holder fusion-mobile-menu-text-align-left" aria-label="Main Menu Mobile"></nav>
+    /* Drug chips */
+    .drug-chip{border:1px solid #00f5ff15;background:#010a12;padding:5px 11px;font-size:11px;color:#00f5ff66;cursor:pointer;border-radius:1px;transition:all .15s;font-family:'Exo 2',sans-serif;}
+    .drug-chip:hover{border-color:#00f5ff33;}
+    .drug-chip .rm{color:#ff2a2a44;margin-left:6px;font-size:10px;}
+    .drug-chip .rm:hover{color:#ff2a2a;}
 
-					</div>
-</div>
-				</div>
-				<div class="fusion-clearfix"></div>
-			</header>
-								
-							<div id="sliders-container" class="fusion-slider-visibility">
-			<div id="fusion-slider-66" data-id="66" class="fusion-slider-container fusion-slider-3372 full-width-slider-container" style="height:450px;max-width:100%;">
-	<style type="text/css">
-		#fusion-slider-66 .flex-direction-nav a {width:63px;height:63px;line-height:63px;font-size:25px;}	</style>
-	<div class="fusion-slider-loading">Loading...</div>
-		<div class="tfs-slider flexslider main-flex full-width-slider" style="max-width:100%;--typography_sensitivity:1;" data-slider_width="100%" data-slider_height="450px" data-full_screen="0" data-parallax="0" data-nav_arrows="1" data-nav_box_width="63px" data-nav_box_height="63px" data-nav_arrow_size="25px" data-autoplay="1" data-loop="0" data-orderby="date" data-order="DESC" data-animation="fade" data-slideshow_speed="8000" data-animation_speed="600" data-typo_sensitivity="1" data-typo_factor="1.5" data-slider_indicator="" data-slider_indicator_color="#ffffff" >
-		<ul class="slides" style="max-width:100%;">
-															<li class="slide-id-5249" data-mute="no" data-loop="no" data-autoplay="yes">
-					<div class="slide-content-container slide-content-center" style="display: none;">
-						<div class="slide-content" style="">
-																											</div>
-					</div>
-																					<div class="mobile_video_image" style="background-image: url('https://news.cac.gov.ng/wp-content/uploads/2023/12/WhatsApp-Video-2023-12-14-at-10.14.45-1.mp4');"></div>
-															<div class="background self-hosted-video-bg" style="max-width:100%;height:450px;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='', sizingMethod='scale');" data-imgwidth="">
-													<span
-								class="fusion-slider-self-hosted-video-placeholder"
-								data-ogg=""
-								data-webm="https://news.cac.gov.ng/wp-content/uploads/2023/12/WhatsApp-Video-2023-12-14-at-10.14.45-1.mp4"
-								data-mp4="https://news.cac.gov.ng/wp-content/uploads/2023/12/WhatsApp-Video-2023-12-14-at-10.14.45-1.mp4"
-								 autoplay								preload="auto"
-							></span>
-																							</div>
-				</li>
-															<li class="slide-id-3382" data-mute="yes" data-loop="yes" data-autoplay="yes">
-					<div class="slide-content-container slide-content-center" style="display: none;">
-						<div class="slide-content" style="">
-															<div class="heading ">
-									<div class="fusion-title-sc-wrapper" style="">
-										<div class="fusion-title title fusion-title-1 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-two" style="--awb-text-color:#000000;--awb-margin-bottom:0px;--awb-sep-color:#000000;--awb-font-size:60px;"><h2 class="title-heading-center fusion-responsive-typography-calculated" style="margin:0;font-size:1em;--fontSize:60;line-height:1.33;">Nigerian
-Corporate Registry</h2></div>									</div>
-								</div>
-																													<div class="buttons" >
-																										</div>
-													</div>
-					</div>
-																									<div class="background background-image" style="background-image: url(https://news.cac.gov.ng/wp-content/uploads/2019/12/cac-office-hq.jpg);max-width:100%;height:450px;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://news.cac.gov.ng/wp-content/uploads/2019/12/cac-office-hq.jpg', sizingMethod='scale');" data-imgwidth="2560">
-																							</div>
-				</li>
-					</ul>
-	</div>
-</div>
-		</div>
-				
-					
-							
-			
-						<main id="main" class="clearfix width-100">
-				<div class="fusion-row" style="max-width:100%;">
-<section id="content" class="full-width">
-					<div id="post-3372" class="post-3372 page type-page status-publish hentry">
-			<span class="entry-title rich-snippet-hidden">Home</span><span class="vcard rich-snippet-hidden"><span class="fn"><a href="https://news.cac.gov.ng/author/cac/" title="Posts by Muhammad Abdullahi" rel="author">Muhammad Abdullahi</a></span></span><span class="updated rich-snippet-hidden">2024-05-09T14:08:41+01:00</span>						<div class="post-content">
-				<div class="fusion-fullwidth fullwidth-box fusion-builder-row-1 nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;" ><div class="fusion-builder-row fusion-row"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-0 fusion_builder_column_1_2 1_2 fusion-one-half fusion-column-first" style="--awb-bg-size:cover;--awb-margin-bottom:0px;width:48%; margin-right: 4%;"><div class="fusion-column-wrapper fusion-flex-column-wrapper-legacy"><div class="fusion-align-block"><a class="fusion-button button-3d fusion-button-default-size button-darkgreen fusion-button-darkgreen button-1 fusion-button-span-yes " style="--button_text_transform:uppercase;" target="_blank" rel="noopener noreferrer" href="https://search.cac.gov.ng/home"><i class="fa-search fas button-icon-left" aria-hidden="true"></i><span class="fusion-button-text">Public Search</span></a></div><div class="fusion-clearfix"></div></div></div><div class="fusion-layout-column fusion_builder_column fusion-builder-column-1 fusion_builder_column_1_2 1_2 fusion-one-half fusion-column-last" style="--awb-bg-size:cover;--awb-margin-bottom:0px;width:48%;"><div class="fusion-column-wrapper fusion-flex-column-wrapper-legacy"><div class="fusion-align-block"><a class="fusion-button button-3d fusion-button-default-size button-darkgreen fusion-button-darkgreen button-2 fusion-button-span-yes " style="--button_text_transform:uppercase;" target="_blank" rel="noopener noreferrer" href="https://pre.cac.gov.ng"><i class="fa-laptop fas button-icon-left" aria-hidden="true"></i><span class="fusion-button-text">Online registration</span></a></div><div class="fusion-clearfix"></div></div></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-builder-row-2 nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;" ><div class="fusion-builder-row fusion-row"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-2 fusion_builder_column_1_1 1_1 fusion-one-full fusion-column-first fusion-column-last" style="--awb-bg-size:cover;"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-column-wrapper-legacy"><div class="fusion-section-separator section-separator custom fusion-section-separator-1" style="--awb-spacer-height:;"><div class="fusion-section-separator-svg fusion-section-separator-fullwidth"></div><div class="fusion-section-separator-spacer fusion-section-separator-fullwidth"><div class="fusion-section-separator-spacer-height"></div></div></div><div class="fusion-flip-boxes flip-boxes row fusion-columns-3 fusion-no-small-visibility flip-effect-3d equal-heights"><div class="fusion-flip-box-wrapper fusion-column col-lg-4 col-md-4 col-sm-4"><div class="fusion-flip-box flip-up" tabindex="0"><div class="flip-box-inner-wrapper"><div class="flip-box-front"><div class="flip-box-front-inner"><div class="flip-box-grafix flip-box-circle"><i aria-hidden="true" class="fa-calendar-check far"></i></div><h2 class="flip-box-heading">Revised Service Timelines</h2>Timelines for our services</div></div><div class="flip-box-back"><div class="flip-box-back-inner"><h3 class="flip-box-heading-back">Check our Turnaround Time</h3>
-<h5><div class="fusion-button-wrapper"><a class="fusion-button button-flat fusion-button-default-size button-default fusion-button-default button-3 fusion-button-default-span fusion-button-default-type" target="_self" href="https://news.cac.gov.ng/4341-2/"><span class="fusion-button-text">View Timelines</span></a></div></h5>
-</div></div></div></div></div><div class="fusion-flip-box-wrapper fusion-column col-lg-4 col-md-4 col-sm-4"><div class="fusion-flip-box flip-up" tabindex="0"><div class="flip-box-inner-wrapper"><div class="flip-box-front"><div class="flip-box-front-inner"><div class="flip-box-grafix flip-box-circle"><i aria-hidden="true" class="fa-wpforms fab"></i></div><h2 class="flip-box-heading">How to use CRP</h2>click to view</div></div><div class="flip-box-back"><div class="flip-box-back-inner"><h3 class="flip-box-heading-back">Instructional Videos</h3>
-<h5><div class="fusion-button-wrapper"><a class="fusion-button button-flat fusion-button-default-size button-default fusion-button-default button-4 fusion-button-default-span fusion-button-default-type" target="_self" href="https://news.cac.gov.ng/instructional-videos/"><span class="fusion-button-text">Watch</span></a></div></h5>
-</div></div></div></div></div><div class="fusion-flip-box-wrapper fusion-column col-lg-4 col-md-4 col-sm-4"><div class="fusion-flip-box flip-up" tabindex="0"><div class="flip-box-inner-wrapper"><div class="flip-box-front"><div class="flip-box-front-inner"><div class="flip-box-grafix flip-box-circle"><i aria-hidden="true" class="fa-money-bill-alt far"></i></div><h2 class="flip-box-heading">Summary of Fees</h2>Fees for our services</div></div><div class="flip-box-back"><div class="flip-box-back-inner"><h3 class="flip-box-heading-back">Fees for our services</h3>
-<h5><div class="fusion-button-wrapper"><a class="fusion-button button-flat fusion-button-default-size button-default fusion-button-default button-5 fusion-button-default-span fusion-button-default-type" target="_self" href="https://news.cac.gov.ng/schedule-of-fees/"><span class="fusion-button-text">Fees for our services</span></a></div></h5>
-</div></div></div></div></div></div><div class="clearfix"></div><div class="fusion-title title fusion-title-2 fusion-title-center fusion-title-text fusion-title-size-two"><div class="title-sep-container title-sep-container-left"><div class="title-sep sep-single sep-solid" style="border-color:#e0dede;"></div></div><span class="awb-title-spacer"></span><h2 class="title-heading-center fusion-responsive-typography-calculated" style="margin:0;--fontSize:48;line-height:1.2;"><h2 style="text-align: center;"><span style="color: #339966;">Step by step registration</span><span style="color: #339966;"> </span></h2></h2><span class="awb-title-spacer"></span><div class="title-sep-container title-sep-container-right"><div class="title-sep sep-single sep-solid" style="border-color:#e0dede;"></div></div></div><div class="fusion-content-boxes content-boxes columns row fusion-columns-3 fusion-columns-total-3 fusion-content-boxes-1 content-boxes-clean-vertical content-left content-boxes-icon-on-top" style="--awb-hover-accent-color:#a0ce4e;--awb-circle-hover-accent-color:#a0ce4e;" data-animationOffset="top-into-view"><div style="--awb-backgroundcolor:transparent;border-color:rgba(255,255,255,0);" class="fusion-column content-box-column content-box-column content-box-column-1 col-lg-4 col-md-4 col-sm-4 fusion-content-box-hover content-box-column-first-in-row"><div class="col content-box-wrapper content-wrapper link-area-link-icon link-type-text icon-hover-animation-pulsate fusion-animated" data-animationType="flash" data-animationDuration="0.3" data-animationOffset="top-into-view"><div class="heading heading-with-icon icon-left"><a class="heading-link" href=" https://news.cac.gov.ng/companies/" target="_self"><div class="icon"><i style="border-color:rgba(255,255,255,0);border-width:0px;background-color:#a0ce4e;box-sizing:content-box;height:112px;width:112px;line-height:112px;border-radius:50%;font-size:56px;" aria-hidden="true" class="fontawesome-icon fa-landmark fas circle-yes"></i></div><h2 class="content-box-heading fusion-responsive-typography-calculated" style="--h2_typography-font-size:18px;--fontSize:18;line-height:1.2;">Companies</h2></a></div><div class="fusion-clearfix"></div><div class="content-container">
-<p>Find out the step by step process for Registration of company.</p>
-</div></div></div><div style="--awb-backgroundcolor:transparent;border-color:rgba(255,255,255,0);" class="fusion-column content-box-column content-box-column content-box-column-2 col-lg-4 col-md-4 col-sm-4 fusion-content-box-hover "><div class="col content-box-wrapper content-wrapper link-area-link-icon link-type-text icon-hover-animation-pulsate fusion-animated" data-animationType="flash" data-animationDuration="0.3" data-animationOffset="top-into-view"><div class="heading heading-with-icon icon-left"><a class="heading-link" href="https://news.cac.gov.ng/business-names/" target="_self"><div class="icon"><i style="border-color:rgba(255,255,255,0);border-width:0px;background-color:#a0ce4e;box-sizing:content-box;height:112px;width:112px;line-height:112px;border-radius:50%;font-size:56px;" aria-hidden="true" class="fontawesome-icon fa-user-tie fas circle-yes"></i></div><h2 class="content-box-heading fusion-responsive-typography-calculated" style="--h2_typography-font-size:18px;--fontSize:18;line-height:1.2;">Business Names</h2></a></div><div class="fusion-clearfix"></div><div class="content-container">
-<p>Find out the step by step process for Business Name Registration.</p>
-</div></div></div><div style="--awb-backgroundcolor:transparent;border-color:rgba(255,255,255,0);" class="fusion-column content-box-column content-box-column content-box-column-3 col-lg-4 col-md-4 col-sm-4 fusion-content-box-hover content-box-column-last content-box-column-last-in-row"><div class="col content-box-wrapper content-wrapper link-area-link-icon link-type-text icon-hover-animation-pulsate fusion-animated" data-animationType="flash" data-animationDuration="0.3" data-animationOffset="top-into-view"><div class="heading heading-with-icon icon-left"><a class="heading-link" href="https://news.cac.gov.ng/incorporated-trustees/" target="_self"><div class="icon"><i style="border-color:rgba(255,255,255,0);border-width:0px;background-color:#a0ce4e;box-sizing:content-box;height:112px;width:112px;line-height:112px;border-radius:50%;font-size:56px;" aria-hidden="true" class="fontawesome-icon fa-users fas circle-yes"></i></div><h2 class="content-box-heading fusion-responsive-typography-calculated" style="--h2_typography-font-size:18px;--fontSize:18;line-height:1.2;">Incorporated Trustee</h2></a></div><div class="fusion-clearfix"></div><div class="content-container">
-<p>All you need to know about registering an Incorporated Trustees.</p>
-</div></div></div><div class="fusion-clearfix"></div></div><div class="fusion-clearfix"></div></div></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-builder-row-3 nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;" ><div class="fusion-builder-row fusion-row"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-3 fusion_builder_column_1_1 1_1 fusion-one-full fusion-column-first fusion-column-last" style="--awb-bg-size:cover;"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-column-wrapper-legacy"><div class="fusion-alert alert notice alert-warning fusion-alert-center fusion-alert-capitalize alert-dismissable" role="alert"><div class="fusion-alert-content-wrapper"><span class="alert-icon"><i class="awb-icon-cog" aria-hidden="true"></i></span><span class="fusion-alert-content"><a href="https://news.cac.gov.ng/frequently-ask-questions/">Frequently Ask Questions (FAQs) on Company Registration Portal (CRP)</a></span></div><button type="button" class="close toggle-alert" data-dismiss="alert" aria-label="Close">&times;</button></div><div class="fusion-image-carousel fusion-image-carousel-fixed fusion-image-carousel-1 lightbox-enabled fusion-carousel-border"><div class="awb-carousel awb-swiper awb-swiper-carousel" data-autoplay="yes" data-columns="3" data-itemmargin="13" data-itemwidth="180" data-touchscroll="no" data-imagesize="fixed" style="--awb-columns:3;"><div class="swiper-wrapper fusion-flex-align-items-center"></div><div class="awb-swiper-button awb-swiper-button-prev"><i class="awb-icon-angle-left" aria-hidden="true"></i></div><div class="awb-swiper-button awb-swiper-button-next"><i class="awb-icon-angle-right" aria-hidden="true"></i></div></div></div><div class="fusion-clearfix"></div></div></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-builder-row-4 nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;" ><div class="fusion-builder-row fusion-row"></div></div>
-							</div>
-												</div>
-	</section>
-						
-					</div>  <!-- fusion-row -->
-				</main>  <!-- #main -->
-				
-				
-								
-					
-		<div class="fusion-footer">
-					
-	<footer class="fusion-footer-widget-area fusion-widget-area">
-		<div class="fusion-row">
-			<div class="fusion-columns fusion-columns-4 fusion-widget-area">
-				
-																									<div class="fusion-column col-lg-3 col-md-3 col-sm-3">
-							<section id="text-2" class="fusion-footer-widget-column widget widget_text"><h4 class="widget-title">Corporate Headquarters</h4>			<div class="textwidget"><p><img decoding="async" class="alignnone wp-image-3601 size-full" src="https://news.cac.gov.ng/wp-content/uploads/2019/12/coat2-150x150.jpg" alt="" width="150" height="150" srcset="https://news.cac.gov.ng/wp-content/uploads/2019/12/coat2-150x150-48x48.jpg 48w, https://news.cac.gov.ng/wp-content/uploads/2019/12/coat2-150x150-66x66.jpg 66w, https://news.cac.gov.ng/wp-content/uploads/2019/12/coat2-150x150.jpg 150w" sizes="(max-width: 150px) 100vw, 150px" /></p>
-<p style="padding-right: 5%;">Plot 420, Tigris Crescent,<br />
-Off Aguiyi Ironsi Street,<br />
-Maitama, Abuja.<br />
-Nigeria.</p>
-</div>
-		<div style="clear:both;"></div></section>																					</div>
-																										<div class="fusion-column col-lg-3 col-md-3 col-sm-3">
-																												</div>
-																										<div class="fusion-column col-lg-3 col-md-3 col-sm-3">
-							<section id="block-4" class="fusion-footer-widget-column widget widget_block"><p>  <iframe src="https://cac.gov.ng/chatbot_iframe/index1.html" id="my_iframe" scrolling="no" frameborder="0" style="z-index:999"></iframe> </p>
-<div style="clear:both;"></div></section>																					</div>
-																										<div class="fusion-column fusion-column-last col-lg-3 col-md-3 col-sm-3">
-													</div>
-																											
-				<div class="fusion-clearfix"></div>
-			</div> <!-- fusion-columns -->
-		</div> <!-- fusion-row -->
-	</footer> <!-- fusion-footer-widget-area -->
+    /* Chat */
+    .chat-bubble-ai{animation:chatIn .3s ease;}
+    .chat-bubble-user{animation:chatInR .3s ease;}
 
-	
-	<footer id="footer" class="fusion-footer-copyright-area">
-		<div class="fusion-row">
-			<div class="fusion-copyright-content">
+    /* Severity bars */
+    .sev-bar{height:4px;background:#00f5ff0a;border-radius:0;overflow:hidden;}
+    .sev-fill{height:4px;border-radius:0;animation:hbarFill .8s ease forwards;width:0;}
 
-				<div class="fusion-copyright-notice">
-		<div>
-		© Copyright 2019 - <script>document.write(new Date().getFullYear());</script>   |    <a href='https://cac.gov.ng' target='_blank'>CAC</a>   |   All Rights Reserved   |   Powered by CAC <a href='https://cac.gov.ng' target='_blank'>Corporate Affairs Commission</a>	</div>
-</div>
-<div class="fusion-social-links-footer">
-	<div class="fusion-social-networks"><div class="fusion-social-networks-wrapper"><a  class="fusion-social-network-icon fusion-tooltip fusion-facebook awb-icon-facebook" style data-placement="top" data-title="Facebook" data-toggle="tooltip" title="Facebook" href="https://www.facebook.com/cacnigeria1" target="_blank" rel="noreferrer"><span class="screen-reader-text">Facebook</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-twitter awb-icon-twitter" style data-placement="top" data-title="Twitter" data-toggle="tooltip" title="Twitter" href="https://www.twitter.com/cacnigeria1" target="_blank" rel="noopener noreferrer"><span class="screen-reader-text">Twitter</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-instagram awb-icon-instagram" style data-placement="top" data-title="Instagram" data-toggle="tooltip" title="Instagram" href="https://www.instagram.com/corporateaffairsc/" target="_blank" rel="noopener noreferrer"><span class="screen-reader-text">Instagram</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-mail awb-icon-mail" style data-placement="top" data-title="Email" data-toggle="tooltip" title="Email" href="mailto:&#099;s&#101;&#114;&#118;&#105;ce&#064;&#099;a&#099;.go&#118;&#046;n&#103;" target="_self" rel="noopener noreferrer"><span class="screen-reader-text">Email</span></a></div></div></div>
+    /* Lab rows */
+    .lab-row:hover{background:#00f5ff04;}
 
-			</div> <!-- fusion-fusion-copyright-content -->
-		</div> <!-- fusion-row -->
-	</footer> <!-- #footer -->
-		</div> <!-- fusion-footer -->
+    /* Risk meter */
+    .risk-arc{transition:stroke-dasharray 1.2s cubic-bezier(.16,1,.3,1);}
 
-		
-											<div class="fusion-sliding-bar-wrapper">
-									<div id="slidingbar-area" class="slidingbar-area fusion-sliding-bar-area fusion-widget-area fusion-sliding-bar-position-top fusion-sliding-bar-text-align-left fusion-sliding-bar-toggle-triangle fusion-sliding-bar-sticky" data-breakpoint="800" data-toggle="triangle">
-					<div class="fusion-sb-toggle-wrapper">
-				<a class="fusion-sb-toggle" href="#"><span class="screen-reader-text">Toggle Sliding Bar Area</span></a>
-			</div>
-		
-		<div id="slidingbar" class="fusion-sliding-bar">
-						<div class="fusion-row">
-								<div class="fusion-columns row fusion-columns-3 columns columns-3">
+    /* Dot grid bg */
+    .dot-bg{position:fixed;inset:0;pointer-events:none;z-index:0;
+      background-image:radial-gradient(circle at 15% 50%,#00f5ff06 0%,transparent 45%),radial-gradient(circle at 85% 20%,#39ff1404 0%,transparent 40%);
+    }
+    
+    /* scan overlay */
+    .scan-overlay{position:absolute;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,#00f5ff88,transparent);animation:scanline 2s linear infinite;pointer-events:none;}
 
-																														<div class="fusion-column col-lg-4 col-md-4 col-sm-4">
-														</div>
-																															<div class="fusion-column col-lg-4 col-md-4 col-sm-4">
-														</div>
-																															<div class="fusion-column col-lg-4 col-md-4 col-sm-4">
-														</div>
-																																																	<div class="fusion-clearfix"></div>
-				</div>
-			</div>
-		</div>
-	</div>
-							</div>
-					
-												</div> <!-- wrapper -->
-		</div> <!-- #boxed-wrapper -->
-				<a class="fusion-one-page-text-link fusion-page-load-link" tabindex="-1" href="#" aria-hidden="true">Page load link</a>
+    @media print{.no-print{display:none!important;}}
+  `}</style>
+);
 
-		<div class="avada-footer-scripts">
-			<script type="speculationrules">
-{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/Avada/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
-</script>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><script type="text/javascript">var fusionNavIsCollapsed=function(e){var t,n;window.innerWidth<=e.getAttribute("data-breakpoint")?(e.classList.add("collapse-enabled"),e.classList.remove("awb-menu_desktop"),e.classList.contains("expanded")||(e.setAttribute("aria-expanded","false"),window.dispatchEvent(new Event("fusion-mobile-menu-collapsed",{bubbles:!0,cancelable:!0}))),(n=e.querySelectorAll(".menu-item-has-children.expanded")).length&&n.forEach(function(e){e.querySelector(".awb-menu__open-nav-submenu_mobile").setAttribute("aria-expanded","false")})):(null!==e.querySelector(".menu-item-has-children.expanded .awb-menu__open-nav-submenu_click")&&e.querySelector(".menu-item-has-children.expanded .awb-menu__open-nav-submenu_click").click(),e.classList.remove("collapse-enabled"),e.classList.add("awb-menu_desktop"),e.setAttribute("aria-expanded","true"),null!==e.querySelector(".awb-menu__main-ul")&&e.querySelector(".awb-menu__main-ul").removeAttribute("style")),e.classList.add("no-wrapper-transition"),clearTimeout(t),t=setTimeout(()=>{e.classList.remove("no-wrapper-transition")},400),e.classList.remove("loading")},fusionRunNavIsCollapsed=function(){var e,t=document.querySelectorAll(".awb-menu");for(e=0;e<t.length;e++)fusionNavIsCollapsed(t[e])};function avadaGetScrollBarWidth(){var e,t,n,l=document.createElement("p");return l.style.width="100%",l.style.height="200px",(e=document.createElement("div")).style.position="absolute",e.style.top="0px",e.style.left="0px",e.style.visibility="hidden",e.style.width="200px",e.style.height="150px",e.style.overflow="hidden",e.appendChild(l),document.body.appendChild(e),t=l.offsetWidth,e.style.overflow="scroll",t==(n=l.offsetWidth)&&(n=e.clientWidth),document.body.removeChild(e),jQuery("html").hasClass("awb-scroll")&&10<t-n?10:t-n}fusionRunNavIsCollapsed(),window.addEventListener("fusion-resize-horizontal",fusionRunNavIsCollapsed);</script><script type="text/javascript" src="https://news.cac.gov.ng/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-includes/js/masonry.min.js?ver=4.2.2" id="masonry-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-includes/js/jquery/jquery.masonry.min.js?ver=3.1.2b" id="jquery-masonry-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1" id="wp-hooks-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375" id="wp-i18n-js"></script>
-<script type="text/javascript" id="wp-i18n-js-after">
-/* <![CDATA[ */
-wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
-//# sourceURL=wp-i18n-js-after
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.4" id="swv-js"></script>
-<script type="text/javascript" id="contact-form-7-js-before">
-/* <![CDATA[ */
-var wpcf7 = {
-    "api": {
-        "root": "https:\/\/news.cac.gov.ng\/wp-json\/",
-        "namespace": "contact-form-7\/v1"
-    },
-    "cached": 1
+// ── HELPERS ──────────────────────────────────────────────────────────────────
+async function ai(prompt, sys = "") {
+  const messages = [{ role: "user", content: prompt }];
+  const body = { model: "claude-sonnet-4-20250514", max_tokens: 1000, messages };
+  if (sys) body.system = sys;
+  const r = await fetch("https://api.anthropic.com/v1/messages", {
+    method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body),
+  });
+  const d = await r.json();
+  return d.content?.[0]?.text || "";
+}
+
+function SLabel({ children, color = "#00f5ff" }) {
+  return (
+    <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 14 }}>
+      <div style={{ width: 2, height: 12, background: color, boxShadow: `0 0 8px ${color}` }} />
+      <span style={{ fontFamily: "'Share Tech Mono',monospace", fontSize: 9, letterSpacing: 3, textTransform: "uppercase", color: color + "88" }}>{children}</span>
+      <div style={{ flex: 1, height: 1, background: `linear-gradient(90deg,${color}18,transparent)` }} />
+    </div>
+  );
+}
+
+function Mono({ children, color = "#00f5ff", size = 12 }) {
+  return <span style={{ fontFamily: "'Share Tech Mono',monospace", fontSize: size, color }}>{children}</span>;
+}
+
+function LoadingPulse({ label = "AI PROCESSING" }) {
+  return (
+    <div style={{ display: "flex", alignItems: "center", gap: 12, padding: "20px 0" }}>
+      <div style={{ width: 18, height: 18, border: "1px solid #00f5ff44", borderTop: "1px solid #00f5ff", borderRadius: "50%", animation: "spin 0.8s linear infinite", flexShrink: 0 }} />
+      <Mono color="#00f5ff88">{label}...</Mono>
+      <div style={{ display: "flex", gap: 3 }}>
+        {[0, 1, 2].map(i => <div key={i} style={{ width: 2, height: 10, background: "#00f5ff", animation: `blink 1s ${i * 0.2}s infinite` }} />)}
+      </div>
+    </div>
+  );
+}
+
+function RiskGauge({ value, label, color }) {
+  const r = 52, circ = 2 * Math.PI * r;
+  const arc = circ * 0.75;
+  const fill = (value / 100) * arc;
+  return (
+    <div style={{ textAlign: "center" }}>
+      <svg width={130} height={100} viewBox="0 0 130 100">
+        <circle cx={65} cy={70} r={r} fill="none" stroke="#00f5ff0a" strokeWidth={8}
+          strokeDasharray={`${arc} ${circ}`} strokeDashoffset={circ * 0.125} strokeLinecap="round" />
+        <circle cx={65} cy={70} r={r} fill="none" stroke={color} strokeWidth={8}
+          strokeDasharray={`${fill} ${circ}`} strokeDashoffset={circ * 0.125}
+          strokeLinecap="round" style={{ filter: `drop-shadow(0 0 6px ${color})`, transition: "stroke-dasharray 1.2s cubic-bezier(.16,1,.3,1)" }} />
+        <text x={65} y={68} textAnchor="middle" fill={color} fontSize={18} fontFamily="'Share Tech Mono',monospace" fontWeight="bold">{value}%</text>
+        <text x={65} y={84} textAnchor="middle" fill="#00f5ff33" fontSize={8} fontFamily="'Share Tech Mono',monospace" letterSpacing={1}>{label}</text>
+      </svg>
+    </div>
+  );
+}
+
+// ── STORAGE ───────────────────────────────────────────────────────────────────
+async function loadPts() { try { const r = await window.storage.get("mg_v4_pts"); return r ? JSON.parse(r.value) : []; } catch { return []; } }
+async function savePts(p) { try { await window.storage.set("mg_v4_pts", JSON.stringify(p)); } catch {} }
+
+// ── CONDITIONS ────────────────────────────────────────────────────────────────
+const CONDITIONS = {
+  diabetes_t1:   { label: "Diabetes Type 1",  icon: "🩸", color: "#ff4d6d", group: "METABOLIC" },
+  diabetes_t2:   { label: "Diabetes Type 2",  icon: "💉", color: "#ff9a3c", group: "METABOLIC" },
+  hypertension:  { label: "Hypertension",      icon: "❤️", color: "#ff2a6d", group: "CARDIOVASCULAR" },
+  asthma:        { label: "Asthma",            icon: "🫁", color: "#00c2ff", group: "RESPIRATORY" },
+  heart_disease: { label: "Heart Disease",     icon: "🫀", color: "#ff3a3a", group: "CARDIOVASCULAR" },
+  hypertrichosis:{ label: "Hypertrichosis",    icon: "🧬", color: "#bf5fff", group: "DERMATOLOGICAL" },
 };
-//# sourceURL=contact-form-7-js-before
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.4" id="contact-form-7-js"></script>
-<script type="text/javascript" id="boldgrid-editor-public-js-extra">
-/* <![CDATA[ */
-var BoldgridEditorPublic = {"is_boldgrid_theme":"","colors":{"defaults":["rgb(33, 150, 243)","rgb(13, 71, 161)","rgb(187, 222, 251)","rgb(238, 238, 238)","rgb(19, 19, 19)"],"neutral":"white"},"theme":"Avada"};
-//# sourceURL=boldgrid-editor-public-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/plugins/post-and-page-builder/assets/dist/public.min.js?ver=1.27.10" id="boldgrid-editor-public-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/plugins/fusion-builder/assets/js/min/general/fusion-title.js?ver=3.9.2" id="fusion-title-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/general/awb-tabs-widget.js?ver=3.9.2" id="awb-tabs-widget-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/general/awb-vertical-menu-widget.js?ver=3.9.2" id="awb-vertical-menu-widget-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/cssua.js?ver=2.1.28" id="cssua-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/modernizr.js?ver=3.3.1" id="modernizr-js"></script>
-<script type="text/javascript" id="fusion-js-extra">
-/* <![CDATA[ */
-var fusionJSVars = {"visibility_small":"640","visibility_medium":"1024"};
-//# sourceURL=fusion-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion.js?ver=3.9.2" id="fusion-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/swiper.js?ver=8.3.2" id="swiper-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/bootstrap.transition.js?ver=3.3.6" id="bootstrap-transition-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/bootstrap.tooltip.js?ver=3.3.5" id="bootstrap-tooltip-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.requestAnimationFrame.js?ver=1" id="jquery-request-animation-frame-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.easing.js?ver=1.3" id="jquery-easing-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.fitvids.js?ver=1.1" id="jquery-fitvids-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.flexslider.js?ver=2.7.2" id="jquery-flexslider-js"></script>
-<script type="text/javascript" id="jquery-lightbox-js-extra">
-/* <![CDATA[ */
-var fusionLightboxVideoVars = {"lightbox_video_width":"1280","lightbox_video_height":"720"};
-//# sourceURL=jquery-lightbox-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.ilightbox.js?ver=2.2.3" id="jquery-lightbox-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.mousewheel.js?ver=3.0.6" id="jquery-mousewheel-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.placeholder.js?ver=2.0.7" id="jquery-placeholder-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.fade.js?ver=1" id="jquery-fade-js"></script>
-<script type="text/javascript" id="fusion-equal-heights-js-extra">
-/* <![CDATA[ */
-var fusionEqualHeightVars = {"content_break_point":"800"};
-//# sourceURL=fusion-equal-heights-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-equal-heights.js?ver=1" id="fusion-equal-heights-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/fusion-parallax.js?ver=1" id="fusion-parallax-js"></script>
-<script type="text/javascript" id="fusion-video-general-js-extra">
-/* <![CDATA[ */
-var fusionVideoGeneralVars = {"status_vimeo":"1","status_yt":"1"};
-//# sourceURL=fusion-video-general-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/fusion-video-general.js?ver=1" id="fusion-video-general-js"></script>
-<script type="text/javascript" id="fusion-video-bg-js-extra">
-/* <![CDATA[ */
-var fusionVideoBgVars = {"status_vimeo":"1","status_yt":"1"};
-//# sourceURL=fusion-video-bg-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/fusion-video-bg.js?ver=1" id="fusion-video-bg-js"></script>
-<script type="text/javascript" id="fusion-lightbox-js-extra">
-/* <![CDATA[ */
-var fusionLightboxVars = {"status_lightbox":"1","lightbox_gallery":"1","lightbox_skin":"metro-white","lightbox_title":"1","lightbox_arrows":"1","lightbox_slideshow_speed":"5000","lightbox_autoplay":"","lightbox_opacity":"0.9","lightbox_desc":"1","lightbox_social":"1","lightbox_social_links":{"facebook":{"source":"https://www.facebook.com/sharer.php?u={URL}","text":"Share on Facebook"},"twitter":{"source":"https://twitter.com/share?url={URL}","text":"Share on Twitter"},"reddit":{"source":"https://reddit.com/submit?url={URL}","text":"Share on Reddit"},"linkedin":{"source":"https://www.linkedin.com/shareArticle?mini=true&url={URL}","text":"Share on LinkedIn"},"whatsapp":{"source":"https://api.whatsapp.com/send?text={URL}","text":"Share on WhatsApp"},"tumblr":{"source":"https://www.tumblr.com/share/link?url={URL}","text":"Share on Tumblr"},"pinterest":{"source":"https://pinterest.com/pin/create/button/?url={URL}","text":"Share on Pinterest"},"vk":{"source":"https://vk.com/share.php?url={URL}","text":"Share on Vk"},"mail":{"source":"mailto:?body={URL}","text":"Share by Email"}},"lightbox_deeplinking":"1","lightbox_path":"vertical","lightbox_post_images":"1","lightbox_animation_speed":"normal","l10n":{"close":"Press Esc to close","enterFullscreen":"Enter Fullscreen (Shift+Enter)","exitFullscreen":"Exit Fullscreen (Shift+Enter)","slideShow":"Slideshow","next":"Next","previous":"Previous"}};
-//# sourceURL=fusion-lightbox-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-lightbox.js?ver=1" id="fusion-lightbox-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-tooltip.js?ver=1" id="fusion-tooltip-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-sharing-box.js?ver=1" id="fusion-sharing-box-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.sticky-kit.js?ver=1.1.2" id="jquery-sticky-kit-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/fusion-youtube.js?ver=2.2.1" id="fusion-youtube-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/library/vimeoPlayer.js?ver=2.2.1" id="vimeo-player-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/assets/min/js/general/avada-general-footer.js?ver=7.9.2" id="avada-general-footer-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/assets/min/js/general/avada-quantity.js?ver=7.9.2" id="avada-quantity-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/assets/min/js/general/avada-crossfade-images.js?ver=7.9.2" id="avada-crossfade-images-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/assets/min/js/general/avada-select.js?ver=7.9.2" id="avada-select-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/assets/min/js/general/avada-contact-form-7.js?ver=7.9.2" id="avada-contact-form-7-js"></script>
-<script type="text/javascript" id="avada-live-search-js-extra">
-/* <![CDATA[ */
-var avadaLiveSearchVars = {"live_search":"1","ajaxurl":"https://news.cac.gov.ng/wp-admin/admin-ajax.php","no_search_results":"No search results match your query. Please try again","min_char_count":"4","per_page":"100","show_feat_img":"1","display_post_type":"1"};
-//# sourceURL=avada-live-search-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/assets/min/js/general/avada-live-search.js?ver=7.9.2" id="avada-live-search-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-alert.js?ver=6.9" id="fusion-alert-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/plugins/fusion-builder/assets/js/min/general/awb-off-canvas.js?ver=3.9.2" id="awb-off-canvas-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/plugins/fusion-builder/assets/js/min/library/jquery.textillate.js?ver=3.9.2" id="jquery-title-textillate-js"></script>
-<script type="text/javascript" id="fusion-flexslider-js-extra">
-/* <![CDATA[ */
-var fusionFlexSliderVars = {"status_vimeo":"1","slideshow_autoplay":"1","slideshow_speed":"7000","pagination_video_slide":"","status_yt":"1","flex_smoothHeight":"false"};
-//# sourceURL=fusion-flexslider-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-flexslider.js?ver=6.9" id="fusion-flexslider-js"></script>
-<script type="text/javascript" id="fusion-animations-js-extra">
-/* <![CDATA[ */
-var fusionAnimationsVars = {"status_css_animations":"desktop"};
-//# sourceURL=fusion-animations-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/plugins/fusion-builder/assets/js/min/general/fusion-animations.js?ver=6.9" id="fusion-animations-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/plugins/fusion-builder/assets/js/min/general/fusion-column-legacy.js?ver=6.9" id="fusion-column-legacy-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-button.js?ver=6.9" id="fusion-button-js"></script>
-<script type="text/javascript" id="awb-carousel-js-extra">
-/* <![CDATA[ */
-var awbCarouselVars = {"related_posts_speed":"2500","carousel_speed":"2500"};
-//# sourceURL=awb-carousel-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/general/awb-carousel.js?ver=6.9" id="awb-carousel-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/plugins/fusion-builder/assets/js/min/general/fusion-content-boxes.js?ver=3.9.2" id="fusion-content-boxes-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/plugins/fusion-builder/assets/js/min/general/fusion-flip-boxes.js?ver=3.9.2" id="fusion-flip-boxes-js"></script>
-<script type="text/javascript" id="fusion-container-js-extra">
-/* <![CDATA[ */
-var fusionContainerVars = {"content_break_point":"800","container_hundred_percent_height_mobile":"0","is_sticky_header_transparent":"0","hundred_percent_scroll_sensitivity":"450"};
-//# sourceURL=fusion-container-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/plugins/fusion-builder/assets/js/min/general/fusion-container.js?ver=3.9.2" id="fusion-container-js"></script>
-<script type="text/javascript" id="avada-header-js-extra">
-/* <![CDATA[ */
-var avadaHeaderVars = {"header_position":"top","header_sticky":"1","header_sticky_type2_layout":"menu_only","header_sticky_shadow":"1","side_header_break_point":"920","header_sticky_mobile":"","header_sticky_tablet":"1","mobile_menu_design":"modern","sticky_header_shrinkage":"","nav_height":"84","nav_highlight_border":"3","nav_highlight_style":"bar","logo_margin_top":"31px","logo_margin_bottom":"31px","layout_mode":"wide","header_padding_top":"0px","header_padding_bottom":"0px","scroll_offset":"full"};
-//# sourceURL=avada-header-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/assets/min/js/general/avada-header.js?ver=7.9.2" id="avada-header-js"></script>
-<script type="text/javascript" id="fusion-responsive-typography-js-extra">
-/* <![CDATA[ */
-var fusionTypographyVars = {"site_width":"1170px","typography_sensitivity":"0.54","typography_factor":"1.50","elements":"h1, h2, h3, h4, h5, h6"};
-//# sourceURL=fusion-responsive-typography-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-responsive-typography.js?ver=3.9.2" id="fusion-responsive-typography-js"></script>
-<script type="text/javascript" id="avada-fusion-slider-js-extra">
-/* <![CDATA[ */
-var avadaFusionSliderVars = {"side_header_break_point":"920","slider_position":"below","header_transparency":"0","mobile_header_transparency":"0","header_position":"top","content_break_point":"800","status_vimeo":"1"};
-//# sourceURL=avada-fusion-slider-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/plugins/fusion-core/js/min/avada-fusion-slider.js?ver=5.9.2" id="avada-fusion-slider-js"></script>
-<script type="text/javascript" id="avada-drop-down-js-extra">
-/* <![CDATA[ */
-var avadaSelectVars = {"avada_drop_down":"1"};
-//# sourceURL=avada-drop-down-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/assets/min/js/general/avada-drop-down.js?ver=7.9.2" id="avada-drop-down-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/assets/min/js/general/avada-sliding-bar.js?ver=7.9.2" id="avada-sliding-bar-js"></script>
-<script type="text/javascript" id="avada-to-top-js-extra">
-/* <![CDATA[ */
-var avadaToTopVars = {"status_totop":"desktop","totop_position":"right","totop_scroll_down_only":"0"};
-//# sourceURL=avada-to-top-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/assets/min/js/general/avada-to-top.js?ver=7.9.2" id="avada-to-top-js"></script>
-<script type="text/javascript" id="avada-menu-js-extra">
-/* <![CDATA[ */
-var avadaMenuVars = {"site_layout":"wide","header_position":"top","logo_alignment":"left","header_sticky":"1","header_sticky_mobile":"","header_sticky_tablet":"1","side_header_break_point":"920","megamenu_base_width":"site_width","mobile_menu_design":"modern","dropdown_goto":"Go to...","mobile_nav_cart":"Shopping Cart","mobile_submenu_open":"Open submenu of %s","mobile_submenu_close":"Close submenu of %s","submenu_slideout":"1"};
-//# sourceURL=avada-menu-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/assets/min/js/general/avada-menu.js?ver=7.9.2" id="avada-menu-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/assets/min/js/library/bootstrap.scrollspy.js?ver=7.9.2" id="bootstrap-scrollspy-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/assets/min/js/general/avada-scrollspy.js?ver=7.9.2" id="avada-scrollspy-js"></script>
-<script type="text/javascript" id="fusion-scroll-to-anchor-js-extra">
-/* <![CDATA[ */
-var fusionScrollToAnchorVars = {"content_break_point":"800","container_hundred_percent_height_mobile":"0","hundred_percent_scroll_sensitivity":"450"};
-//# sourceURL=fusion-scroll-to-anchor-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-scroll-to-anchor.js?ver=3.9.2" id="fusion-scroll-to-anchor-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-general-global.js?ver=3.9.2" id="fusion-general-global-js"></script>
-<script type="text/javascript" id="fusion-video-js-extra">
-/* <![CDATA[ */
-var fusionVideoVars = {"status_vimeo":"1"};
-//# sourceURL=fusion-video-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/plugins/fusion-builder/assets/js/min/general/fusion-video.js?ver=3.9.2" id="fusion-video-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/plugins/fusion-builder/assets/js/min/general/fusion-column.js?ver=3.9.2" id="fusion-column-js"></script>
-				<script type="text/javascript">
-				jQuery( document ).ready( function() {
-					var ajaxurl = 'https://news.cac.gov.ng/wp-admin/admin-ajax.php';
-					if ( 0 < jQuery( '.fusion-login-nonce' ).length ) {
-						jQuery.get( ajaxurl, { 'action': 'fusion_login_nonce' }, function( response ) {
-							jQuery( '.fusion-login-nonce' ).html( response );
-						});
-					}
-				});
-								</script>
-						</div>
 
-			<section class="to-top-container to-top-right" aria-labelledby="awb-to-top-label">
-		<a href="#" id="toTop" class="fusion-top-top-link">
-			<span id="awb-to-top-label" class="screen-reader-text">Go to Top</span>
-		</a>
-	</section>
-		</body>
+const SYMPTOMS = {
+  diabetes_t1:   ["Frequent urination","Excessive thirst","Weight loss","Extreme hunger","Blurred vision","Fatigue","Fruity breath","Nausea","Abdominal pain","Confusion"],
+  diabetes_t2:   ["Increased thirst","Frequent urination","Hunger spikes","Fatigue","Blurred vision","Slow-healing sores","Frequent infections","Numbness in limbs","Darkened skin","Weight changes"],
+  hypertension:  ["Severe headache","Chest pain","Shortness of breath","Nosebleeds","Dizziness","Visual changes","Fatigue","Irregular heartbeat","Neck pain","Ear buzzing"],
+  asthma:        ["Wheezing","Shortness of breath","Chest tightness","Persistent cough","Difficulty sleeping","Exercise symptoms","Cold air sensitivity","Night cough","Rapid breathing","Bluish lips"],
+  heart_disease: ["Chest pressure","Shortness of breath","Palpitations","Fatigue","Swollen legs","Dizziness","Nausea","Arm or jaw pain","Cold sweat","Fainting"],
+  hypertrichosis:["Excessive facial hair","Excessive body hair","Unusual hair sites","Congenital onset","Adult onset","Hormonal symptoms","Skin irritation","Psychological distress","Associated acne","Irregular periods"],
+};
+
+const urgCfg = {
+  routine:   { color: "#39ff14", label: "ROUTINE PROTOCOL",    bg: "#001a00" },
+  soon:      { color: "#ffb800", label: "PRIORITY PROTOCOL",   bg: "#1a1000" },
+  emergency: { color: "#ff2a2a", label: "CRITICAL — EMERGENCY", bg: "#1a0000" },
+};
+
+// ═════════════════════════════════════════════════════════════════════════════
+//  FEATURE MODULES
+// ═════════════════════════════════════════════════════════════════════════════
+
+// ── 1. DRUG INTERACTION CHECKER ───────────────────────────────────────────────
+function DrugInteractionChecker() {
+  const [drugs, setDrugs] = useState([]);
+  const [input, setInput] = useState("");
+  const [result, setResult] = useState(null);
+  const [loading, setLoading] = useState(false);
+
+  const addDrug = () => {
+    const d = input.trim();
+    if (d && !drugs.includes(d)) { setDrugs(p => [...p, d]); setInput(""); setResult(null); }
+  };
+
+  const check = async () => {
+    if (drugs.length < 2) return;
+    setLoading(true); setResult(null);
+    const text = await ai(`You are a clinical pharmacist AI. Check interactions between these drugs: ${drugs.join(", ")}.
+
+For each pair, provide:
+1. INTERACTION_LEVEL: [None/Minor/Moderate/Major/Contraindicated]
+2. MECHANISM: Brief pharmacological mechanism
+3. CLINICAL_EFFECT: What happens clinically
+4. MANAGEMENT: What to do
+
+Format each pair as:
+PAIR: DrugA + DrugB
+LEVEL: [level]
+MECHANISM: [text]
+EFFECT: [text]
+MANAGEMENT: [text]
+---
+
+End with:
+OVERALL_RISK: [Low/Medium/High/Critical]
+SUMMARY: [2-sentence overall clinical summary]`);
+    setResult(text); setLoading(false);
+  };
+
+  const parseInteractions = (text) => {
+    if (!text) return [];
+    return text.split("---").filter(b => b.includes("PAIR:")).map(block => {
+      const get = k => block.match(new RegExp(`${k}:\\s*(.+?)(?=\\n[A-Z]+:|$)`, "si"))?.[1]?.trim() || "";
+      return { pair: get("PAIR"), level: get("LEVEL"), mechanism: get("MECHANISM"), effect: get("EFFECT"), management: get("MANAGEMENT") };
+    });
+  };
+
+  const getOverall = (text) => {
+    if (!text) return {};
+    return {
+      risk: text.match(/OVERALL_RISK:\s*(.+)/i)?.[1]?.trim() || "",
+      summary: text.match(/SUMMARY:\s*([\s\S]+?)(?=\n[A-Z]+:|$)/i)?.[1]?.trim() || "",
+    };
+  };
+
+  const levelColor = { None: "#39ff14", Minor: "#7fff00", Moderate: "#ffb800", Major: "#ff6600", Contraindicated: "#ff2a2a" };
+
+  const interactions = parseInteractions(result);
+  const overall = getOverall(result);
+
+  return (
+    <div className="fu">
+      <SLabel color="#ff9a3c">Drug Interaction Checker</SLabel>
+      <div style={{ marginBottom: 16 }}>
+        <div style={{ display: "flex", gap: 8, marginBottom: 10 }}>
+          <input className="hi" placeholder="// ENTER DRUG NAME (e.g. Warfarin)..." value={input}
+            onChange={e => setInput(e.target.value)} onKeyDown={e => e.key === "Enter" && addDrug()} style={{ flex: 1 }} />
+          <button className="btn-p btn-sm" onClick={addDrug}><span>+ ADD</span></button>
+        </div>
+        {drugs.length > 0 && (
+          <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginBottom: 12 }}>
+            {drugs.map(d => (
+              <span key={d} className="drug-chip">{d}
+                <span className="rm" onClick={() => { setDrugs(p => p.filter(x => x !== d)); setResult(null); }}>✕</span>
+              </span>
+            ))}
+          </div>
+        )}
+        <button className="btn-p" disabled={drugs.length < 2 || loading} onClick={check}>
+          <span>⚡ CHECK INTERACTIONS [{drugs.length}]</span>
+        </button>
+        {drugs.length < 2 && <div style={{ marginTop: 6 }}><Mono color="#00f5ff22" size={9}>// ADD AT LEAST 2 DRUGS TO ANALYZE</Mono></div>}
+      </div>
+
+      {loading && <LoadingPulse label="SCANNING PHARMACOLOGICAL DATABASE" />}
+
+      {interactions.length > 0 && (
+        <div>
+          {overall.risk && (
+            <div style={{ padding: "12px 16px", marginBottom: 12, border: `1px solid ${levelColor[overall.risk] || "#ffb800"}44`, background: "#010a12", display: "flex", gap: 12, alignItems: "center" }}>
+              <div style={{ width: 10, height: 10, borderRadius: "50%", background: levelColor[overall.risk] || "#ffb800", boxShadow: `0 0 10px ${levelColor[overall.risk] || "#ffb800"}`, flexShrink: 0 }} />
+              <div>
+                <Mono color={levelColor[overall.risk] || "#ffb800"} size={11}>OVERALL RISK: {overall.risk?.toUpperCase()}</Mono>
+                {overall.summary && <div style={{ fontSize: 11, color: "#00f5ff66", marginTop: 4, lineHeight: 1.6 }}>{overall.summary}</div>}
+              </div>
+            </div>
+          )}
+          {interactions.map((ix, i) => (
+            <div key={i} style={{ border: `1px solid ${levelColor[ix.level] || "#00f5ff"}22`, background: "#010a12", padding: "14px 16px", marginBottom: 8, borderLeft: `3px solid ${levelColor[ix.level] || "#00f5ff"}` }}>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 10 }}>
+                <Mono color="#00f5ffaa" size={11}>{ix.pair}</Mono>
+                <span style={{ fontFamily: "'Share Tech Mono',monospace", fontSize: 9, padding: "2px 8px", border: `1px solid ${levelColor[ix.level]}44`, color: levelColor[ix.level], letterSpacing: 1 }}>{ix.level?.toUpperCase()}</span>
+              </div>
+              {[["MECHANISM", ix.mechanism], ["CLINICAL EFFECT", ix.effect], ["MANAGEMENT", ix.management]].map(([k, v]) => v && (
+                <div key={k} style={{ marginBottom: 6 }}>
+                  <Mono color="#00f5ff33" size={8}>{k}: </Mono>
+                  <span style={{ fontSize: 11, color: "#00f5ff66", lineHeight: 1.6 }}>{v}</span>
+                </div>
+              ))}
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+// ── 2. DIFFERENTIAL DIAGNOSIS ─────────────────────────────────────────────────
+function DifferentialDiagnosis() {
+  const [sx, setSx] = useState("");
+  const [age, setAge] = useState("");
+  const [gender, setGender] = useState("");
+  const [vitals, setVitals] = useState("");
+  const [result, setResult] = useState(null);
+  const [loading, setLoading] = useState(false);
+
+  const run = async () => {
+    if (!sx.trim()) return;
+    setLoading(true); setResult(null);
+    const text = await ai(`You are a senior clinician AI. Generate a differential diagnosis.
+
+Patient: Age=${age || "unknown"}, Gender=${gender || "unknown"}
+Symptoms: ${sx}
+Vitals/Context: ${vitals || "none provided"}
+
+Provide exactly 5 differential diagnoses, ordered by likelihood. For each:
+DX[n]: [Diagnosis name]
+LIKELIHOOD: [percentage 0-100]
+RATIONALE: [2 sentences why this fits]
+KEY_FINDINGS: [What findings would confirm this]
+URGENCY: [routine/soon/emergency]
+
+After all 5:
+NEXT_STEPS: [3 specific diagnostic tests/actions to narrow the differential]
+RED_FLAGS: [Any symptoms that would require immediate emergency care]`);
+    setResult(text); setLoading(false);
+  };
+
+  const parseDx = (text) => {
+    if (!text) return [];
+    return [1, 2, 3, 4, 5].map(n => {
+      const block = text.match(new RegExp(`DX\\[?${n}\\]?:[\\s\\S]*?(?=DX\\[?${n + 1}\\]?:|NEXT_STEPS:|$)`, "i"))?.[0] || "";
+      const get = k => block.match(new RegExp(`${k}:\\s*(.+?)(?=\\n[A-Z_]+:|$)`, "si"))?.[1]?.trim() || "";
+      const name = block.match(/DX\[?\d\]?:\s*(.+)/i)?.[1]?.trim() || "";
+      return { name, likelihood: parseInt(get("LIKELIHOOD")) || 0, rationale: get("RATIONALE"), findings: get("KEY_FINDINGS"), urgency: get("URGENCY") };
+    }).filter(d => d.name);
+  };
+
+  const nextSteps = result?.match(/NEXT_STEPS:\s*([\s\S]+?)(?=RED_FLAGS:|$)/i)?.[1]?.trim() || "";
+  const redFlags = result?.match(/RED_FLAGS:\s*([\s\S]+?)$/i)?.[1]?.trim() || "";
+  const dxList = parseDx(result);
+
+  return (
+    <div className="fu">
+      <SLabel color="#bf5fff">AI Differential Diagnosis</SLabel>
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 10, marginBottom: 12 }}>
+        <div>
+          <label style={{ display: "block", fontFamily: "'Share Tech Mono',monospace", fontSize: 8, color: "#00f5ff33", letterSpacing: 2, marginBottom: 6 }}>PATIENT AGE</label>
+          <input className="hi" type="number" placeholder="e.g. 45" value={age} onChange={e => setAge(e.target.value)} />
+        </div>
+        <div>
+          <label style={{ display: "block", fontFamily: "'Share Tech Mono',monospace", fontSize: 8, color: "#00f5ff33", letterSpacing: 2, marginBottom: 6 }}>BIOLOGICAL SEX</label>
+          <select className="hi" value={gender} onChange={e => setGender(e.target.value)}>
+            <option value="">// SELECT</option><option>Male</option><option>Female</option><option>Other</option>
+          </select>
+        </div>
+        <div>
+          <label style={{ display: "block", fontFamily: "'Share Tech Mono',monospace", fontSize: 8, color: "#00f5ff33", letterSpacing: 2, marginBottom: 6 }}>KEY VITALS</label>
+          <input className="hi" placeholder="e.g. BP 150/90, HR 95" value={vitals} onChange={e => setVitals(e.target.value)} />
+        </div>
+      </div>
+      <div style={{ marginBottom: 12 }}>
+        <label style={{ display: "block", fontFamily: "'Share Tech Mono',monospace", fontSize: 8, color: "#00f5ff33", letterSpacing: 2, marginBottom: 6 }}>PRESENTING SYMPTOMS & HISTORY</label>
+        <textarea className="hi" style={{ minHeight: 80, resize: "vertical" }}
+          placeholder="// Describe symptoms, onset, duration, associated factors, medical history..."
+          value={sx} onChange={e => setSx(e.target.value)} />
+      </div>
+      <button className="btn-p" disabled={!sx.trim() || loading} onClick={run}><span>🧠 GENERATE DIFFERENTIAL</span></button>
+
+      {loading && <LoadingPulse label="COMPUTING DIFFERENTIAL DIAGNOSIS" />}
+
+      {dxList.length > 0 && (
+        <div style={{ marginTop: 16 }}>
+          {dxList.map((d, i) => {
+            const u = urgCfg[d.urgency] || urgCfg.routine;
+            const barColor = i === 0 ? "#bf5fff" : i === 1 ? "#00c2ff" : "#00f5ff";
+            return (
+              <div key={i} style={{ background: "#010a12", border: "1px solid #00f5ff0d", borderLeft: `3px solid ${barColor}`, padding: "14px 16px", marginBottom: 8 }}>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 10 }}>
+                  <div>
+                    <span style={{ fontFamily: "'Share Tech Mono',monospace", fontSize: 9, color: barColor + "88", marginRight: 8 }}>#{i + 1}</span>
+                    <span style={{ fontFamily: "'Exo 2',sans-serif", fontWeight: 700, fontSize: 13, color: "#c8e6ff" }}>{d.name}</span>
+                  </div>
+                  <div style={{ display: "flex", gap: 6, alignItems: "center", flexShrink: 0 }}>
+                    <span style={{ fontFamily: "'Share Tech Mono',monospace", fontSize: 10, color: barColor }}>{d.likelihood}%</span>
+                    <span style={{ fontFamily: "'Share Tech Mono',monospace", fontSize: 8, padding: "1px 7px", border: `1px solid ${u.color}33`, color: u.color, letterSpacing: 1 }}>{d.urgency?.toUpperCase()}</span>
+                  </div>
+                </div>
+                <div style={{ height: 3, background: "#00f5ff08", marginBottom: 10 }}>
+                  <div style={{ height: 3, width: `${d.likelihood}%`, background: barColor, boxShadow: `0 0 6px ${barColor}`, transition: "width 1s ease" }} />
+                </div>
+                {d.rationale && <div style={{ fontSize: 11, color: "#00f5ff77", lineHeight: 1.7, marginBottom: 6 }}>{d.rationale}</div>}
+                {d.findings && (
+                  <div style={{ fontSize: 10, color: "#00f5ff44" }}>
+                    <Mono color="#00f5ff22" size={8}>KEY FINDINGS: </Mono>{d.findings}
+                  </div>
+                )}
+              </div>
+            );
+          })}
+          {nextSteps && (
+            <div style={{ background: "#010a12", border: "1px solid #00c2ff22", padding: "14px 16px", marginBottom: 8 }}>
+              <SLabel color="#00c2ff">Recommended Next Steps</SLabel>
+              <div style={{ fontSize: 12, color: "#00c2ff88", lineHeight: 1.8, whiteSpace: "pre-line" }}>{nextSteps}</div>
+            </div>
+          )}
+          {redFlags && (
+            <div style={{ background: "#1a000a", border: "1px solid #ff2a2a33", padding: "14px 16px" }}>
+              <SLabel color="#ff2a2a">⚠️ Red Flag Symptoms</SLabel>
+              <div style={{ fontSize: 12, color: "#ff2a2a88", lineHeight: 1.8 }}>{redFlags}</div>
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
+// ── 3. RISK SCORE CALCULATOR ──────────────────────────────────────────────────
+function RiskCalculator() {
+  const [riskType, setRiskType] = useState("heart");
+  const [fields, setFields] = useState({});
+  const [result, setResult] = useState(null);
+  const [loading, setLoading] = useState(false);
+
+  const RISK_CONFIGS = {
+    heart: {
+      label: "10-Year Heart Attack Risk", color: "#ff3a3a",
+      fields: [
+        { key: "age", label: "Age (years)", type: "number", placeholder: "e.g. 55" },
+        { key: "gender", label: "Sex", type: "select", opts: ["Male", "Female"] },
+        { key: "sbp", label: "Systolic BP (mmHg)", type: "number", placeholder: "e.g. 130" },
+        { key: "tc", label: "Total Cholesterol (mg/dL)", type: "number", placeholder: "e.g. 200" },
+        { key: "hdl", label: "HDL Cholesterol (mg/dL)", type: "number", placeholder: "e.g. 50" },
+        { key: "smoking", label: "Smoker", type: "select", opts: ["No", "Yes"] },
+        { key: "diabetes", label: "Diabetes", type: "select", opts: ["No", "Yes"] },
+        { key: "bpTx", label: "On BP Treatment", type: "select", opts: ["No", "Yes"] },
+      ]
+    },
+    stroke: {
+      label: "Stroke Risk (CHADS₂-VASc)", color: "#00c2ff",
+      fields: [
+        { key: "age", label: "Age", type: "number", placeholder: "e.g. 65" },
+        { key: "gender", label: "Sex", type: "select", opts: ["Male", "Female"] },
+        { key: "chf", label: "Heart Failure", type: "select", opts: ["No", "Yes"] },
+        { key: "htn", label: "Hypertension", type: "select", opts: ["No", "Yes"] },
+        { key: "diabetes", label: "Diabetes", type: "select", opts: ["No", "Yes"] },
+        { key: "stroke_hx", label: "Prior Stroke/TIA", type: "select", opts: ["No", "Yes"] },
+        { key: "vasc", label: "Vascular Disease", type: "select", opts: ["No", "Yes"] },
+      ]
+    },
+    diabetes: {
+      label: "Type 2 Diabetes Risk", color: "#ff9a3c",
+      fields: [
+        { key: "age", label: "Age (years)", type: "number", placeholder: "e.g. 45" },
+        { key: "bmi", label: "BMI", type: "number", placeholder: "e.g. 28" },
+        { key: "waist", label: "Waist Circumference (cm)", type: "number", placeholder: "e.g. 92" },
+        { key: "phys_act", label: "Physical Activity", type: "select", opts: ["Active","Somewhat Active","Sedentary"] },
+        { key: "family_hx", label: "Family History", type: "select", opts: ["No", "Yes"] },
+        { key: "htn", label: "Hypertension", type: "select", opts: ["No", "Yes"] },
+        { key: "glucose_hx", label: "High Glucose History", type: "select", opts: ["No", "Yes"] },
+      ]
+    },
+  };
+
+  const cfg = RISK_CONFIGS[riskType];
+
+  const calculate = async () => {
+    setLoading(true); setResult(null);
+    const fStr = Object.entries(fields).map(([k, v]) => `${k}: ${v}`).join(", ");
+    const text = await ai(`You are a clinical risk stratification AI.
+
+Risk Assessment: ${cfg.label}
+Patient Data: ${fStr}
+
+Calculate the risk score and provide:
+RISK_SCORE: [numeric percentage 0-100]
+RISK_CATEGORY: [Low/Borderline/Intermediate/High/Very High]
+INTERPRETATION: [2-sentence clinical interpretation]
+CONTRIBUTING_FACTORS: [3-4 most significant risk factors for this patient]
+RECOMMENDATIONS: [4-5 specific risk-reduction interventions]
+MONITORING: [What to monitor and how often]
+
+Be clinically accurate. Base on established guidelines (ACC/AHA, ESC, etc.).`);
+    setResult(text); setLoading(false);
+  };
+
+  const get = k => result?.match(new RegExp(`${k}:\\s*([\\s\\S]+?)(?=\\n[A-Z_]+:|$)`, "i"))?.[1]?.trim() || "";
+  const score = parseInt(get("RISK_SCORE")) || 0;
+  const category = get("RISK_CATEGORY");
+  const catColor = { Low: "#39ff14", Borderline: "#7fff00", Intermediate: "#ffb800", High: "#ff6600", "Very High": "#ff2a2a" }[category] || cfg.color;
+
+  return (
+    <div className="fu">
+      <SLabel color="#ff3a3a">Clinical Risk Calculator</SLabel>
+
+      {/* Risk type selector */}
+      <div style={{ display: "flex", gap: 8, marginBottom: 16 }}>
+        {Object.entries(RISK_CONFIGS).map(([k, v]) => (
+          <button key={k} onClick={() => { setRiskType(k); setFields({}); setResult(null); }}
+            style={{ border: `1px solid ${riskType === k ? v.color : "#00f5ff15"}`, background: riskType === k ? v.color + "15" : "transparent", color: riskType === k ? v.color : "#00f5ff33", padding: "7px 14px", cursor: "pointer", fontSize: 10, fontFamily: "'Exo 2',sans-serif", letterSpacing: 1, textTransform: "uppercase", transition: "all .2s" }}>
+            {v.label.split(" ").slice(0, 3).join(" ")}
+          </button>
+        ))}
+      </div>
+
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(2,1fr)", gap: 10, marginBottom: 14 }}>
+        {cfg.fields.map(f => (
+          <div key={f.key}>
+            <label style={{ display: "block", fontFamily: "'Share Tech Mono',monospace", fontSize: 8, color: "#00f5ff33", letterSpacing: 2, marginBottom: 6 }}>{f.label.toUpperCase()}</label>
+            {f.type === "select" ? (
+              <select className="hi" value={fields[f.key] || ""} onChange={e => setFields(p => ({ ...p, [f.key]: e.target.value }))}>
+                <option value="">// SELECT</option>
+                {f.opts.map(o => <option key={o}>{o}</option>)}
+              </select>
+            ) : (
+              <input className="hi" type={f.type} placeholder={f.placeholder} value={fields[f.key] || ""} onChange={e => setFields(p => ({ ...p, [f.key]: e.target.value }))} />
+            )}
+          </div>
+        ))}
+      </div>
+
+      <button className="btn-p" disabled={loading} onClick={calculate}><span>📊 CALCULATE RISK SCORE</span></button>
+      {loading && <LoadingPulse label="COMPUTING RISK STRATIFICATION" />}
+
+      {result && score > 0 && (
+        <div style={{ marginTop: 16 }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 20, background: "#010a12", border: `1px solid ${catColor}22`, padding: "16px 20px", marginBottom: 12 }}>
+            <RiskGauge value={score} label={category?.toUpperCase()} color={catColor} />
+            <div style={{ flex: 1 }}>
+              <div style={{ fontFamily: "'Share Tech Mono',monospace", fontSize: 10, color: catColor + "66", letterSpacing: 2, marginBottom: 4 }}>{cfg.label.toUpperCase()}</div>
+              <div style={{ fontFamily: "'Exo 2',sans-serif", fontWeight: 900, fontSize: 28, color: catColor, marginBottom: 4 }}>{score}%</div>
+              <div style={{ fontFamily: "'Share Tech Mono',monospace", fontSize: 9, padding: "2px 10px", border: `1px solid ${catColor}44`, color: catColor, display: "inline-block", letterSpacing: 1 }}>{category?.toUpperCase()}</div>
+              <div style={{ marginTop: 8, fontSize: 11, color: "#00f5ff66", lineHeight: 1.7 }}>{get("INTERPRETATION")}</div>
+            </div>
+          </div>
+          {[["CONTRIBUTING FACTORS", get("CONTRIBUTING_FACTORS"), "#ffb800"], ["RECOMMENDATIONS", get("RECOMMENDATIONS"), "#39ff14"], ["MONITORING PLAN", get("MONITORING"), "#00c2ff"]].map(([k, v, c]) => v && (
+            <div key={k} style={{ background: "#010a12", border: `1px solid ${c}15`, padding: "14px 16px", marginBottom: 8, borderLeft: `2px solid ${c}` }}>
+              <Mono color={c + "88"} size={8}>{k}</Mono>
+              <div style={{ marginTop: 8, fontSize: 11, color: "#00f5ff77", lineHeight: 1.8, whiteSpace: "pre-line" }}>{v}</div>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+// ── 4. DOSAGE CALCULATOR ──────────────────────────────────────────────────────
+function DosageCalculator() {
+  const [med, setMed] = useState("");
+  const [weight, setWeight] = useState("");
+  const [age, setAge] = useState("");
+  const [indication, setIndication] = useState("");
+  const [renal, setRenal] = useState("");
+  const [hepatic, setHepatic] = useState("");
+  const [result, setResult] = useState(null);
+  const [loading, setLoading] = useState(false);
+
+  const calculate = async () => {
+    if (!med.trim()) return;
+    setLoading(true); setResult(null);
+    const text = await ai(`You are a clinical pharmacist AI. Calculate appropriate dosing.
+
+Medication: ${med}
+Patient Weight: ${weight || "unknown"} kg
+Patient Age: ${age || "unknown"} years
+Indication: ${indication || "not specified"}
+Renal Function: ${renal || "normal"}
+Hepatic Function: ${hepatic || "normal"}
+
+Provide:
+STANDARD_DOSE: [dose and frequency for this patient]
+DOSE_CALCULATION: [show the weight/age-based calculation if applicable]
+ROUTE: [administration route(s)]
+MAX_DOSE: [maximum safe dose per day]
+ADJUSTMENTS: [any dose adjustments needed for renal/hepatic/age]
+MONITORING: [what to monitor for efficacy and toxicity]
+INTERACTIONS_NOTE: [key interactions to be aware of]
+CONTRAINDICATIONS: [key contraindications]
+WARNINGS: [important clinical warnings]`);
+    setResult(text); setLoading(false);
+  };
+
+  const get = k => result?.match(new RegExp(`${k}:\\s*([\\s\\S]+?)(?=\\n[A-Z_]+:|$)`, "i"))?.[1]?.trim() || "";
+
+  return (
+    <div className="fu">
+      <SLabel color="#39ff14">Medication Dosage Calculator</SLabel>
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10, marginBottom: 12 }}>
+        <div style={{ gridColumn: "1/-1" }}>
+          <label style={{ display: "block", fontFamily: "'Share Tech Mono',monospace", fontSize: 8, color: "#00f5ff33", letterSpacing: 2, marginBottom: 6 }}>MEDICATION NAME</label>
+          <input className="hi" placeholder="// e.g. Amoxicillin, Metformin, Lisinopril..." value={med} onChange={e => setMed(e.target.value)} />
+        </div>
+        {[["weight","PATIENT WEIGHT (kg)","number","e.g. 70"],["age","PATIENT AGE (years)","number","e.g. 45"]].map(([k,l,t,ph])=>(
+          <div key={k}>
+            <label style={{ display: "block", fontFamily: "'Share Tech Mono',monospace", fontSize: 8, color: "#00f5ff33", letterSpacing: 2, marginBottom: 6 }}>{l}</label>
+            <input className="hi" type={t} placeholder={ph} value={k==="weight"?weight:age} onChange={e=>k==="weight"?setWeight(e.target.value):setAge(e.target.value)} />
+          </div>
+        ))}
+        <div>
+          <label style={{ display: "block", fontFamily: "'Share Tech Mono',monospace", fontSize: 8, color: "#00f5ff33", letterSpacing: 2, marginBottom: 6 }}>INDICATION</label>
+          <input className="hi" placeholder="e.g. Hypertension, Infection..." value={indication} onChange={e => setIndication(e.target.value)} />
+        </div>
+        <div>
+          <label style={{ display: "block", fontFamily: "'Share Tech Mono',monospace", fontSize: 8, color: "#00f5ff33", letterSpacing: 2, marginBottom: 6 }}>RENAL FUNCTION (eGFR)</label>
+          <input className="hi" placeholder="e.g. Normal, eGFR 45, ESRD..." value={renal} onChange={e => setRenal(e.target.value)} />
+        </div>
+        <div>
+          <label style={{ display: "block", fontFamily: "'Share Tech Mono',monospace", fontSize: 8, color: "#00f5ff33", letterSpacing: 2, marginBottom: 6 }}>HEPATIC FUNCTION</label>
+          <select className="hi" value={hepatic} onChange={e => setHepatic(e.target.value)}>
+            <option value="">Normal</option><option>Mild Impairment</option><option>Moderate Impairment</option><option>Severe Impairment (Child-Pugh C)</option>
+          </select>
+        </div>
+      </div>
+      <button className="btn-p" disabled={!med.trim() || loading} onClick={calculate}><span>💊 CALCULATE DOSAGE</span></button>
+      {loading && <LoadingPulse label="COMPUTING PHARMACOLOGICAL DOSAGE" />}
+
+      {result && (
+        <div style={{ marginTop: 16 }}>
+          {/* Main dose box */}
+          <div style={{ background: "#000f08", border: "1px solid #39ff1422", padding: "16px 20px", marginBottom: 12 }}>
+            <Mono color="#39ff1466" size={8}>CALCULATED DOSE FOR {med.toUpperCase()}</Mono>
+            <div style={{ fontFamily: "'Share Tech Mono',monospace", fontSize: 20, color: "#39ff14", marginTop: 8, textShadow: "0 0 20px #39ff1466" }}>{get("STANDARD_DOSE")}</div>
+            {get("DOSE_CALCULATION") && <div style={{ fontSize: 11, color: "#39ff1455", marginTop: 6, fontFamily: "'Share Tech Mono',monospace" }}>CALC: {get("DOSE_CALCULATION")}</div>}
+            <div style={{ display: "flex", gap: 12, marginTop: 10 }}>
+              <div><Mono color="#00f5ff33" size={8}>ROUTE: </Mono><Mono color="#00f5ff77" size={10}>{get("ROUTE")}</Mono></div>
+              <div><Mono color="#00f5ff33" size={8}>MAX/DAY: </Mono><Mono color="#ffb80088" size={10}>{get("MAX_DOSE")}</Mono></div>
+            </div>
+          </div>
+          {[
+            ["DOSE ADJUSTMENTS", get("ADJUSTMENTS"), "#ffb800"],
+            ["MONITORING PARAMETERS", get("MONITORING"), "#00c2ff"],
+            ["INTERACTION NOTES", get("INTERACTIONS_NOTE"), "#bf5fff"],
+            ["CONTRAINDICATIONS", get("CONTRAINDICATIONS"), "#ff6600"],
+            ["CLINICAL WARNINGS", get("WARNINGS"), "#ff2a2a"],
+          ].map(([k, v, c]) => v && (
+            <div key={k} style={{ background: "#010a12", borderLeft: `2px solid ${c}`, padding: "12px 16px", marginBottom: 8 }}>
+              <Mono color={c + "66"} size={8}>{k}</Mono>
+              <div style={{ marginTop: 6, fontSize: 11, color: "#00f5ff66", lineHeight: 1.7 }}>{v}</div>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+// ── 5. LAB RESULTS INTERPRETER ────────────────────────────────────────────────
+function LabInterpreter() {
+  const [labs, setLabs] = useState([{ name: "", value: "", unit: "" }]);
+  const [context, setContext] = useState("");
+  const [result, setResult] = useState(null);
+  const [loading, setLoading] = useState(false);
+
+  const addRow = () => setLabs(p => [...p, { name: "", value: "", unit: "" }]);
+  const updateRow = (i, k, v) => setLabs(p => p.map((r, j) => j === i ? { ...r, [k]: v } : r));
+  const removeRow = i => setLabs(p => p.filter((_, j) => j !== i));
+
+  const interpret = async () => {
+    const labStr = labs.filter(l => l.name && l.value).map(l => `${l.name}: ${l.value} ${l.unit}`).join(", ");
+    if (!labStr) return;
+    setLoading(true); setResult(null);
+    const text = await ai(`You are a clinical pathologist AI. Interpret these lab results:
+
+Labs: ${labStr}
+Clinical Context: ${context || "not provided"}
+
+For each abnormal or notable result:
+RESULT_NAME: [lab name]
+VALUE_STATUS: [Normal/Low/High/Critical Low/Critical High]
+CLINICAL_SIGNIFICANCE: [what this means clinically - 1 sentence]
+LIKELY_CAUSES: [2-3 most likely causes]
+
+Then provide:
+PATTERN_ANALYSIS: [Are there patterns suggesting a specific condition? 2-3 sentences]
+URGENCY: [routine/soon/emergency]
+RECOMMENDED_ACTIONS: [4-5 specific clinical actions based on these results]
+REPEAT_TESTING: [which labs should be repeated and when]`);
+    setResult(text); setLoading(false);
+  };
+
+  const parseResults = (text) => {
+    if (!text) return [];
+    const blocks = text.split(/(?=RESULT_NAME:)/i).filter(b => b.includes("RESULT_NAME:"));
+    return blocks.map(b => {
+      const get = k => b.match(new RegExp(`${k}:\\s*(.+?)(?=\\n[A-Z_]+:|$)`, "si"))?.[1]?.trim() || "";
+      return { name: get("RESULT_NAME"), status: get("VALUE_STATUS"), significance: get("CLINICAL_SIGNIFICANCE"), causes: get("LIKELY_CAUSES") };
+    });
+  };
+
+  const statusColor = { Normal: "#39ff14", Low: "#00c2ff", High: "#ffb800", "Critical Low": "#ff2a2a", "Critical High": "#ff2a2a" };
+  const parsedResults = parseResults(result);
+  const get = k => result?.match(new RegExp(`${k}:\\s*([\\s\\S]+?)(?=\\n[A-Z_]+:|$)`, "i"))?.[1]?.trim() || "";
+
+  return (
+    <div className="fu">
+      <SLabel color="#00c2ff">Lab Results Interpreter</SLabel>
+      <div style={{ background: "#010a12", border: "1px solid #00f5ff0d", padding: "14px", marginBottom: 12 }}>
+        <div style={{ display: "grid", gridTemplateColumns: "2fr 1fr 1fr auto", gap: 8, marginBottom: 8 }}>
+          <Mono color="#00f5ff33" size={8}>TEST NAME</Mono>
+          <Mono color="#00f5ff33" size={8}>VALUE</Mono>
+          <Mono color="#00f5ff33" size={8}>UNIT</Mono>
+          <div />
+        </div>
+        {labs.map((l, i) => (
+          <div key={i} style={{ display: "grid", gridTemplateColumns: "2fr 1fr 1fr auto", gap: 8, marginBottom: 6 }}>
+            <input className="hi" style={{ fontSize: 11 }} placeholder="e.g. Hemoglobin" value={l.name} onChange={e => updateRow(i, "name", e.target.value)} />
+            <input className="hi" style={{ fontSize: 11 }} placeholder="e.g. 11.2" value={l.value} onChange={e => updateRow(i, "value", e.target.value)} />
+            <input className="hi" style={{ fontSize: 11 }} placeholder="e.g. g/dL" value={l.unit} onChange={e => updateRow(i, "unit", e.target.value)} />
+            <button onClick={() => removeRow(i)} style={{ background: "none", border: "1px solid #ff2a2a22", color: "#ff2a2a44", cursor: "pointer", padding: "0 8px", fontSize: 12 }}>✕</button>
+          </div>
+        ))}
+        <button className="btn-g btn-sm" onClick={addRow} style={{ marginTop: 4 }}>+ ADD LAB</button>
+      </div>
+      <div style={{ marginBottom: 12 }}>
+        <label style={{ display: "block", fontFamily: "'Share Tech Mono',monospace", fontSize: 8, color: "#00f5ff33", letterSpacing: 2, marginBottom: 6 }}>CLINICAL CONTEXT</label>
+        <textarea className="hi" style={{ minHeight: 60, resize: "vertical" }} placeholder="// Patient history, symptoms, current medications relevant to these labs..." value={context} onChange={e => setContext(e.target.value)} />
+      </div>
+      <button className="btn-p" disabled={loading || !labs.some(l => l.name && l.value)} onClick={interpret}><span>🔬 INTERPRET RESULTS</span></button>
+      {loading && <LoadingPulse label="ANALYZING LABORATORY DATA" />}
+
+      {parsedResults.length > 0 && (
+        <div style={{ marginTop: 16 }}>
+          {parsedResults.map((r, i) => {
+            const sc = statusColor[r.status] || "#00f5ff";
+            return (
+              <div key={i} className="lab-row" style={{ display: "flex", gap: 14, padding: "12px 14px", borderBottom: "1px solid #00f5ff06", background: "#010a12", marginBottom: 4 }}>
+                <div style={{ width: 8, height: 8, borderRadius: "50%", background: sc, marginTop: 5, flexShrink: 0, boxShadow: `0 0 8px ${sc}` }} />
+                <div style={{ flex: 1 }}>
+                  <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 4 }}>
+                    <span style={{ fontFamily: "'Exo 2',sans-serif", fontWeight: 600, fontSize: 12, color: "#c8e6ff" }}>{r.name}</span>
+                    <span style={{ fontFamily: "'Share Tech Mono',monospace", fontSize: 9, color: sc, padding: "1px 7px", border: `1px solid ${sc}33`, letterSpacing: 1 }}>{r.status?.toUpperCase()}</span>
+                  </div>
+                  {r.significance && <div style={{ fontSize: 11, color: "#00f5ff66", lineHeight: 1.6, marginBottom: 4 }}>{r.significance}</div>}
+                  {r.causes && <div style={{ fontSize: 10, color: "#00f5ff33" }}><Mono color="#00f5ff22" size={8}>CAUSES: </Mono>{r.causes}</div>}
+                </div>
+              </div>
+            );
+          })}
+          {[
+            ["PATTERN ANALYSIS", get("PATTERN_ANALYSIS"), "#bf5fff"],
+            ["RECOMMENDED ACTIONS", get("RECOMMENDED_ACTIONS"), "#39ff14"],
+            ["REPEAT TESTING", get("REPEAT_TESTING"), "#00c2ff"],
+          ].map(([k, v, c]) => v && (
+            <div key={k} style={{ background: "#010a12", borderLeft: `2px solid ${c}`, padding: "12px 16px", marginBottom: 8, marginTop: 8 }}>
+              <Mono color={c + "66"} size={8}>{k}</Mono>
+              <div style={{ marginTop: 6, fontSize: 11, color: "#00f5ff66", lineHeight: 1.8, whiteSpace: "pre-line" }}>{v}</div>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+// ── 6. AI PATIENT CHATBOT ─────────────────────────────────────────────────────
+function PatientChatbot({ patients }) {
+  const [selectedPt, setSelectedPt] = useState(null);
+  const [messages, setMessages] = useState([]);
+  const [input, setInput] = useState("");
+  const [loading, setLoading] = useState(false);
+  const bottomRef = useRef(null);
+
+  useEffect(() => { bottomRef.current?.scrollIntoView({ behavior: "smooth" }); }, [messages]);
+
+  const buildContext = (pt) => {
+    if (!pt) return "You are a clinical AI assistant.";
+    const assessments = (pt.assessments || []).slice(-3);
+    const lastA = assessments.slice(-1)[0];
+    return `You are an expert clinical AI assistant for a medical system called MedGuide Nexus. 
+You are reviewing the case of patient: ${pt.name}, Age: ${pt.age || "unknown"}, Sex: ${pt.gender || "unknown"}.
+${lastA ? `Last assessment: ${CONDITIONS[lastA.condition]?.label || lastA.condition}, Severity: ${lastA.severity}, Urgency: ${lastA.urgency}.
+Vitals: BP=${lastA.vitals?.bp || "N/A"}, Glucose=${lastA.vitals?.glucose || "N/A"}, BMI=${lastA.vitals?.bmi || "N/A"}.
+Symptoms: ${lastA.symptoms?.join(", ") || "none"}.
+AI summary: ${lastA.aiDiagnosis || "none"}.` : "No assessment data available."}
+Answer clinical questions about this patient concisely and accurately. Be helpful to the clinician but remind them that all clinical decisions require physician oversight. Keep responses under 200 words.`;
+  };
+
+  const send = async () => {
+    if (!input.trim() || loading) return;
+    const userMsg = { role: "user", content: input.trim() };
+    const newMessages = [...messages, userMsg];
+    setMessages(newMessages); setInput(""); setLoading(true);
+
+    const history = newMessages.map(m => ({ role: m.role, content: m.content }));
+    const sys = buildContext(selectedPt);
+    const res = await fetch("https://api.anthropic.com/v1/messages", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ model: "claude-sonnet-4-20250514", max_tokens: 1000, system: sys, messages: history }),
+    });
+    const d = await res.json();
+    const reply = d.content?.[0]?.text || "I was unable to generate a response.";
+    setMessages(p => [...p, { role: "assistant", content: reply }]);
+    setLoading(false);
+  };
+
+  const quickPrompts = selectedPt ? [
+    "Summarize this patient's condition",
+    "What are the main treatment priorities?",
+    "Any drug interactions I should know about?",
+    "What follow-up tests are recommended?",
+    "Assess risk of complications",
+  ] : [];
+
+  return (
+    <div className="fu" style={{ display: "flex", flexDirection: "column", height: "calc(100vh - 200px)", minHeight: 500 }}>
+      <SLabel color="#ffb800">AI Clinical Chatbot</SLabel>
+
+      {/* Patient selector */}
+      <div style={{ marginBottom: 12 }}>
+        <label style={{ display: "block", fontFamily: "'Share Tech Mono',monospace", fontSize: 8, color: "#00f5ff33", letterSpacing: 2, marginBottom: 6 }}>SELECT PATIENT CONTEXT</label>
+        <select className="hi" value={selectedPt?.id || ""} onChange={e => {
+          const pt = patients.find(p => p.id === e.target.value) || null;
+          setSelectedPt(pt); setMessages([]);
+        }}>
+          <option value="">// GENERAL CLINICAL AI (no patient)</option>
+          {patients.map(p => <option key={p.id} value={p.id}>{p.name} [{p.id}]</option>)}
+        </select>
+      </div>
+
+      {/* Quick prompts */}
+      {quickPrompts.length > 0 && messages.length === 0 && (
+        <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginBottom: 12 }}>
+          {quickPrompts.map(q => (
+            <button key={q} onClick={() => { setInput(q); }}
+              style={{ background: "#010a12", border: "1px solid #ffb80022", color: "#ffb80066", padding: "5px 12px", fontSize: 10, cursor: "pointer", fontFamily: "'Exo 2',sans-serif", transition: "all .15s" }}
+              onMouseOver={e => { e.target.style.borderColor = "#ffb80066"; e.target.style.color = "#ffb800aa"; }}
+              onMouseOut={e => { e.target.style.borderColor = "#ffb80022"; e.target.style.color = "#ffb80066"; }}>
+              {q}
+            </button>
+          ))}
+        </div>
+      )}
+
+      {/* Chat window */}
+      <div style={{ flex: 1, overflowY: "auto", background: "#010a12", border: "1px solid #00f5ff0d", padding: "16px", marginBottom: 10, position: "relative" }}>
+        {messages.length === 0 && (
+          <div style={{ position: "absolute", inset: 0, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 8 }}>
+            <div style={{ fontSize: 32, opacity: 0.3 }}>🤖</div>
+            <Mono color="#00f5ff22" size={10}>MEDGUIDE AI CLINICIAN ONLINE</Mono>
+            <Mono color="#00f5ff15" size={9}>{selectedPt ? `PATIENT: ${selectedPt.name.toUpperCase()} LOADED` : "// ASK ANY CLINICAL QUESTION"}</Mono>
+          </div>
+        )}
+        {messages.map((m, i) => (
+          <div key={i} className={m.role === "user" ? "chat-bubble-user" : "chat-bubble-ai"}
+            style={{ display: "flex", gap: 10, marginBottom: 14, justifyContent: m.role === "user" ? "flex-end" : "flex-start" }}>
+            {m.role === "assistant" && (
+              <div style={{ width: 28, height: 28, borderRadius: 2, background: "#00f5ff15", border: "1px solid #00f5ff22", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 14, flexShrink: 0 }}>⚕</div>
+            )}
+            <div style={{
+              maxWidth: "75%", padding: "10px 14px",
+              background: m.role === "user" ? "#0d2a1a" : "#010f1a",
+              border: `1px solid ${m.role === "user" ? "#39ff1422" : "#00f5ff15"}`,
+              borderRadius: 2, fontSize: 12, lineHeight: 1.7,
+              color: m.role === "user" ? "#39ff14aa" : "#00f5ff88",
+            }}>
+              {m.content}
+            </div>
+            {m.role === "user" && (
+              <div style={{ width: 28, height: 28, borderRadius: 2, background: "#39ff1415", border: "1px solid #39ff1422", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 12, flexShrink: 0 }}>👤</div>
+            )}
+          </div>
+        ))}
+        {loading && (
+          <div style={{ display: "flex", gap: 10, marginBottom: 14 }}>
+            <div style={{ width: 28, height: 28, borderRadius: 2, background: "#00f5ff15", border: "1px solid #00f5ff22", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 14, flexShrink: 0 }}>⚕</div>
+            <div style={{ padding: "10px 14px", background: "#010f1a", border: "1px solid #00f5ff15", borderRadius: 2 }}>
+              <div style={{ display: "flex", gap: 4 }}>
+                {[0, 1, 2].map(i => <div key={i} style={{ width: 4, height: 4, borderRadius: "50%", background: "#00f5ff", animation: `blink 1s ${i * 0.25}s infinite` }} />)}
+              </div>
+            </div>
+          </div>
+        )}
+        <div ref={bottomRef} />
+      </div>
+
+      {/* Input */}
+      <div style={{ display: "flex", gap: 8 }}>
+        <input className="hi" style={{ flex: 1 }} placeholder="// ASK CLINICAL QUESTION..." value={input}
+          onChange={e => setInput(e.target.value)} onKeyDown={e => e.key === "Enter" && !e.shiftKey && send()} />
+        <button className="btn-p" disabled={!input.trim() || loading} onClick={send}><span>SEND ▶</span></button>
+        {messages.length > 0 && <button className="btn-g" onClick={() => setMessages([])}>CLR</button>}
+      </div>
+    </div>
+  );
+}
+
+// ═════════════════════════════════════════════════════════════════════════════
+//  MAIN APP
+// ═════════════════════════════════════════════════════════════════════════════
+function App() {
+  const [view, setView] = useState("dashboard");
+  const [patients, setPatients] = useState([]);
+  const [time, setTime] = useState(new Date());
+
+  useEffect(() => { loadPts().then(setPatients); }, []);
+  useEffect(() => { const t = setInterval(() => setTime(new Date()), 1000); return () => clearInterval(t); }, []);
+
+  const allAssessments = patients.flatMap(p => p.assessments || []);
+  const emergency = allAssessments.filter(a => a.urgency === "emergency").length;
+
+  const navGroups = [
+    {
+      label: "CORE", items: [
+        { id: "dashboard", icon: "⊞", label: "DASHBOARD" },
+        { id: "records",   icon: "⬡", label: "PATIENT REGISTRY" },
+      ]
+    },
+    {
+      label: "AI MODULES", items: [
+        { id: "drug_check",    icon: "⚗", label: "DRUG INTERACTIONS", color: "#ff9a3c" },
+        { id: "diff_dx",       icon: "🧠", label: "DIFFERENTIAL DX",   color: "#bf5fff" },
+        { id: "risk_calc",     icon: "📊", label: "RISK CALCULATOR",   color: "#ff3a3a" },
+        { id: "dosage_calc",   icon: "💊", label: "DOSAGE CALCULATOR", color: "#39ff14" },
+        { id: "lab_interp",    icon: "🔬", label: "LAB INTERPRETER",   color: "#00c2ff" },
+        { id: "chatbot",       icon: "🤖", label: "AI CHATBOT",        color: "#ffb800" },
+      ]
+    }
+  ];
+
+  const Dashboard = () => {
+    const condCounts = {};
+    allAssessments.forEach(a => { condCounts[a.condition] = (condCounts[a.condition] || 0) + 1; });
+    const recent = [...allAssessments].sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 5);
+
+    return (
+      <div className="fu">
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 28 }}>
+          <div>
+            <Mono color="#00f5ff22" size={9}>MEDGUIDE NEXUS v4.0 // AI CLINICAL SUITE</Mono>
+            <h1 style={{ fontFamily: "'Exo 2',sans-serif", fontWeight: 900, fontSize: 26, color: "#00f5ff", letterSpacing: "-0.5px", marginTop: 4, textShadow: "0 0 30px #00f5ff44" }}>SYSTEM DASHBOARD</h1>
+          </div>
+        </div>
+
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(4,1fr)", gap: 10, marginBottom: 20 }}>
+          {[
+            { icon: "👥", v: patients.length,       l: "Patients",    c: "#00f5ff" },
+            { icon: "📋", v: allAssessments.length, l: "Assessments", c: "#39ff14" },
+            { icon: "🚨", v: emergency,             l: "Critical",    c: "#ff2a2a" },
+            { icon: "⚗",  v: 6,                    l: "AI Modules",  c: "#bf5fff" },
+          ].map((s, i) => (
+            <div key={i} className={`panel brk fu${i}`} style={{ padding: "18px 14px", textAlign: "center" }}>
+              <div style={{ fontSize: 22, marginBottom: 6 }}>{s.icon}</div>
+              <div style={{ fontFamily: "'Share Tech Mono',monospace", fontSize: 26, color: s.c, textShadow: `0 0 16px ${s.c}66` }}>{s.v}</div>
+              <Mono color="#00f5ff22" size={9}>{s.l}</Mono>
+            </div>
+          ))}
+        </div>
+
+        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14, marginBottom: 14 }}>
+          {/* Recent */}
+          <div className="panel" style={{ padding: "18px" }}>
+            <SLabel>Recent Assessments</SLabel>
+            {recent.length === 0 && <Mono color="#00f5ff15" size={10}>// NO RECORDS — START A NEW SCAN</Mono>}
+            {recent.map((a, i) => {
+              const pt = patients.find(p => (p.assessments || []).some(x => x.id === a.id));
+              const c = CONDITIONS[a.condition]; const u = urgCfg[a.urgency] || urgCfg.routine;
+              return (
+                <div key={i} style={{ display: "flex", alignItems: "center", gap: 10, padding: "8px 0", borderBottom: "1px solid #00f5ff06", cursor: "pointer" }}>
+                  <div style={{ width: 6, height: 6, borderRadius: "50%", background: u.color, flexShrink: 0 }} />
+                  <span style={{ fontSize: 14 }}>{c?.icon}</span>
+                  <div style={{ flex: 1, minWidth: 0 }}>
+                    <Mono color="#00f5ffaa" size={11}>{pt?.name?.toUpperCase()}</Mono>
+                    <div style={{ fontSize: 9, color: "#00f5ff22", letterSpacing: 1 }}>{c?.label} · {new Date(a.date).toLocaleDateString()}</div>
+                  </div>
+                  <span style={{ fontFamily: "'Share Tech Mono',monospace", fontSize: 8, color: u.color, border: `1px solid ${u.color}33`, padding: "1px 6px" }}>{a.severity?.toUpperCase()}</span>
+                </div>
+              );
+            })}
+          </div>
+
+          {/* AI Modules quick access */}
+          <div className="panel" style={{ padding: "18px" }}>
+            <SLabel color="#bf5fff">AI Module Access</SLabel>
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 8 }}>
+              {navGroups[1].items.map(n => (
+                <button key={n.id} onClick={() => setView(n.id)}
+                  style={{ background: "#010a12", border: `1px solid ${n.color}22`, padding: "10px", cursor: "pointer", textAlign: "left", transition: "all .2s" }}
+                  onMouseOver={e => e.currentTarget.style.borderColor = n.color + "66"}
+                  onMouseOut={e => e.currentTarget.style.borderColor = n.color + "22"}>
+                  <div style={{ fontSize: 18, marginBottom: 4 }}>{n.icon}</div>
+                  <Mono color={n.color + "88"} size={8}>{n.label}</Mono>
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* Condition breakdown */}
+        {Object.keys(condCounts).length > 0 && (
+          <div className="panel" style={{ padding: "18px" }}>
+            <SLabel>Condition Prevalence</SLabel>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 12 }}>
+              {Object.entries(condCounts).sort((a, b) => b[1] - a[1]).map(([k, v]) => {
+                const c = CONDITIONS[k]; const pct = Math.round((v / allAssessments.length) * 100);
+                return (
+                  <div key={k}>
+                    <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 4 }}>
+                      <span style={{ fontSize: 10, color: "#00f5ff44" }}>{c?.icon} {c?.label}</span>
+                      <Mono color={c?.color} size={10}>{pct}%</Mono>
+                    </div>
+                    <div style={{ height: 3, background: "#00f5ff08" }}>
+                      <div style={{ height: 3, width: `${pct}%`, background: c?.color, boxShadow: `0 0 6px ${c?.color}`, transition: "width 1s" }} />
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        )}
+      </div>
+    );
+  };
+
+  const Records = () => {
+    const [q, setQ] = useState("");
+    const filtered = patients.filter(p => p.name.toLowerCase().includes(q.toLowerCase()));
+    return (
+      <div className="fu">
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 20 }}>
+          <div>
+            <Mono color="#00f5ff22" size={9}>SECURE DATABASE // {patients.length} RECORDS</Mono>
+            <h1 style={{ fontFamily: "'Exo 2',sans-serif", fontWeight: 900, fontSize: 24, color: "#00f5ff", marginTop: 4 }}>PATIENT REGISTRY</h1>
+          </div>
+        </div>
+        <input className="hi" style={{ maxWidth: 340, marginBottom: 14 }} placeholder="// SEARCH REGISTRY..." value={q} onChange={e => setQ(e.target.value)} />
+        {filtered.length === 0 && <div className="panel" style={{ padding: "40px", textAlign: "center" }}><Mono color="#00f5ff15" size={11}>// NO RECORDS FOUND</Mono></div>}
+        {filtered.map(pt => {
+          const last = (pt.assessments || []).slice(-1)[0];
+          const c = last ? CONDITIONS[last.condition] : null;
+          const u = last ? urgCfg[last.urgency] || urgCfg.routine : null;
+          return (
+            <div key={pt.id} className="panel" style={{ padding: "14px 18px", marginBottom: 8, cursor: "pointer" }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
+                <div style={{ width: 38, height: 38, borderRadius: 2, background: "#010a12", border: "1px solid #00f5ff15", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "'Share Tech Mono',monospace", fontSize: 16, color: "#00f5ff", flexShrink: 0 }}>
+                  {pt.name[0]?.toUpperCase()}
+                </div>
+                <div style={{ flex: 1 }}>
+                  <Mono color="#00f5ffcc" size={13}>{pt.name.toUpperCase()}</Mono>
+                  <div style={{ fontFamily: "'Share Tech Mono',monospace", fontSize: 9, color: "#00f5ff33", marginTop: 2, letterSpacing: 1 }}>
+                    ID: {pt.id}{pt.age && ` // AGE ${pt.age}`}{pt.gender && ` // ${pt.gender.toUpperCase()}`}
+                  </div>
+                </div>
+                {c && u && (
+                  <div style={{ textAlign: "right" }}>
+                    <div style={{ fontSize: 11, color: c.color, marginBottom: 2 }}>{c.icon} {c.label}</div>
+                    <Mono color={u.color} size={9}>{u.label.split(" ")[0]}</Mono>
+                    <div style={{ fontFamily: "'Share Tech Mono',monospace", fontSize: 9, color: "#00f5ff22" }}>{new Date(pt.lastVisit).toLocaleDateString()}</div>
+                  </div>
+                )}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    );
+  };
+
+  const pageTitle = {
+    dashboard: "DASHBOARD", records: "PATIENT REGISTRY",
+    drug_check: "DRUG INTERACTION CHECKER", diff_dx: "DIFFERENTIAL DIAGNOSIS",
+    risk_calc: "RISK CALCULATOR", dosage_calc: "DOSAGE CALCULATOR",
+    lab_interp: "LAB INTERPRETER", chatbot: "AI CLINICAL CHATBOT",
+  };
+
+  return (
+    <>
+      <GlobalStyles />
+      <div style={{ position: "fixed", inset: 0, pointerEvents: "none", zIndex: 0 }}>
+        <div style={{ position: "absolute", inset: 0, background: "radial-gradient(circle at 15% 50%,#00f5ff06 0%,transparent 45%),radial-gradient(circle at 85% 20%,#39ff1403 0%,transparent 40%)" }} />
+        {/* dot grid */}
+        <svg style={{ position: "absolute", inset: 0, width: "100%", height: "100%", opacity: 0.035 }}>
+          <defs><pattern id="g" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#00f5ff" /></pattern></defs>
+          <rect width="100%" height="100%" fill="url(#g)" />
+        </svg>
+      </div>
+
+      <div style={{ display: "flex", minHeight: "100vh", position: "relative", zIndex: 1 }}>
+        {/* ── Sidebar ── */}
+        <nav className="no-print" style={{ width: 200, background: "#010810", borderRight: "1px solid #00f5ff0d", display: "flex", flexDirection: "column", flexShrink: 0, position: "sticky", top: 0, height: "100vh", overflowY: "auto" }}>
+          {/* Logo */}
+          <div style={{ padding: "20px 14px 16px", borderBottom: "1px solid #00f5ff08" }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 3 }}>
+              <div style={{ width: 28, height: 28, borderRadius: 2, background: "linear-gradient(135deg,#00f5ff,#39ff14)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 13, fontWeight: 900, color: "#000" }}>✚</div>
+              <span style={{ fontFamily: "'Exo 2',sans-serif", fontWeight: 900, fontSize: 13, color: "#00f5ff", letterSpacing: 1 }}>MEDGUIDE</span>
+            </div>
+            <Mono color="#00f5ff22" size={7}>NEXUS v4.0 // AI SUITE</Mono>
+          </div>
+
+          {/* Clock */}
+          <div style={{ padding: "10px 14px", borderBottom: "1px solid #00f5ff06" }}>
+            <Mono color="#00f5ff" size={14}>{time.toLocaleTimeString()}</Mono>
+            <div style={{ marginTop: 2 }}><Mono color="#00f5ff33" size={8}>{time.toLocaleDateString()}</Mono></div>
+          </div>
+
+          {/* Nav */}
+          <div style={{ flex: 1, padding: "8px" }}>
+            {navGroups.map(g => (
+              <div key={g.label} style={{ marginBottom: 8 }}>
+                <div style={{ padding: "6px 10px 3px" }}><Mono color="#00f5ff15" size={7}>{`// ${g.label}`}</Mono></div>
+                {g.items.map(n => (
+                  <button key={n.id} className={`nav-btn${view === n.id ? " active" : ""}`}
+                    style={{ borderLeftColor: view === n.id ? (n.color || "#00f5ff") : "transparent", color: view === n.id ? (n.color || "#00f5ff") : "#00f5ff33" }}
+                    onClick={() => setView(n.id)}>
+                    <span style={{ fontSize: 13 }}>{n.icon}</span>
+                    <span>{n.label}</span>
+                  </button>
+                ))}
+              </div>
+            ))}
+          </div>
+
+          {/* Status */}
+          <div style={{ padding: "12px", borderTop: "1px solid #00f5ff08" }}>
+            <div style={{ background: "#000c12", border: "1px solid #39ff1415", padding: "10px 12px", borderRadius: 2 }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 5, marginBottom: 4 }}>
+                <div style={{ width: 5, height: 5, borderRadius: "50%", background: "#39ff14", boxShadow: "0 0 6px #39ff14", animation: "blink 2s infinite" }} />
+                <Mono color="#39ff14" size={7}>6 AI MODULES ONLINE</Mono>
+              </div>
+              <Mono color="#00f5ff15" size={7}>⚠ NOT FOR CLINICAL USE</Mono>
+            </div>
+          </div>
+        </nav>
+
+        {/* ── Main ── */}
+        <main style={{ flex: 1, padding: "28px 32px", overflowY: "auto" }}>
+          {/* Page header */}
+          <div style={{ marginBottom: 20, paddingBottom: 14, borderBottom: "1px solid #00f5ff08" }}>
+            <Mono color="#00f5ff22" size={8}>{"// " + pageTitle[view]}</Mono>
+          </div>
+
+          {/* Disclaimer */}
+          <div style={{ background: "#100800", border: "1px solid #ffb80022", padding: "8px 14px", marginBottom: 18, display: "flex", gap: 10, alignItems: "center" }}>
+            <span style={{ color: "#ffb800", fontSize: 12 }}>⚠</span>
+            <Mono color="#ffb80055" size={8}>MEDGUIDE AI IS FOR INFORMATIONAL USE ONLY. ALL CLINICAL DECISIONS REQUIRE LICENSED PHYSICIAN OVERSIGHT.</Mono>
+          </div>
+
+          <div style={{ maxWidth: 900 }}>
+            {view === "dashboard"  && <Dashboard />}
+            {view === "records"    && <Records />}
+            {view === "drug_check" && <DrugInteractionChecker />}
+            {view === "diff_dx"    && <DifferentialDiagnosis />}
+            {view === "risk_calc"  && <RiskCalculator />}
+            {view === "dosage_calc"&& <DosageCalculator />}
+            {view === "lab_interp" && <LabInterpreter />}
+            {view === "chatbot"    && <PatientChatbot patients={patients} />}
+          </div>
+        </main>
+      </div>
+    </>
+  );
+}
+
+
+// ─── MOUNT ────────────────────────────────────────────────────────────────
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App />);
+</script>
+</body>
 </html>
-
-<!-- Dynamic page generated in 0.127 seconds. -->
-<!-- Cached page generated by WP-Super-Cache on 2026-01-20 09:47:54 -->
-
-<!-- super cache -->    
-ontent/themes/Avada/includes/lib/assets/min/js/general/fusion-general-global.js?ver=3.9.2" id="fusion-general-global-js"></script>
-<script type="text/javascript" id="fusion-video-js-extra">
-/* <![CDATA[ */
-var fusionVideoVars = {"status_vimeo":"1"};
-//# sourceURL=fusion-video-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/plugins/fusion-builder/assets/js/min/general/fusion-video.js?ver=3.9.2" id="fusion-video-js"></script>
-<script type="text/javascript" src="https://news.cac.gov.ng/wp-content/plugins/fusion-builder/assets/js/min/general/fusion-column.js?ver=3.9.2" id="fusion-column-js"></script>
-				<script type="text/javascript">
-				jQuery( document ).ready( function() {
-					var ajaxurl = 'https://news.cac.gov.ng/wp-admin/admin-ajax.php';
-					if ( 0 < jQuery( '.fusion-login-nonce' ).length ) {
-						jQuery.get( ajaxurl, { 'action': 'fusion_login_nonce' }, function( response ) {
-							jQuery( '.fusion-login-nonce' ).html( response );
-						});
-					}
-				});
-								</script>
-						</div>
-
-			<section class="to-top-container to-top-right" aria-labelledby="awb-to-top-label">
-		<a href="#" id="toTop" class="fusion-top-top-link">
-			<span id="awb-to-top-label" class="screen-reader-text">Go to Top</span>
-		</a>
-	</section>
-		</body>
-</html>
-
-<!-- Dynamic page generated in 0.127 seconds. -->
-<!-- Cached page generated by WP-Super-Cache on 2026-01-20 09:47:54 -->
-
-<!-- super cache -->
