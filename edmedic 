@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Edmed — Complete Medical Research OS</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Orbitron:wght@400;500;700;900&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#040b12;--bg2:#060f1a;--bg3:#0a1623;--surf:#0e1e2e;--surf2:#122438;
+  --bd:#182d42;--bd2:#1f3d58;
+  --tx:#cce4f6;--tx2:#5d8aaa;--tx3:#2a4d68;
+  --a:#00f0c0;--a2:#00c49a;--ad:rgba(0,240,192,.08);--ag:rgba(0,240,192,.25);
+  --bl:#3a9fff;--bld:rgba(58,159,255,.08);--blg:rgba(58,159,255,.22);
+  --am:#ffbe40;--amd:rgba(255,190,64,.08);
+  --rd:#ff4d4d;--rdd:rgba(255,77,77,.08);
+  --pu:#c07aff;--pud:rgba(192,122,255,.08);
+  --pk:#ff6ec7;--pkd:rgba(255,110,199,.08);
+  --cy:#22e0f0;--cyd:rgba(34,224,240,.08);
+  --gn:#39d353;--gnd:rgba(57,211,83,.08);
+  --r:9px;--sh:0 8px 40px rgba(0,0,0,.6);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;overflow:hidden}
+body{font-family:'Outfit',sans-serif;background:var(--bg);color:var(--tx);display:flex}
+
+/* ─ SIDEBAR ─ */
+.sb{width:260px;height:100vh;background:var(--bg2);border-right:1px solid var(--bd);display:flex;flex-direction:column;flex-shrink:0;overflow-y:auto;position:relative}
+.sb::-webkit-scrollbar{width:3px}.sb::-webkit-scrollbar-thumb{background:var(--bd2)}
+.logo-a{padding:20px 18px 16px;border-bottom:1px solid var(--bd);flex-shrink:0}
+.logo-r{display:flex;align-items:center;gap:10px}
+.logo-i{width:36px;height:36px;background:linear-gradient(135deg,var(--a),var(--bl));border-radius:10px;display:flex;align-items:center;justify-content:center;font-family:'Orbitron',sans-serif;font-size:12px;font-weight:700;color:#020c14;box-shadow:0 0 18px var(--ag);flex-shrink:0}
+.logo-n{font-family:'Orbitron',sans-serif;font-size:18px;font-weight:700;letter-spacing:1px;color:var(--a)}
+.logo-s{font-family:'DM Mono',monospace;font-size:8.5px;color:var(--tx3);letter-spacing:2px;text-transform:uppercase;margin-top:3px}
+.acct{margin:12px 14px 6px;padding:10px 13px;background:linear-gradient(135deg,rgba(0,240,192,.06),rgba(58,159,255,.04));border:1px solid rgba(0,240,192,.15);border-radius:9px}
+.acct-lbl{font-family:'DM Mono',monospace;font-size:8px;letter-spacing:1.5px;text-transform:uppercase;color:var(--a);margin-bottom:5px}
+.acct-name{font-size:11.5px;font-weight:600;color:var(--tx);margin-bottom:2px}
+.acct-bank{font-family:'DM Mono',monospace;font-size:9.5px;color:var(--bl);margin-bottom:5px}
+.acct-row{display:flex;align-items:center;justify-content:space-between}
+.acct-num{font-family:'DM Mono',monospace;font-size:13px;font-weight:500;color:var(--a);letter-spacing:1.5px}
+.cp-btn{background:var(--ad);border:1px solid rgba(0,240,192,.18);border-radius:5px;color:var(--a);font-family:'DM Mono',monospace;font-size:8px;padding:3px 7px;cursor:pointer;transition:all .14s}
+.cp-btn:hover{background:var(--a);color:#020c14}
+.study-p{margin:5px 14px 10px;padding:9px 12px;background:rgba(58,159,255,.05);border:1px solid rgba(58,159,255,.14);border-radius:8px}
+.sp-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:3px}
+.sp-lbl{font-family:'DM Mono',monospace;font-size:8px;letter-spacing:1.5px;text-transform:uppercase;color:var(--bl)}
+.dlive{width:7px;height:7px;border-radius:50%;background:var(--a);animation:pg 2s infinite}
+@keyframes pg{0%,100%{box-shadow:0 0 0 0 rgba(0,240,192,.5)}50%{box-shadow:0 0 0 5px rgba(0,240,192,0)}}
+.sp-name{font-size:11.5px;font-weight:500}
+.sp-ph{font-family:'DM Mono',monospace;font-size:9.5px;color:var(--bl);margin-top:2px}
+nav{padding:5px 0;flex:1;overflow-y:auto}
+nav::-webkit-scrollbar{width:2px}
+.nl{font-family:'DM Mono',monospace;font-size:8px;letter-spacing:1.5px;text-transform:uppercase;color:var(--tx3);padding:11px 18px 5px}
+.ni{display:flex;align-items:center;gap:9px;padding:8px 18px;font-size:12.5px;color:var(--tx2);cursor:pointer;border-left:2px solid transparent;transition:all .12s;user-select:none;position:relative}
+.ni:hover{background:rgba(255,255,255,.025);color:var(--tx)}
+.ni.on{background:var(--ad);border-left-color:var(--a);color:var(--a);font-weight:500}
+.ni.on.ai-ni{background:var(--bld);border-left-color:var(--bl);color:var(--bl)}
+.ni.on.sp-ni{background:var(--pud);border-left-color:var(--pu);color:var(--pu)}
+.ni.on.sf-ni{background:var(--rdd);border-left-color:var(--rd);color:var(--rd)}
+.ni-ic{font-size:13px;width:18px;text-align:center;flex-shrink:0}
+.nbadge{margin-left:auto;font-family:'DM Mono',monospace;font-size:8.5px;padding:2px 6px;border-radius:20px}
+.nb-r{background:var(--rd);color:#fff}.nb-g{background:var(--a);color:#020c14}.nb-b{background:var(--bl);color:#020c14}
+.sb-foot{padding:12px 14px;border-top:1px solid var(--bd);flex-shrink:0}
+.usr-r{display:flex;align-items:center;gap:9px}
+.av{width:32px;height:32px;border-radius:50%;background:linear-gradient(135deg,var(--a),var(--bl));display:flex;align-items:center;justify-content:center;font-family:'Orbitron',sans-serif;font-size:10px;font-weight:700;color:#020c14;flex-shrink:0}
+.u-name{font-size:12px;font-weight:500}
+.u-role{font-family:'DM Mono',monospace;font-size:8.5px;color:var(--tx3);letter-spacing:.7px}
+
+/* ─ MAIN ─ */
+.main{flex:1;display:flex;flex-direction:column;overflow:hidden}
+.topbar{background:var(--bg2);border-bottom:1px solid var(--bd);padding:11px 24px;display:flex;align-items:center;gap:11px;flex-shrink:0}
+.tb-title{font-family:'Orbitron',sans-serif;font-size:14px;font-weight:600;flex:1;letter-spacing:.5px}
+.tb-r{display:flex;align-items:center;gap:8px}
+.tb-clock{font-family:'DM Mono',monospace;font-size:10.5px;color:var(--tx3)}
+.btn{display:inline-flex;align-items:center;gap:5px;padding:6px 13px;border-radius:7px;font-family:'Outfit',sans-serif;font-size:12px;font-weight:500;cursor:pointer;border:none;transition:all .13s;white-space:nowrap}
+.bp{background:var(--a);color:#020c14}.bp:hover{background:var(--a2)}
+.bb{background:var(--bl);color:#020c14}.bb:hover{filter:brightness(1.12)}
+.bg{background:var(--surf);color:var(--tx2);border:1px solid var(--bd)}.bg:hover{color:var(--tx);background:var(--surf2)}
+.br{background:var(--rdd);color:var(--rd);border:1px solid rgba(255,77,77,.2)}.br:hover{background:var(--rd);color:#fff}
+.bpu{background:var(--pud);color:var(--pu);border:1px solid rgba(192,122,255,.2)}.bpu:hover{background:var(--pu);color:#fff}
+.bam{background:var(--amd);color:var(--am);border:1px solid rgba(255,190,64,.2)}.bam:hover{background:var(--am);color:#020c14}
+.bsm{padding:4px 10px;font-size:11px}
+
+.pages{flex:1;overflow-y:auto;position:relative}
+.pages::-webkit-scrollbar{width:5px}.pages::-webkit-scrollbar-thumb{background:var(--bd2);border-radius:3px}
+.pg{display:none;padding:24px}.pg.on{display:block}
+
+/* ─ STATS ─ */
+.sr{display:grid;gap:12px;margin-bottom:18px}
+.sr-5{grid-template-columns:repeat(5,1fr)}
+.sr-4{grid-template-columns:repeat(4,1fr)}
+.sr-3{grid-template-columns:repeat(3,1fr)}
+.sc{background:var(--surf);border:1px solid var(--bd);border-radius:var(--r);padding:15px;position:relative;overflow:hidden;transition:border-color .18s,transform .14s;cursor:default}
+.sc:hover{transform:translateY(-2px);border-color:var(--bd2)}
+.sc::before{content:'';position:absolute;top:0;left:0;right:0;height:2px}
+.sc.ca::before{background:linear-gradient(90deg,var(--a),var(--bl))}.sc.cb::before{background:var(--bl)}.sc.cam::before{background:var(--am)}.sc.cp::before{background:var(--pu)}.sc.cr::before{background:var(--rd)}.sc.ccy::before{background:var(--cy)}.sc.cgn::before{background:var(--gn)}.sc.cpk::before{background:var(--pk)}
+.sl{font-family:'DM Mono',monospace;font-size:8.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--tx3);margin-bottom:7px}
+.sv{font-family:'Orbitron',sans-serif;font-size:24px;font-weight:700;line-height:1;margin-bottom:4px}
+.sc.ca .sv{color:var(--a)}.sc.cb .sv{color:var(--bl)}.sc.cam .sv{color:var(--am)}.sc.cp .sv{color:var(--pu)}.sc.cr .sv{color:var(--rd)}.sc.ccy .sv{color:var(--cy)}.sc.cgn .sv{color:var(--gn)}.sc.cpk .sv{color:var(--pk)}
+.ss{font-size:10.5px;color:var(--tx3)}
+.st{position:absolute;top:12px;right:12px;font-family:'DM Mono',monospace;font-size:9.5px}
+.tu{color:var(--a)}.td{color:var(--rd)}.tf{color:var(--tx3)}
+
+/* ─ LAYOUT ─ */
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+.g3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;margin-bottom:14px}
+.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:14px}
+.g13{display:grid;grid-template-columns:1fr 2fr;gap:14px;margin-bottom:14px}
+.g31{display:grid;grid-template-columns:2fr 1fr;gap:14px;margin-bottom:14px}
+.g23{display:grid;grid-template-columns:2fr 3fr;gap:14px;margin-bottom:14px}
+
+/* ─ CARD ─ */
+.card{background:var(--surf);border:1px solid var(--bd);border-radius:var(--r);overflow:hidden;margin-bottom:14px}
+.card:last-child{margin-bottom:0}
+.ch{padding:13px 16px 10px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--bd)}
+.ct{font-family:'Outfit',sans-serif;font-size:12.5px;font-weight:600;display:flex;align-items:center;gap:7px}
+.ca-btn{font-family:'DM Mono',monospace;font-size:9.5px;color:var(--a);cursor:pointer;border:none;background:none;padding:0}
+.cb{padding:14px 16px}
+
+/* ─ TABLE ─ */
+.tbl{width:100%;border-collapse:collapse}
+.tbl th{font-family:'DM Mono',monospace;font-size:8.5px;letter-spacing:1px;text-transform:uppercase;color:var(--tx3);padding:8px 10px;border-bottom:1px solid var(--bd);background:var(--bg3);text-align:left}
+.tbl td{padding:8px 10px;font-size:12px;border-bottom:1px solid var(--bd);vertical-align:middle}
+.tbl tr:last-child td{border-bottom:none}.tbl tr:hover td{background:var(--bg3)}
+
+/* ─ CHIPS ─ */
+.chip{display:inline-flex;align-items:center;gap:3px;padding:2px 8px;border-radius:20px;font-family:'DM Mono',monospace;font-size:8.5px;letter-spacing:.3px;font-weight:500}
+.cg{background:var(--ad);color:var(--a)}.cb2{background:var(--bld);color:var(--bl)}.cam2{background:var(--amd);color:var(--am)}.cr2{background:var(--rdd);color:var(--rd)}.cp2{background:var(--pud);color:var(--pu)}.ccy2{background:var(--cyd);color:var(--cy)}.cgn2{background:var(--gnd);color:var(--gn)}.cgr{background:rgba(255,255,255,.05);color:var(--tx3)}.cpk2{background:var(--pkd);color:var(--pk)}
+
+/* ─ FORM ─ */
+.fg{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.ff{grid-column:1/-1}
+.fgrp{display:flex;flex-direction:column;gap:4px}
+.flb{font-family:'DM Mono',monospace;font-size:8.5px;letter-spacing:1px;text-transform:uppercase;color:var(--tx3)}
+.fi,.fs,.fta{background:var(--bg3);border:1px solid var(--bd);border-radius:7px;color:var(--tx);font-family:'Outfit',sans-serif;font-size:12.5px;padding:8px 11px;outline:none;width:100%;transition:border-color .13s}
+.fi:focus,.fs:focus,.fta:focus{border-color:var(--a);box-shadow:0 0 0 3px var(--ad)}
+.fs option{background:var(--bg3)}.fta{resize:vertical;min-height:64px}
+.frow{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px}
+
+/* ─ MODAL ─ */
+.ov{position:fixed;inset:0;background:rgba(0,0,0,.8);z-index:900;display:none;align-items:center;justify-content:center;backdrop-filter:blur(7px)}
+.ov.on{display:flex}
+.modal{background:var(--bg2);border:1px solid var(--bd2);border-radius:13px;width:540px;max-width:96vw;max-height:92vh;overflow-y:auto;animation:su .2s ease}
+@keyframes su{from{transform:translateY(14px);opacity:0}to{transform:translateY(0);opacity:1}}
+.mh{padding:16px 20px 12px;border-bottom:1px solid var(--bd);display:flex;align-items:center;justify-content:space-between}
+.mt{font-family:'Outfit',sans-serif;font-size:14px;font-weight:600}
+.mx{width:24px;height:24px;border-radius:6px;background:var(--surf);border:1px solid var(--bd);color:var(--tx2);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:13px;transition:all .13s}
+.mx:hover{color:var(--tx)}
+.mb{padding:16px 20px}.mf{padding:11px 20px;border-top:1px solid var(--bd);display:flex;gap:7px;justify-content:flex-end}
+
+/* ─ AI BANNER ─ */
+.aib{background:linear-gradient(135deg,rgba(58,159,255,.07),rgba(192,122,255,.05));border:1px solid rgba(58,159,255,.16);border-radius:var(--r);padding:14px 16px;margin-bottom:16px;display:flex;gap:12px;align-items:flex-start}
+.aib-ic{font-size:18px;flex-shrink:0}
+.aib-t{font-family:'Outfit',sans-serif;font-size:12.5px;font-weight:600;color:var(--bl);margin-bottom:3px}
+.aib-x{font-size:12px;color:var(--tx2);line-height:1.55}
+.aib-tags{display:flex;gap:5px;margin-top:7px;flex-wrap:wrap}
+
+/* ─ TIMELINE ─ */
+.tl{position:relative;padding-left:22px}
+.tl::before{content:'';position:absolute;left:6px;top:0;bottom:0;width:1px;background:var(--bd)}
+.tli{position:relative;margin-bottom:17px}
+.tld{position:absolute;left:-18px;top:3px;width:12px;height:12px;border-radius:50%;border:2px solid var(--bd);background:var(--bg2)}
+.tld.dn{background:var(--a);border-color:var(--a);box-shadow:0 0 7px var(--ag)}.tld.ac{background:var(--bl);border-color:var(--bl);animation:pb 2s infinite}.tld.wn{background:var(--am);border-color:var(--am)}
+@keyframes pb{0%,100%{box-shadow:0 0 0 0 rgba(58,159,255,.5)}50%{box-shadow:0 0 0 5px rgba(58,159,255,0)}}
+.tlt{font-size:12.5px;font-weight:500;margin-bottom:2px}.tlm{font-family:'DM Mono',monospace;font-size:9.5px;color:var(--tx3);margin-bottom:2px}.tld2{font-size:11.5px;color:var(--tx2)}
+
+/* ─ ECG / CHARTS ─ */
+.ecg-box{background:#020c06;border:1px solid rgba(0,240,192,.1);border-radius:7px;overflow:hidden;position:relative}
+.ecg-lbl{position:absolute;top:6px;left:10px;font-family:'DM Mono',monospace;font-size:8px;color:var(--a);letter-spacing:1px;opacity:.6;z-index:2}
+.scan-w{position:relative;overflow:hidden}
+.scan-l{position:absolute;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--a),transparent);animation:scan 2.5s linear infinite;opacity:.35;pointer-events:none;z-index:5}
+@keyframes scan{0%{top:0%}100%{top:100%}}
+
+/* ─ VITALS ─ */
+.vg{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin-bottom:12px}
+.vc{background:var(--bg3);border:1px solid var(--bd);border-radius:7px;padding:10px;text-align:center}
+.vv{font-family:'DM Mono',monospace;font-size:18px;font-weight:500;margin:3px 0}
+.vlb{font-family:'DM Mono',monospace;font-size:8px;letter-spacing:1px;text-transform:uppercase;color:var(--tx3)}
+.vu{font-size:9px;color:var(--tx3)}
+
+/* ─ PROGRESS ─ */
+.pbg{height:5px;background:var(--bd);border-radius:3px;overflow:hidden}
+.pfi{height:100%;border-radius:3px;background:linear-gradient(90deg,var(--a),var(--bl))}
+.cb-row{margin-bottom:11px}
+.cb-l{display:flex;justify-content:space-between;font-size:11.5px;color:var(--tx2);margin-bottom:4px}
+.cb-pct{font-family:'DM Mono',monospace;font-size:9.5px;color:var(--tx3)}
+
+/* ─ PRED BAR ─ */
+.pr-row{display:flex;align-items:center;gap:8px;margin-bottom:7px}
+.pr-l{font-size:11.5px;flex:1;color:var(--tx2)}
+.pr-bg{width:110px;height:6px;border-radius:3px;background:var(--bd);overflow:hidden;flex-shrink:0}
+.pr-fi{height:100%;border-radius:3px;transition:width .6s}
+.pr-pct{font-family:'DM Mono',monospace;font-size:9.5px;color:var(--tx3);width:32px;text-align:right;flex-shrink:0}
+
+/* ─ ACTIVITY ─ */
+.act-i{display:flex;gap:10px;padding:10px 0;border-bottom:1px solid var(--bd);align-items:flex-start}
+.act-i:last-child{border-bottom:none}
+.act-ic{width:26px;height:26px;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:11px;flex-shrink:0}
+.act-tx{font-size:12px;line-height:1.5}.act-tm{font-family:'DM Mono',monospace;font-size:9.5px;color:var(--tx3);margin-top:2px}
+
+/* ─ GENE GRID ─ */
+.gg{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}
+.gc{background:var(--bg3);border:1px solid var(--bd);border-radius:7px;padding:9px;transition:border-color .13s}
+.gc:hover{border-color:var(--bd2)}
+.gn2{font-family:'DM Mono',monospace;font-size:10px;font-weight:500;color:var(--a);margin-bottom:3px}
+.gv{font-size:11px;color:var(--tx2)}.gs{font-family:'DM Mono',monospace;font-size:8.5px;margin-top:3px}
+
+/* ─ AI PANEL ─ */
+.aip{position:fixed;right:0;top:0;bottom:0;width:380px;background:var(--bg2);border-left:1px solid var(--bd);z-index:300;display:flex;flex-direction:column;transform:translateX(100%);transition:transform .3s cubic-bezier(.4,0,.2,1)}
+.aip.on{transform:translateX(0)}
+.ai-hdr{padding:15px 17px;border-bottom:1px solid var(--bd);display:flex;align-items:center;gap:10px;flex-shrink:0}
+.ai-badge{width:34px;height:34px;background:linear-gradient(135deg,var(--bl),var(--pu));border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:16px;box-shadow:0 0 15px var(--blg);flex-shrink:0}
+.ai-title{font-family:'Outfit',sans-serif;font-size:13px;font-weight:600;flex:1}
+.ai-sub{font-family:'DM Mono',monospace;font-size:8.5px;color:var(--bl);letter-spacing:.8px}
+.ai-msgs{flex:1;overflow-y:auto;padding:12px;display:flex;flex-direction:column;gap:10px}
+.ai-msgs::-webkit-scrollbar{width:3px}
+.aim{max-width:90%;animation:fu .22s ease}
+@keyframes fu{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+.aim.u{align-self:flex-end}.aim.b{align-self:flex-start}
+.aib2{padding:9px 12px;border-radius:11px;font-size:12px;line-height:1.58}
+.aim.u .aib2{background:var(--bl);color:#fff;border-bottom-right-radius:2px}
+.aim.b .aib2{background:var(--surf2);color:var(--tx);border-bottom-left-radius:2px;border:1px solid var(--bd)}
+.aib2 b{color:var(--a)}.aib2 .ail{background:var(--bg3);border:1px solid var(--bd);border-radius:6px;padding:5px 9px;margin-top:5px;font-size:11px}
+.ai-typ{display:flex;gap:3px;padding:9px 12px;background:var(--surf2);border:1px solid var(--bd);border-radius:11px;border-bottom-left-radius:2px;align-self:flex-start}
+.ai-typ span{width:5px;height:5px;background:var(--tx3);border-radius:50%;animation:bn .9s infinite}
+.ai-typ span:nth-child(2){animation-delay:.15s}.ai-typ span:nth-child(3){animation-delay:.3s}
+@keyframes bn{0%,60%,100%{transform:translateY(0)}30%{transform:translateY(-5px)}}
+.qch-w{padding:7px 13px;display:flex;gap:5px;flex-wrap:wrap;border-top:1px solid var(--bd);flex-shrink:0}
+.qch{background:var(--surf2);border:1px solid var(--bd);border-radius:20px;padding:4px 9px;font-size:10.5px;color:var(--tx2);cursor:pointer;transition:all .13s;white-space:nowrap}
+.qch:hover{border-color:var(--bl);color:var(--bl);background:var(--bld)}
+.ai-inp-r{padding:10px 12px;border-top:1px solid var(--bd);display:flex;gap:7px;flex-shrink:0}
+.ai-inp{flex:1;background:var(--bg3);border:1px solid var(--bd);border-radius:7px;color:var(--tx);font-family:'Outfit',sans-serif;font-size:12.5px;padding:7px 11px;outline:none;transition:border-color .13s}
+.ai-inp:focus{border-color:var(--bl);box-shadow:0 0 0 3px var(--bld)}
+.ai-snd{background:var(--bl);color:#fff;border:none;border-radius:7px;padding:7px 13px;font-size:12.5px;cursor:pointer;font-family:'Outfit',sans-serif;font-weight:500;transition:all .13s}
+.ai-snd:hover{filter:brightness(1.14)}
+.ai-fab{position:fixed;bottom:24px;right:24px;width:50px;height:50px;border-radius:50%;background:linear-gradient(135deg,var(--bl),var(--pu));border:none;color:#fff;font-size:21px;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(58,159,255,.42);transition:all .18s;z-index:200}
+.ai-fab:hover{transform:scale(1.1)}
+
+/* ─ TOAST ─ */
+.tw{position:fixed;bottom:20px;right:20px;z-index:9999;display:flex;flex-direction:column;gap:7px}
+.toast{background:var(--surf2);border:1px solid var(--bd2);border-radius:var(--r);padding:10px 13px;font-size:12px;display:flex;align-items:center;gap:8px;animation:tsl .18s ease;box-shadow:var(--sh);max-width:300px}
+@keyframes tsl{from{transform:translateX(14px);opacity:0}to{transform:translateX(0);opacity:1}}
+
+/* ─ SECTION HDR ─ */
+.sh{display:flex;align-items:center;justify-content:space-between;margin-bottom:13px}
+.stt{font-family:'Outfit',sans-serif;font-size:14px;font-weight:600}
+.si{background:var(--bg3);border:1px solid var(--bd);border-radius:7px;color:var(--tx);font-family:'Outfit',sans-serif;font-size:12px;padding:6px 11px;outline:none;width:180px;transition:border-color .13s}
+.si:focus{border-color:var(--a)}.si::placeholder{color:var(--tx3)}
+
+/* ─ SPECIALTY CARDS ─ */
+.sp-module{background:var(--surf);border:1px solid var(--bd);border-radius:var(--r);padding:16px;transition:border-color .2s,transform .14s;cursor:pointer}
+.sp-module:hover{border-color:var(--bd2);transform:translateY(-2px)}
+.sp-mod-ic{font-size:28px;margin-bottom:8px}
+.sp-mod-t{font-family:'Outfit',sans-serif;font-size:13px;font-weight:600;margin-bottom:3px}
+.sp-mod-d{font-size:11px;color:var(--tx2)}
+
+/* ─ DRUG INTERACTION ─ */
+.di-result{padding:12px;border-radius:8px;margin-bottom:8px}
+.di-sev{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:1px;text-transform:uppercase;margin-bottom:4px;font-weight:500}
+.di-desc{font-size:12px;color:var(--tx2);line-height:1.5}
+
+/* ─ LAB PANEL ─ */
+.lab-row{display:flex;align-items:center;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--bd)}
+.lab-row:last-child{border-bottom:none}
+.lab-name{font-size:12px;font-weight:500;flex:1}
+.lab-val{font-family:'DM Mono',monospace;font-size:12px;font-weight:500;width:80px;text-align:center}
+.lab-ref{font-family:'DM Mono',monospace;font-size:9.5px;color:var(--tx3);width:100px;text-align:center}
+.lab-flag{font-family:'DM Mono',monospace;font-size:9px;width:40px;text-align:center}
+.lab-hi{color:var(--rd)}.lab-lo{color:var(--bl)}.lab-norm{color:var(--a)}
+
+/* ─ IMAGING ─ */
+.img-viewer{background:#000408;border:1px solid var(--bd);border-radius:8px;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.img-overlay{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--tx3);font-family:'DM Mono',monospace;font-size:10px;letter-spacing:1px;flex-direction:column;gap:8px}
+.img-scan-text{font-size:11px;color:var(--a);letter-spacing:2px;text-transform:uppercase;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:.4}50%{opacity:1}}
+
+/* ─ RISK METER ─ */
+.risk-big{font-family:'Orbitron',monospace;font-size:44px;font-weight:900;line-height:1}
+.risk-lbl{font-family:'DM Mono',monospace;font-size:9.5px;letter-spacing:1.5px;text-transform:uppercase;margin-top:4px}
+
+/* ─ ADVERSE ─ */
+.sev{display:inline-flex;align-items:center;gap:4px;font-family:'DM Mono',monospace;font-size:8.5px;padding:3px 8px;border-radius:5px}
+.sv1{background:var(--ad);color:var(--a)}.sv2{background:var(--amd);color:var(--am)}.sv3{background:rgba(255,77,77,.15);color:var(--rd)}.sv4{background:rgba(255,77,77,.28);color:#ff8080}.sv5{background:rgba(255,77,77,.5);color:#fff}
+
+/* ─ SAFETY LIGHT ─ */
+.slight{width:10px;height:10px;border-radius:50%}
+.sl-g{background:var(--a);box-shadow:0 0 5px var(--a)}.sl-a{background:var(--am);box-shadow:0 0 4px var(--am)}.sl-r{background:var(--rd);box-shadow:0 0 7px var(--rd);animation:blk 1.4s infinite}
+@keyframes blk{0%,100%{opacity:1}50%{opacity:.3}}
+
+/* ─ WEARABLE DOT ─ */
+.wd{width:8px;height:8px;border-radius:50%}
+.wd-on{background:var(--a);box-shadow:0 0 4px var(--a)}.wd-off{background:var(--tx3)}.wd-w{background:var(--am)}
+
+/* ─ HEATMAP ─ */
+#hmap-wrap{display:flex;gap:3px;flex-wrap:wrap}
+
+/* ─ MISC ─ */
+::-webkit-scrollbar{width:4px;height:4px}::-webkit-scrollbar-track{background:transparent}::-webkit-scrollbar-thumb{background:var(--bd2);border-radius:2px}
+.divider{height:1px;background:var(--bd);margin:14px 0}
+.tag{display:inline-block;padding:2px 7px;border-radius:5px;font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.3px}
+.empty{text-align:center;padding:30px;color:var(--tx3);font-size:12.5px}
+.badge-count{background:var(--rd);color:#fff;border-radius:50%;width:16px;height:16px;font-size:9px;display:inline-flex;align-items:center;justify-content:center;font-family:'DM Mono',monospace}
+</style>
+</head>
+<body>
+
+<!-- ══════════ SIDEBAR ══════════ -->
+<aside class="sb">
+  <div class="logo-a">
+    <div class="logo-r">
+      <div class="logo-i">Ed</div>
+      <div><div class="logo-n">EDMED</div><div class="logo-s">Complete Medical OS · v5.0</div></div>
+    </div>
+  </div>
+  <div class="acct">
+    <div class="acct-lbl">💳 Account</div>
+    <div class="acct-name">Ifeacho Edward Chianugo</div>
+    <div class="acct-bank">First Bank of Nigeria</div>
+    <div class="acct-row"><div class="acct-num">3113044716</div><button class="cp-btn" onclick="copyAcct()">Copy</button></div>
+  </div>
+  <div class="study-p">
+    <div class="sp-top"><span class="sp-lbl">Active Study</span><div class="dlive"></div></div>
+    <div class="sp-name">CARDIO-7 Phase III</div>
+    <div class="sp-ph">Day 147 · NCT04829182</div>
+  </div>
+  <nav>
+    <div class="nl">Core</div>
+    <div class="ni on" onclick="go('dashboard',this)"><span class="ni-ic">⬡</span>Dashboard</div>
+    <div class="ni" onclick="go('protocol',this)"><span class="ni-ic">📋</span>Study Protocol</div>
+
+    <div class="nl">Clinical Records</div>
+    <div class="ni" onclick="go('ehr',this)"><span class="ni-ic">🗂</span>EHR / Patient Records</div>
+    <div class="ni" onclick="go('vitals',this)"><span class="ni-ic">💓</span>Live Vitals + ECG/EEG <span class="nbadge nb-g">Live</span></div>
+    <div class="ni" onclick="go('labs',this)"><span class="ni-ic">🧪</span>Laboratory Results</div>
+    <div class="ni" onclick="go('imaging',this)"><span class="ni-ic">🩻</span>Medical Imaging</div>
+    <div class="ni" onclick="go('medications',this)"><span class="ni-ic">💊</span>Medications & Pharmacy</div>
+    <div class="ni" onclick="go('biomarkers',this)"><span class="ni-ic">🔬</span>Biomarkers & Omics</div>
+    <div class="ni" onclick="go('biobank',this)"><span class="ni-ic">🧊</span>Sample Biobank</div>
+
+    <div class="nl">Research Operations</div>
+    <div class="ni" onclick="go('participants',this)"><span class="ni-ic">👥</span>Participants & Enrollment</div>
+    <div class="ni" onclick="go('tasks',this)"><span class="ni-ic">◈</span>Tasks & Milestones <span class="nbadge nb-r">5</span></div>
+    <div class="ni" onclick="go('randomization',this)"><span class="ni-ic">🎲</span>Randomization & Blinding</div>
+    <div class="ni" onclick="go('timeline',this)"><span class="ni-ic">📅</span>Study Timeline</div>
+    <div class="ni" onclick="go('forms',this)"><span class="ni-ic">📝</span>Data Collection (EDC)</div>
+    <div class="ni" onclick="go('pro',this)"><span class="ni-ic">📱</span>Patient Reported Outcomes</div>
+    <div class="ni" onclick="go('telemedicine',this)"><span class="ni-ic">📹</span>Telemedicine</div>
+    <div class="ni" onclick="go('wearables',this)"><span class="ni-ic">⌚</span>Wearable Devices</div>
+
+    <div class="nl">AI Intelligence</div>
+    <div class="ni ai-ni" onclick="go('ai-insights',this)"><span class="ni-ic">✦</span>AI Insights Engine <span class="nbadge nb-b">New</span></div>
+    <div class="ni ai-ni" onclick="go('ai-diagnostics',this)"><span class="ni-ic">🧠</span>AI Diagnostics</div>
+    <div class="ni ai-ni" onclick="go('predictive',this)"><span class="ni-ic">◌</span>Predictive Analytics</div>
+    <div class="ni ai-ni" onclick="go('genomics',this)"><span class="ni-ic">🧬</span>Genomics & Precision Med</div>
+    <div class="ni ai-ni" onclick="go('drug-interact',this)"><span class="ni-ic">⚗</span>Drug Interaction AI</div>
+    <div class="ni ai-ni" onclick="go('cds',this)"><span class="ni-ic">💡</span>Clinical Decision Support</div>
+    <div class="ni ai-ni" onclick="go('literature',this)"><span class="ni-ic">📚</span>Literature & Evidence</div>
+
+    <div class="nl">Specialty Modules</div>
+    <div class="ni sp-ni" onclick="go('cardiology',this)"><span class="ni-ic">❤</span>Cardiology</div>
+    <div class="ni sp-ni" onclick="go('oncology',this)"><span class="ni-ic">🎗</span>Oncology</div>
+    <div class="ni sp-ni" onclick="go('neurology',this)"><span class="ni-ic">🧠</span>Neurology & EEG</div>
+    <div class="ni sp-ni" onclick="go('pulmonology',this)"><span class="ni-ic">🫁</span>Pulmonology</div>
+    <div class="ni sp-ni" onclick="go('endocrine',this)"><span class="ni-ic">⚖</span>Endocrinology</div>
+    <div class="ni sp-ni" onclick="go('immunology',this)"><span class="ni-ic">🛡</span>Immunology</div>
+    <div class="ni sp-ni" onclick="go('radiology',this)"><span class="ni-ic">🩻</span>Radiology AI</div>
+    <div class="ni sp-ni" onclick="go('pathology',this)"><span class="ni-ic">🔭</span>Pathology</div>
+    <div class="ni sp-ni" onclick="go('mental-health',this)"><span class="ni-ic">🧘</span>Mental Health Screening</div>
+    <div class="ni sp-ni" onclick="go('nutrition',this)"><span class="ni-ic">🥗</span>Nutrition & Metabolism</div>
+    <div class="ni sp-ni" onclick="go('sleep',this)"><span class="ni-ic">😴</span>Sleep Medicine</div>
+    <div class="ni sp-ni" onclick="go('pain',this)"><span class="ni-ic">⚡</span>Pain Management</div>
+    <div class="ni sp-ni" onclick="go('rehabilitation',this)"><span class="ni-ic">🏃</span>Rehabilitation</div>
+
+    <div class="nl">Safety & Regulatory</div>
+    <div class="ni sf-ni" onclick="go('adverse',this)"><span class="ni-ic">⚠</span>Adverse Events <span class="nbadge nb-r">3</span></div>
+    <div class="ni sf-ni" onclick="go('pharmacovigilance',this)"><span class="ni-ic">👁</span>Pharmacovigilance</div>
+    <div class="ni sf-ni" onclick="go('medical-coding',this)"><span class="ni-ic">🏷</span>Medical Coding</div>
+    <div class="ni sf-ni" onclick="go('regulatory',this)"><span class="ni-ic">⚖</span>Regulatory Submissions</div>
+    <div class="ni sf-ni" onclick="go('audit',this)"><span class="ni-ic">🔍</span>Audit Trail</div>
+
+    <div class="nl">Admin</div>
+    <div class="ni" onclick="go('supply',this)"><span class="ni-ic">📦</span>Drug Supply & IMP</div>
+    <div class="ni" onclick="go('team',this)"><span class="ni-ic">◬</span>Team & Roles</div>
+    <div class="ni" onclick="go('compliance',this)"><span class="ni-ic">✓</span>Compliance</div>
+  </nav>
+  <div class="sb-foot">
+    <div class="usr-r">
+      <div class="av">IE</div>
+      <div><div class="u-name">Ifeacho Edward</div><div class="u-role">PRINCIPAL INVESTIGATOR</div></div>
+    </div>
+  </div>
+</aside>
+
+<!-- ══════════ MAIN ══════════ -->
+<div class="main">
+<div class="topbar">
+  <div><div class="tb-title" id="pg-title">Dashboard</div></div>
+  <div class="tb-r">
+    <div class="tb-clock" id="live-clock"></div>
+    <div style="display:flex;align-items:center;gap:5px;font-family:'DM Mono',monospace;font-size:10px;color:var(--a)"><div class="dlive"></div>CARDIO-7 LIVE</div>
+    <button class="btn bb bsm" onclick="openAI()">🧠 AI</button>
+    <button class="btn bg bsm" id="topbar-action">+ Action</button>
+  </div>
+</div>
+
+<div class="pages" id="pages">
+
+<!-- ════ DASHBOARD ════ -->
+<div id="pg-dashboard" class="pg on">
+  <div class="aib">
+    <div class="aib-ic">🧠</div>
+    <div>
+      <div class="aib-t">Edmed AI Daily Briefing — CARDIO-7</div>
+      <div class="aib-x">Enrollment <b>12% ahead of target</b> (84/120). P-0071 biomarkers show early responder phenotype. AE rate 3.6% — within bounds. 6 CYP2C19 pharmacogenomic flags require dosing review. Predicted completion: <b>Aug 14, 2025 ±18 days</b>. DSMB awaits PI signature.</div>
+      <div class="aib-tags"><span class="chip cg">✦ High Confidence</span><span class="chip cb2">Updated 09:42</span><span class="chip cgr">Day 147</span></div>
+    </div>
+  </div>
+  <div class="sr sr-5">
+    <div class="sc ca"><div class="sl">Enrolled</div><div class="sv">84</div><div class="ss">of 120 (70%)</div><div class="st tu">▲ +3</div></div>
+    <div class="sc cb"><div class="sl">Active Tasks</div><div class="sv">12</div><div class="ss">5 due this week</div><div class="st tf">— on track</div></div>
+    <div class="sc cam"><div class="sl">Data Points</div><div class="sv">2.4K</div><div class="ss">96% completeness</div><div class="st tu">▲ +142</div></div>
+    <div class="sc cp"><div class="sl">AI Accuracy</div><div class="sv">98%</div><div class="ss">model precision</div><div class="st tu">▲ +1.2%</div></div>
+    <div class="sc cr"><div class="sl">Active AEs</div><div class="sv">3</div><div class="ss">no SAEs</div><div class="st td">▼ safe</div></div>
+  </div>
+  <div class="g2">
+    <div class="card">
+      <div class="ch"><div class="ct">📊 Enrollment Breakdown</div><button class="ca-btn" onclick="go('participants',null)">All →</button></div>
+      <div class="cb">
+        <div style="display:flex;align-items:center;gap:16px">
+          <svg width="90" height="90" viewBox="0 0 36 36" style="flex-shrink:0">
+            <circle cx="18" cy="18" r="15.9" fill="none" stroke="var(--bd)" stroke-width="3"/>
+            <circle cx="18" cy="18" r="15.9" fill="none" stroke="var(--a)" stroke-width="3" stroke-dasharray="52 48" stroke-dashoffset="25" stroke-linecap="round"/>
+            <circle cx="18" cy="18" r="15.9" fill="none" stroke="var(--bl)" stroke-width="3" stroke-dasharray="17 83" stroke-dashoffset="-27" stroke-linecap="round"/>
+            <circle cx="18" cy="18" r="15.9" fill="none" stroke="var(--pu)" stroke-width="3" stroke-dasharray="10 90" stroke-dashoffset="-44" stroke-linecap="round"/>
+            <text x="18" y="20" text-anchor="middle" fill="var(--a)" style="font-family:'DM Mono';font-size:6px;font-weight:700">70%</text>
+          </svg>
+          <div style="flex:1">
+            <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;font-size:12px"><div style="width:8px;height:8px;border-radius:50%;background:var(--a)"></div>Active<span style="margin-left:auto;font-family:'DM Mono',monospace;font-size:10px;color:var(--tx3)">62</span></div>
+            <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;font-size:12px"><div style="width:8px;height:8px;border-radius:50%;background:var(--bl)"></div>Screening<span style="margin-left:auto;font-family:'DM Mono',monospace;font-size:10px;color:var(--tx3)">14</span></div>
+            <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;font-size:12px"><div style="width:8px;height:8px;border-radius:50%;background:var(--pu)"></div>Complete<span style="margin-left:auto;font-family:'DM Mono',monospace;font-size:10px;color:var(--tx3)">6</span></div>
+            <div style="display:flex;align-items:center;gap:6px;font-size:12px"><div style="width:8px;height:8px;border-radius:50%;background:var(--rd)"></div>Withdrawn<span style="margin-left:auto;font-family:'DM Mono',monospace;font-size:10px;color:var(--tx3)">2</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="ch"><div class="ct">💓 Live Vitals — P-0077</div><span class="chip cg" style="animation:pg 2s infinite">● LIVE</span></div>
+      <div class="cb">
+        <div class="vg">
+          <div class="vc"><div class="vlb">Heart Rate</div><div class="vv" id="d-hr" style="color:var(--rd)">72</div><div class="vu">bpm</div></div>
+          <div class="vc"><div class="vlb">SpO₂</div><div class="vv" id="d-spo2" style="color:var(--bl)">98</div><div class="vu">%</div></div>
+          <div class="vc"><div class="vlb">BP</div><div class="vv" id="d-bp" style="color:var(--am);font-size:13px">124/82</div><div class="vu">mmHg</div></div>
+          <div class="vc"><div class="vlb">Temp</div><div class="vv" id="d-tmp" style="color:var(--a)">36.8</div><div class="vu">°C</div></div>
+        </div>
+        <div class="ecg-box scan-w" style="height:80px"><div class="scan-l"></div><div class="ecg-lbl">ECG LEAD II · REAL-TIME</div><canvas id="ecg1" style="width:100%;height:80px"></canvas></div>
+      </div>
+    </div>
+  </div>
+  <div class="g3">
+    <div class="card">
+      <div class="ch"><div class="ct">⚡ Urgent Tasks</div></div>
+      <div class="cb" id="dash-tasks"></div>
+    </div>
+    <div class="card">
+      <div class="ch"><div class="ct">📋 Recent Activity</div></div>
+      <div class="cb">
+        <div class="act-i"><div class="act-ic" style="background:var(--ad);color:var(--a)">+</div><div><div class="act-tx"><b>P-0082</b> enrolled — baseline complete</div><div class="act-tm">Today · 09:14 · Nurse Chen</div></div></div>
+        <div class="act-i"><div class="act-ic" style="background:var(--bld);color:var(--bl)">✦</div><div><div class="act-tx">AI flagged <b>early responder</b> in P-0071</div><div class="act-tm">Today · 08:31 · Edmed AI</div></div></div>
+        <div class="act-i"><div class="act-ic" style="background:var(--pud);color:var(--pu)">✓</div><div><div class="act-tx">Month 4 Lab Review milestone done</div><div class="act-tm">Yesterday · 04:32 · Dr. Ifeacho</div></div></div>
+        <div class="act-i"><div class="act-ic" style="background:var(--amd);color:var(--am)">!</div><div><div class="act-tx"><b>AE-041</b> filed — P-0071 Gr.2 hypertension</div><div class="act-tm">Feb 17 · 11:05 · Dr. Patel</div></div></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="ch"><div class="ct">🎯 AI Risk Summary</div></div>
+      <div class="cb">
+        <div class="pr-row"><div class="pr-l">Study Success</div><div class="pr-bg"><div class="pr-fi" style="width:87%;background:var(--a)"></div></div><div class="pr-pct" style="color:var(--a)">87%</div></div>
+        <div class="pr-row"><div class="pr-l">P-0033 Dropout</div><div class="pr-bg"><div class="pr-fi" style="width:62%;background:var(--rd)"></div></div><div class="pr-pct" style="color:var(--rd)">62%</div></div>
+        <div class="pr-row"><div class="pr-l">Data Quality</div><div class="pr-bg"><div class="pr-fi" style="width:96%;background:var(--a)"></div></div><div class="pr-pct">96%</div></div>
+        <div class="pr-row"><div class="pr-l">Protocol Adhrnc</div><div class="pr-bg"><div class="pr-fi" style="width:97%;background:var(--bl)"></div></div><div class="pr-pct" style="color:var(--bl)">97%</div></div>
+        <div class="pr-row"><div class="pr-l">AE Signal Risk</div><div class="pr-bg"><div class="pr-fi" style="width:14%;background:var(--gn)"></div></div><div class="pr-pct" style="color:var(--gn)">Low</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ════ STUDY PROTOCOL ════ -->
+<div id="pg-protocol" class="pg">
+  <div class="aib"><div class="aib-ic">📋</div><div><div class="aib-t">Protocol v3.2 — CARDIO-7</div><div class="aib-x">Phase III, Randomized, Double-blind, Placebo-controlled. Primary endpoint: BNP reduction ≥40% at week 24. Target N=120. NCT04829182. IND# 147892. Sponsor: EdMed Research Nigeria Ltd.</div></div></div>
+  <div class="g2">
+    <div class="card"><div class="ch"><div class="ct">📌 Protocol Summary</div></div><div class="cb">
+      <table class="tbl"><tbody>
+        <tr><td style="color:var(--tx3);font-size:11px">Study Title</td><td>Efficacy of Compound X in Moderate HFrEF</td></tr>
+        <tr><td style="color:var(--tx3);font-size:11px">Phase</td><td><span class="chip cg">Phase III</span></td></tr>
+        <tr><td style="color:var(--tx3);font-size:11px">Design</td><td>Randomized · Double-blind · Placebo-controlled</td></tr>
+        <tr><td style="color:var(--tx3);font-size:11px">Duration</td><td>24 weeks treatment + 4 weeks follow-up</td></tr>
+        <tr><td style="color:var(--tx3);font-size:11px">Target N</td><td>120 (60 per arm)</td></tr>
+        <tr><td style="color:var(--tx3);font-size:11px">Primary EP</td><td>BNP reduction ≥40% at Week 24</td></tr>
+        <tr><td style="color:var(--tx3);font-size:11px">Secondary EPs</td><td>6MWT, KCCQ, Echo LVEF, Hospitalization</td></tr>
+        <tr><td style="color:var(--tx3);font-size:11px">IRB #</td><td>2024-IRB-0441 · Valid Dec 2025</td></tr>
+        <tr><td style="color:var(--tx3);font-size:11px">IND #</td><td>147892 · FDA Approved</td></tr>
+        <tr><td style="color:var(--tx3);font-size:11px">Sites</td><td>3 (Lagos, Abuja, Port Harcourt)</td></tr>
+      </tbody></table>
+    </div></div>
+    <div class="card"><div class="ch"><div class="ct">✅ Inclusion / Exclusion Criteria</div></div><div class="cb">
+      <div style="margin-bottom:12px"><div style="font-family:'DM Mono',monospace;font-size:9px;color:var(--a);letter-spacing:1px;text-transform:uppercase;margin-bottom:7px">INCLUSION</div>
+        <div style="display:flex;flex-direction:column;gap:5px;font-size:12px;color:var(--tx2)">
+          <div>✅ Age 40–80 years</div><div>✅ Diagnosed HFrEF (LVEF ≤40%)</div><div>✅ NYHA Class II–III</div><div>✅ BNP ≥150 pg/mL at screening</div><div>✅ On stable GDMT ≥3 months</div>
+        </div>
+      </div>
+      <div><div style="font-family:'DM Mono',monospace;font-size:9px;color:var(--rd);letter-spacing:1px;text-transform:uppercase;margin-bottom:7px">EXCLUSION</div>
+        <div style="display:flex;flex-direction:column;gap:5px;font-size:12px;color:var(--tx2)">
+          <div>❌ eGFR &lt;30 mL/min/1.73m²</div><div>❌ LVEF &gt;40% at screening</div><div>❌ Acute decompensation in 3 months</div><div>❌ Pregnancy or breastfeeding</div><div>❌ Active malignancy</div>
+        </div>
+      </div>
+    </div></div>
+  </div>
+</div>
+
+<!-- ════ EHR ════ -->
+<div id="pg-ehr" class="pg">
+  <div class="aib"><div class="aib-ic">🗂</div><div><div class="aib-t">AI EHR Summary Engine</div><div class="aib-x">Edmed AI processes all participant records in real time. <b>84 complete EHRs</b> on file. AI flags: 3 incomplete records, 2 allergy conflicts, 6 drug history alerts. NLP extraction from uploaded clinical notes: 97.3% accuracy.</div></div></div>
+  <div class="sh"><div class="stt">Electronic Health Records</div><div style="display:flex;gap:7px"><input class="si" placeholder="🔍 Search patient…" id="ehr-search"><button class="btn bp bsm" onclick="openModal('part-modal')">+ New Record</button></div></div>
+  <div class="card"><table class="tbl" id="ehr-table">
+    <thead><tr><th>ID</th><th>Patient</th><th>DOB / Sex</th><th>Diagnosis</th><th>Allergies</th><th>Last Visit</th><th>Medications</th><th>Status</th><th></th></tr></thead>
+    <tbody id="ehr-body"></tbody>
+  </table></div>
+</div>
+
+<!-- ════ VITALS & ECG/EEG ════ -->
+<div id="pg-vitals" class="pg">
+  <div class="g2">
+    <div class="card"><div class="ch"><div class="ct">💓 ECG Monitor — P-0077</div><span class="chip cg">NORMAL SR · 72 BPM</span></div><div class="cb">
+      <div class="vg">
+        <div class="vc"><div class="vlb">Heart Rate</div><div class="vv" id="v-hr" style="color:var(--rd)">72</div><div class="vu">bpm</div></div>
+        <div class="vc"><div class="vlb">SpO₂</div><div class="vv" id="v-spo2" style="color:var(--bl)">98</div><div class="vu">%</div></div>
+        <div class="vc"><div class="vlb">BP</div><div class="vv" id="v-bp" style="color:var(--am);font-size:13px">124/82</div><div class="vu">mmHg</div></div>
+        <div class="vc"><div class="vlb">Temp</div><div class="vv" id="v-tmp" style="color:var(--a)">36.8</div><div class="vu">°C</div></div>
+      </div>
+      <div class="vg" style="grid-template-columns:repeat(4,1fr)">
+        <div class="vc"><div class="vlb">RR Interval</div><div class="vv" style="color:var(--pu);font-size:16px" id="v-rr">820</div><div class="vu">ms</div></div>
+        <div class="vc"><div class="vlb">QTc</div><div class="vv" style="color:var(--cy);font-size:16px" id="v-qtc">438</div><div class="vu">ms</div></div>
+        <div class="vc"><div class="vlb">CO₂</div><div class="vv" style="color:var(--gn);font-size:16px">38</div><div class="vu">mmHg</div></div>
+        <div class="vc"><div class="vlb">RMSSD</div><div class="vv" style="color:var(--am);font-size:16px">42</div><div class="vu">ms</div></div>
+      </div>
+      <div class="ecg-box scan-w" style="height:110px"><div class="scan-l"></div><div class="ecg-lbl">ECG 12-LEAD SIMULATION — LEAD II</div><canvas id="ecg2" style="width:100%;height:110px"></canvas></div>
+    </div></div>
+    <div class="card"><div class="ch"><div class="ct">🧠 EEG Monitor — Neurological</div><span class="chip cb2">ALPHA DOMINANT</span></div><div class="cb">
+      <div class="vg">
+        <div class="vc"><div class="vlb">Alpha</div><div class="vv" style="color:var(--a);font-size:16px">8–12</div><div class="vu">Hz</div></div>
+        <div class="vc"><div class="vlb">Beta</div><div class="vv" style="color:var(--bl);font-size:16px">13–30</div><div class="vu">Hz</div></div>
+        <div class="vc"><div class="vlb">Theta</div><div class="vv" style="color:var(--pu);font-size:16px">4–7</div><div class="vu">Hz</div></div>
+        <div class="vc"><div class="vlb">Delta</div><div class="vv" style="color:var(--am);font-size:16px">1–3</div><div class="vu">Hz</div></div>
+      </div>
+      <div class="ecg-box scan-w" style="height:110px;background:#030a0e"><div class="scan-l" style="background:linear-gradient(90deg,transparent,var(--bl),transparent)"></div><div class="ecg-lbl" style="color:var(--bl)">EEG CHANNEL Cz — REAL-TIME</div><canvas id="eeg1" style="width:100%;height:110px"></canvas></div>
+    </div></div>
+  </div>
+  <div class="g3">
+    <div class="card"><div class="ch"><div class="ct">🫀 Hemodynamics</div></div><div class="cb">
+      <div class="lab-row"><span class="lab-name">Cardiac Output</span><span class="lab-val" style="color:var(--a)">5.2 L/min</span><span class="lab-ref">4–8</span><span class="lab-flag lab-norm">▶ NRM</span></div>
+      <div class="lab-row"><span class="lab-name">SVR</span><span class="lab-val">1050 dyn</span><span class="lab-ref">800–1200</span><span class="lab-flag lab-norm">▶ NRM</span></div>
+      <div class="lab-row"><span class="lab-name">PCWP</span><span class="lab-val" style="color:var(--am)">18 mmHg</span><span class="lab-ref">6–12</span><span class="lab-flag lab-hi">▲ HI</span></div>
+      <div class="lab-row"><span class="lab-name">CVP</span><span class="lab-val">9 mmHg</span><span class="lab-ref">2–8</span><span class="lab-flag lab-hi">▲ HI</span></div>
+    </div></div>
+    <div class="card"><div class="ch"><div class="ct">🌡 Body Composition</div></div><div class="cb">
+      <div class="lab-row"><span class="lab-name">BMI</span><span class="lab-val">26.4</span><span class="lab-ref">18.5–24.9</span><span class="lab-flag lab-hi">▲ OW</span></div>
+      <div class="lab-row"><span class="lab-name">Body Fat %</span><span class="lab-val">24%</span><span class="lab-ref">15–25%</span><span class="lab-flag lab-norm">▶ NRM</span></div>
+      <div class="lab-row"><span class="lab-name">Muscle Mass</span><span class="lab-val">38.2 kg</span><span class="lab-ref">30–45</span><span class="lab-flag lab-norm">▶ NRM</span></div>
+      <div class="lab-row"><span class="lab-name">Hydration</span><span class="lab-val" style="color:var(--am)">57%</span><span class="lab-ref">60–70%</span><span class="lab-flag lab-lo">▼ LO</span></div>
+    </div></div>
+    <div class="card"><div class="ch"><div class="ct">📡 Wearable Live Feed</div></div><div class="cb">
+      <div id="hmap-wrap"></div>
+      <div style="font-family:'DM Mono',monospace;font-size:8px;color:var(--tx3);margin-top:8px;display:flex;gap:10px"><span style="color:var(--a)">■ Normal</span><span style="color:var(--am)">■ Elevated</span><span style="color:var(--rd)">■ Alert</span></div>
+    </div></div>
+  </div>
+</div>
+
+<!-- ════ LABS ════ -->
+<div id="pg-labs" class="pg">
+  <div class="aib"><div class="aib-ic">🧪</div><div><div class="aib-t">AI Lab Interpretation</div><div class="aib-x">Automated lab QC complete. <b>2 critical values</b> flagged: P-0033 HbA1c 9.2% (critical), P-0071 K⁺ 5.8 mEq/L (high). All other values within normal limits. Reference ranges auto-calibrated to NIH NHANES 2024.</div></div></div>
+  <div class="g2">
+    <div class="card"><div class="ch"><div class="ct">🩸 Hematology (CBC)</div><span class="chip cgr">P-0077 · Feb 18</span></div><div class="cb">
+      <div class="lab-row"><span class="lab-name">WBC</span><span class="lab-val lab-norm">7.2 ×10³</span><span class="lab-ref">4.5–11.0</span><span class="lab-flag lab-norm">NRM</span></div>
+      <div class="lab-row"><span class="lab-name">RBC</span><span class="lab-val lab-norm">4.8 ×10⁶</span><span class="lab-ref">4.5–5.5</span><span class="lab-flag lab-norm">NRM</span></div>
+      <div class="lab-row"><span class="lab-name">Hemoglobin</span><span class="lab-val lab-norm">14.2 g/dL</span><span class="lab-ref">13.5–17.5</span><span class="lab-flag lab-norm">NRM</span></div>
+      <div class="lab-row"><span class="lab-name">Hematocrit</span><span class="lab-val lab-norm">42%</span><span class="lab-ref">41–53%</span><span class="lab-flag lab-norm">NRM</span></div>
+      <div class="lab-row"><span class="lab-name">Platelets</span><span class="lab-val lab-norm">234 ×10³</span><span class="lab-ref">150–400</span><span class="lab-flag lab-norm">NRM</span></div>
+      <div class="lab-row"><span class="lab-name">Neutrophils</span><span class="lab-val lab-norm">62%</span><span class="lab-ref">50–70%</span><span class="lab-flag lab-norm">NRM</span></div>
+      <div class="lab-row"><span class="lab-name">Lymphocytes</span><span class="lab-val lab-norm">28%</span><span class="lab-ref">20–40%</span><span class="lab-flag lab-norm">NRM</span></div>
+    </div></div>
+    <div class="card"><div class="ch"><div class="ct">⚗ Comprehensive Metabolic</div><span class="chip cgr">P-0077 · Feb 18</span></div><div class="cb">
+      <div class="lab-row"><span class="lab-name">Glucose (fasting)</span><span class="lab-val lab-norm">94 mg/dL</span><span class="lab-ref">70–100</span><span class="lab-flag lab-norm">NRM</span></div>
+      <div class="lab-row"><span class="lab-name">HbA1c</span><span class="lab-val lab-norm">5.6%</span><span class="lab-ref">&lt;5.7%</span><span class="lab-flag lab-norm">NRM</span></div>
+      <div class="lab-row"><span class="lab-name">Creatinine</span><span class="lab-val lab-norm">0.9 mg/dL</span><span class="lab-ref">0.7–1.2</span><span class="lab-flag lab-norm">NRM</span></div>
+      <div class="lab-row"><span class="lab-name">eGFR</span><span class="lab-val lab-norm">89 mL/min</span><span class="lab-ref">≥60</span><span class="lab-flag lab-norm">NRM</span></div>
+      <div class="lab-row"><span class="lab-name">Potassium</span><span class="lab-val lab-hi">5.8 mEq/L</span><span class="lab-ref">3.5–5.0</span><span class="lab-flag lab-hi">▲ HI</span></div>
+      <div class="lab-row"><span class="lab-name">Sodium</span><span class="lab-val lab-norm">138 mEq/L</span><span class="lab-ref">136–145</span><span class="lab-flag lab-norm">NRM</span></div>
+      <div class="lab-row"><span class="lab-name">ALT</span><span class="lab-val lab-norm">28 U/L</span><span class="lab-ref">7–45</span><span class="lab-flag lab-norm">NRM</span></div>
+    </div></div>
+  </div>
+  <div class="g3">
+    <div class="card"><div class="ch"><div class="ct">❤ Cardiac Biomarkers</div></div><div class="cb">
+      <div class="lab-row"><span class="lab-name">BNP</span><span class="lab-val lab-hi">380 pg/mL</span><span class="lab-ref">&lt;100</span><span class="lab-flag lab-hi">▲ HI</span></div>
+      <div class="lab-row"><span class="lab-name">NT-proBNP</span><span class="lab-val lab-hi">1240 pg/mL</span><span class="lab-ref">&lt;125</span><span class="lab-flag lab-hi">▲ HI</span></div>
+      <div class="lab-row"><span class="lab-name">Troponin-T</span><span class="lab-val lab-norm">0.012 ng/mL</span><span class="lab-ref">&lt;0.04</span><span class="lab-flag lab-norm">NRM</span></div>
+      <div class="lab-row"><span class="lab-name">CRP (hs)</span><span class="lab-val lab-hi">4.2 mg/L</span><span class="lab-ref">&lt;3.0</span><span class="lab-flag lab-hi">▲ HI</span></div>
+    </div></div>
+    <div class="card"><div class="ch"><div class="ct">🧬 Lipid Panel</div></div><div class="cb">
+      <div class="lab-row"><span class="lab-name">Total Cholesterol</span><span class="lab-val lab-norm">182 mg/dL</span><span class="lab-ref">&lt;200</span><span class="lab-flag lab-norm">NRM</span></div>
+      <div class="lab-row"><span class="lab-name">LDL</span><span class="lab-val lab-norm">98 mg/dL</span><span class="lab-ref">&lt;100</span><span class="lab-flag lab-norm">NRM</span></div>
+      <div class="lab-row"><span class="lab-name">HDL</span><span class="lab-val lab-norm">52 mg/dL</span><span class="lab-ref">&gt;40</span><span class="lab-flag lab-norm">NRM</span></div>
+      <div class="lab-row"><span class="lab-name">Triglycerides</span><span class="lab-val lab-hi">182 mg/dL</span><span class="lab-ref">&lt;150</span><span class="lab-flag lab-hi">▲ HI</span></div>
+    </div></div>
+    <div class="card"><div class="ch"><div class="ct">🔬 Inflammatory / Immunology</div></div><div class="cb">
+      <div class="lab-row"><span class="lab-name">ESR</span><span class="lab-val lab-hi">28 mm/hr</span><span class="lab-ref">0–20</span><span class="lab-flag lab-hi">▲ HI</span></div>
+      <div class="lab-row"><span class="lab-name">IL-6</span><span class="lab-val lab-hi">8.4 pg/mL</span><span class="lab-ref">&lt;7.0</span><span class="lab-flag lab-hi">▲ HI</span></div>
+      <div class="lab-row"><span class="lab-name">TNF-α</span><span class="lab-val lab-norm">3.2 pg/mL</span><span class="lab-ref">&lt;8.1</span><span class="lab-flag lab-norm">NRM</span></div>
+      <div class="lab-row"><span class="lab-name">Ferritin</span><span class="lab-val lab-norm">84 ng/mL</span><span class="lab-ref">20–250</span><span class="lab-flag lab-norm">NRM</span></div>
+    </div></div>
+  </div>
+</div>
+
+<!-- ════ IMAGING ════ -->
+<div id="pg-imaging" class="pg">
+  <div class="aib"><div class="aib-ic">🩻</div><div><div class="aib-t">AI Radiology Engine — Edmed Vision</div><div class="aib-x">AI has analyzed <b>246 imaging studies</b>. Zero critical findings unreviewed. Echocardiography AI: average LVEF estimation error ±2.1%. Chest X-ray AI: 99.1% sensitivity for cardiomegaly detection. All images encrypted at rest (AES-256).</div></div></div>
+  <div class="g3">
+    <div class="card"><div class="ch"><div class="ct">🫀 Echocardiogram</div><span class="chip cg">AI-Enhanced</span></div><div class="cb">
+      <div class="img-viewer" style="height:140px;margin-bottom:10px"><div class="img-overlay"><div style="font-size:36px;opacity:.15">🫀</div><div class="img-scan-text">ECHO — PARASTERNAL LONG AXIS</div><div style="font-size:10px;color:var(--tx3)">Simulated · Real DICOM in production</div></div></div>
+      <div class="lab-row"><span class="lab-name">LVEF (AI)</span><span class="lab-val lab-hi">32%</span><span class="lab-ref">55–70%</span><span class="lab-flag lab-hi">▼ LO</span></div>
+      <div class="lab-row"><span class="lab-name">LVEDd</span><span class="lab-val lab-hi">6.2 cm</span><span class="lab-ref">3.5–5.7</span><span class="lab-flag lab-hi">▲ HI</span></div>
+      <div class="lab-row"><span class="lab-name">E/e' ratio</span><span class="lab-val lab-hi">16</span><span class="lab-ref">&lt;14</span><span class="lab-flag lab-hi">▲ HI</span></div>
+    </div></div>
+    <div class="card"><div class="ch"><div class="ct">🫁 Chest X-Ray</div><span class="chip cb2">AI Read</span></div><div class="cb">
+      <div class="img-viewer" style="height:140px;margin-bottom:10px"><div class="img-overlay"><div style="font-size:36px;opacity:.1">🫁</div><div class="img-scan-text">CXR — PA VIEW</div><div style="font-size:10px;color:var(--tx3)">Cardiomegaly: Detected</div></div></div>
+      <div class="lab-row"><span class="lab-name">CTR</span><span class="lab-val lab-hi">0.58</span><span class="lab-ref">&lt;0.50</span><span class="lab-flag lab-hi">▲ HI</span></div>
+      <div class="lab-row"><span class="lab-name">Pulm. Edema</span><span class="lab-val lab-hi">Mild</span><span class="lab-ref">None</span><span class="lab-flag lab-hi">⚠</span></div>
+      <div class="lab-row"><span class="lab-name">Pleural Eff.</span><span class="lab-val lab-norm">Absent</span><span class="lab-ref">None</span><span class="lab-flag lab-norm">OK</span></div>
+    </div></div>
+    <div class="card"><div class="ch"><div class="ct">🧠 Brain MRI</div><span class="chip cp2">3T Protocol</span></div><div class="cb">
+      <div class="img-viewer" style="height:140px;margin-bottom:10px"><div class="img-overlay"><div style="font-size:36px;opacity:.1">🧠</div><div class="img-scan-text">MRI FLAIR — AXIAL</div><div style="font-size:10px;color:var(--tx3)">No acute intracranial abnormality</div></div></div>
+      <div class="lab-row"><span class="lab-name">White Matter</span><span class="lab-val lab-norm">Normal</span><span class="lab-ref">Normal</span><span class="lab-flag lab-norm">OK</span></div>
+      <div class="lab-row"><span class="lab-name">Cortical Vol.</span><span class="lab-val lab-norm">1420 cm³</span><span class="lab-ref">1350–1600</span><span class="lab-flag lab-norm">NRM</span></div>
+      <div class="lab-row"><span class="lab-name">Hippocampus</span><span class="lab-val lab-norm">Symmetric</span><span class="lab-ref">Symmetric</span><span class="lab-flag lab-norm">OK</span></div>
+    </div></div>
+  </div>
+</div>
+
+<!-- ════ MEDICATIONS ════ -->
+<div id="pg-medications" class="pg">
+  <div class="aib"><div class="aib-ic">💊</div><div><div class="aib-t">AI Medication Safety Engine</div><div class="aib-x"><b>3 drug interactions</b> detected across participant cohort. 6 CYP2C19 poor metabolizers on substrate drugs — dosing adjustments recommended. Medication adherence AI (wearable pill detection): 91.4% compliance rate. Formulary alerts: 1 medication approaching study-site stock depletion.</div></div></div>
+  <div class="g2">
+    <div class="card"><div class="ch"><div class="ct">📋 Current Medications — P-0077</div></div><div class="cb">
+      <table class="tbl"><thead><tr><th>Drug</th><th>Class</th><th>Dose</th><th>Freq</th><th>Route</th><th>AI Safety</th></tr></thead><tbody>
+        <tr><td>Sacubitril/Valsartan</td><td>ARNI</td><td>97/103mg</td><td>BID</td><td>PO</td><td><span class="chip cg">Safe</span></td></tr>
+        <tr><td>Carvedilol</td><td>β-Blocker</td><td>25mg</td><td>BID</td><td>PO</td><td><span class="chip cg">Safe</span></td></tr>
+        <tr><td>Furosemide</td><td>Loop Diuretic</td><td>40mg</td><td>QD</td><td>PO</td><td><span class="chip cam2">Monitor K⁺</span></td></tr>
+        <tr><td>Spironolactone</td><td>MRA</td><td>25mg</td><td>QD</td><td>PO</td><td><span class="chip cam2">Monitor K⁺</span></td></tr>
+        <tr><td>Compound X (IMP)</td><td>Study Drug</td><td>10mg</td><td>QD</td><td>PO</td><td><span class="chip cb2">Study Drug</span></td></tr>
+      </tbody></table>
+    </div></div>
+    <div class="card"><div class="ch"><div class="ct">⚗ Drug Interaction Checker</div></div><div class="cb">
+      <div style="display:flex;gap:8px;margin-bottom:12px">
+        <input class="fi" placeholder="Drug A (e.g. Furosemide)" id="di-a" style="flex:1">
+        <input class="fi" placeholder="Drug B (e.g. Spironolactone)" id="di-b" style="flex:1">
+        <button class="btn bb bsm" onclick="checkDrugInt()">Check</button>
+      </div>
+      <div id="di-results">
+        <div class="di-result" style="background:var(--amd);border:1px solid rgba(255,190,64,.2);border-radius:7px;padding:11px">
+          <div class="di-sev" style="color:var(--am)">⚠ MODERATE — Furosemide + Spironolactone</div>
+          <div class="di-desc">Concurrent use may cause hyperkalemia. Monitor K⁺ levels closely. Current P-0077 K⁺: 5.8 mEq/L (elevated).</div>
+        </div>
+        <div class="di-result" style="background:var(--ad);border:1px solid rgba(0,240,192,.12);border-radius:7px;padding:11px;margin-top:7px">
+          <div class="di-sev" style="color:var(--a)">✓ MINOR — Carvedilol + Valsartan</div>
+          <div class="di-desc">Additive antihypertensive effect. Monitor BP. Expected and managed in this population.</div>
+        </div>
+      </div>
+    </div></div>
+  </div>
+</div>
+
+<!-- ════ BIOMARKERS ════ -->
+<div id="pg-biomarkers" class="pg">
+  <div class="aib"><div class="aib-ic">🔬</div><div><div class="aib-t">Multi-Omics AI Platform</div><div class="aib-x">Integrating <b>proteomics, metabolomics, transcriptomics</b> and clinical data. Machine learning signature identified for treatment response. Key finding: 47-protein panel predicts BNP response with AUC=0.96. Metabolomics: branched-chain amino acid elevation in non-responders (p&lt;0.001).</div></div></div>
+  <div class="g2">
+    <div class="card"><div class="ch"><div class="ct">🧬 Proteomic Signature</div></div><div class="cb">
+      <div class="gg">
+        <div class="gc"><div class="gn2">BNP</div><div class="gv">380 pg/mL</div><div class="gs"><span class="chip cr2">↑ High</span></div></div>
+        <div class="gc"><div class="gn2">NT-proBNP</div><div class="gv">1240 pg/mL</div><div class="gs"><span class="chip cr2">↑ High</span></div></div>
+        <div class="gc"><div class="gn2">GDF-15</div><div class="gv">820 pg/mL</div><div class="gs"><span class="chip cam2">↑ Mod</span></div></div>
+        <div class="gc"><div class="gn2">sST2</div><div class="gv">28 ng/mL</div><div class="gs"><span class="chip cg">Normal</span></div></div>
+        <div class="gc"><div class="gn2">Galectin-3</div><div class="gv">14 ng/mL</div><div class="gs"><span class="chip cam2">Borderline</span></div></div>
+        <div class="gc"><div class="gn2">TIMP-1</div><div class="gv">182 ng/mL</div><div class="gs"><span class="chip cg">Normal</span></div></div>
+        <div class="gc"><div class="gn2">Cystatin-C</div><div class="gv">0.88 mg/L</div><div class="gs"><span class="chip cg">Normal</span></div></div>
+        <div class="gc"><div class="gn2">PIGF</div><div class="gv">18.4 pg/mL</div><div class="gs"><span class="chip cam2">Elevated</span></div></div>
+        <div class="gc"><div class="gn2">Procalcitonin</div><div class="gv">0.06 ng/mL</div><div class="gs"><span class="chip cg">Normal</span></div></div>
+      </div>
+    </div></div>
+    <div class="card"><div class="ch"><div class="ct">⚗ Metabolomics Panel</div></div><div class="cb">
+      <div class="pr-row"><div class="pr-l">BCAA (Valine)</div><div class="pr-bg"><div class="pr-fi" style="width:78%;background:var(--am)"></div></div><div class="pr-pct" style="color:var(--am)">↑ High</div></div>
+      <div class="pr-row"><div class="pr-l">BCAA (Leucine)</div><div class="pr-bg"><div class="pr-fi" style="width:82%;background:var(--am)"></div></div><div class="pr-pct" style="color:var(--am)">↑ High</div></div>
+      <div class="pr-row"><div class="pr-l">Succinate</div><div class="pr-bg"><div class="pr-fi" style="width:65%;background:var(--am)"></div></div><div class="pr-pct" style="color:var(--am)">↑ Mod</div></div>
+      <div class="pr-row"><div class="pr-l">Acetylcarnitine</div><div class="pr-bg"><div class="pr-fi" style="width:48%;background:var(--a)"></div></div><div class="pr-pct">Norm</div></div>
+      <div class="pr-row"><div class="pr-l">Ceramides (d18:1)</div><div class="pr-bg"><div class="pr-fi" style="width:71%;background:var(--rd)"></div></div><div class="pr-pct" style="color:var(--rd)">↑ HI</div></div>
+      <div class="pr-row"><div class="pr-l">Citrate</div><div class="pr-bg"><div class="pr-fi" style="width:42%;background:var(--a)"></div></div><div class="pr-pct">Norm</div></div>
+    </div></div>
+  </div>
+</div>
+
+<!-- ════ BIOBANK ════ -->
+<div id="pg-biobank" class="pg">
+  <div class="aib"><div class="aib-ic">🧊</div><div><div class="aib-t">Sample Management System</div><div class="aib-x"><b>2,184 samples</b> stored across 3 freezer units. Temperature monitoring: all units ≥–80°C. Chain of custody 100% documented. AI flags 4 samples approaching expiry (90-day window). RFID tracking active on all aliquots.</div></div></div>
+  <div class="sr sr-4">
+    <div class="sc ca"><div class="sl">Total Samples</div><div class="sv">2,184</div><div class="ss">Across 3 freezers</div></div>
+    <div class="sc cb"><div class="sl">Plasma Aliquots</div><div class="sv">842</div><div class="ss">–80°C</div></div>
+    <div class="sc cam"><div class="sl">DNA Extracts</div><div class="sv">168</div><div class="ss">–20°C</div></div>
+    <div class="sc cr"><div class="sl">Expiring Soon</div><div class="sv">4</div><div class="ss">within 90 days</div></div>
+  </div>
+  <div class="card"><div class="ch"><div class="ct">🧊 Sample Inventory</div><button class="btn bp bsm" onclick="toast('Sample logged successfully','🧊')">+ Log Sample</button></div><div class="cb" style="padding:0">
+    <table class="tbl"><thead><tr><th>Sample ID</th><th>Participant</th><th>Type</th><th>Volume</th><th>Temp</th><th>Location</th><th>Collected</th><th>Expiry</th><th>Status</th></tr></thead><tbody>
+      <tr><td style="font-family:'DM Mono',monospace;color:var(--a)">BNK-2241</td><td>P-0077</td><td>Plasma</td><td>2.0 mL</td><td>–80°C</td><td>F1-R3-B2</td><td>Feb 18</td><td>Feb 2027</td><td><span class="chip cg">Stored</span></td></tr>
+      <tr><td style="font-family:'DM Mono',monospace;color:var(--a)">BNK-2238</td><td>P-0082</td><td>Serum</td><td>1.5 mL</td><td>–80°C</td><td>F1-R3-B3</td><td>Today</td><td>Today+2yr</td><td><span class="chip cg">Stored</span></td></tr>
+      <tr><td style="font-family:'DM Mono',monospace;color:var(--a)">BNK-2210</td><td>P-0033</td><td>gDNA</td><td>5 µg</td><td>–20°C</td><td>F2-R1-B1</td><td>Jan 15</td><td>Jan 2025</td><td><span class="chip cr2">⚠ Expiring</span></td></tr>
+      <tr><td style="font-family:'DM Mono',monospace;color:var(--a)">BNK-2190</td><td>P-0019</td><td>PBMC</td><td>10M cells</td><td>LN₂</td><td>LN-Tank-A</td><td>Dec 20</td><td>Dec 2034</td><td><span class="chip cg">Stored</span></td></tr>
+    </tbody></table>
+  </div></div>
+</div>
+
+<!-- ════ PARTICIPANTS ════ -->
+<div id="pg-participants" class="pg">
+  <div class="aib"><div class="aib-ic">🔬</div><div><div class="aib-t">AI Eligibility & Retention Engine</div><div class="aib-x">AI screened <b>212 candidates</b> this month. 14 passed. Predicted dropouts: P-0033 (62%), P-0058 (41%). Recommend proactive retention for both. Consenting platform: digital e-Consent, 100% completion rate this week.</div></div></div>
+  <div class="sh"><div class="stt">Participant Registry</div><div style="display:flex;gap:7px"><input class="si" placeholder="🔍 Search…" oninput="searchPart(this.value)"><button class="btn bp bsm" onclick="openModal('part-modal')">+ Enroll</button></div></div>
+  <div class="card"><table class="tbl"><thead><tr><th>ID</th><th>Name</th><th>Age/Sex</th><th>Diagnosis</th><th>Status</th><th>Arm</th><th>Visit</th><th>AI Dropout Risk</th><th>Last Seen</th><th></th></tr></thead><tbody id="part-body"></tbody></table></div>
+</div>
+
+<!-- ════ TASKS ════ -->
+<div id="pg-tasks" class="pg">
+  <div class="aib"><div class="aib-ic">🤖</div><div><div class="aib-t">AI Task Intelligence</div><div class="aib-x">3 tasks identified at risk of protocol deviation. Visit 5 lab samples for P-0044/P-0058 must be processed within 72 hours. AI auto-schedules reminders and sends team notifications.</div></div></div>
+  <div class="sh">
+    <div style="display:flex;gap:7px">
+      <button class="btn bg bsm" onclick="filterTasks('all',this)">All</button>
+      <button class="btn bg bsm" onclick="filterTasks('open',this)">Open</button>
+      <button class="btn bg bsm" onclick="filterTasks('done',this)">Done</button>
+    </div>
+    <div style="display:flex;gap:7px"><input class="si" placeholder="🔍 Search…" oninput="searchTasks(this.value)"><button class="btn bp bsm" onclick="openModal('task-modal')">+ Task</button></div>
+  </div>
+  <div class="card"><div id="task-list" style="padding:0 16px"></div></div>
+</div>
+
+<!-- ════ RANDOMIZATION ════ -->
+<div id="pg-randomization" class="pg">
+  <div class="aib"><div class="aib-ic">🎲</div><div><div class="aib-t">Blinded Randomization System</div><div class="aib-x">Stratified block randomization by site and LVEF strata. Allocation concealment: central IVRS system. Current allocation ratio: 1:1. Emergency unblinding protocol available with DSMB override. All randomization codes encrypted (RSA-2048).</div></div></div>
+  <div class="g2">
+    <div class="card"><div class="ch"><div class="ct">🎲 Randomization Summary</div></div><div class="cb">
+      <div class="sr sr-3" style="margin-bottom:0">
+        <div class="sc ca"><div class="sl">Treatment Arm</div><div class="sv">42</div><div class="ss">Compound X</div></div>
+        <div class="sc cb"><div class="sl">Placebo Arm</div><div class="sv">42</div><div class="ss">Matching PBO</div></div>
+        <div class="sc cam"><div class="sl">Not Randomized</div><div class="sv">14</div><div class="ss">In screening</div></div>
+      </div>
+      <div class="divider"></div>
+      <div class="cb-row"><div class="cb-l"><span>LVEF ≤30% stratum</span><span class="cb-pct">22/30</span></div><div class="pbg"><div class="pfi" style="width:73%"></div></div></div>
+      <div class="cb-row"><div class="cb-l"><span>LVEF 31–40% stratum</span><span class="cb-pct">20/30</span></div><div class="pbg"><div class="pfi" style="width:67%"></div></div></div>
+    </div></div>
+    <div class="card"><div class="ch"><div class="ct">🔒 Emergency Unblinding Log</div></div><div class="cb">
+      <div class="empty" style="padding:20px">🔒 No unblinding events in this study.<br><span style="font-size:10px;color:var(--tx3)">All unblinding events are logged with justification, timestamp, and authorized personnel signature.</span></div>
+      <button class="btn br bsm" style="width:100%;justify-content:center;margin-top:8px">⚠ Request Emergency Unblinding</button>
+    </div></div>
+  </div>
+</div>
+
+<!-- ════ TIMELINE ════ -->
+<div id="pg-timeline" class="pg">
+  <div class="g2">
+    <div class="card"><div class="ch"><div class="ct">📅 Gantt — Study Phases</div></div><div class="cb">
+      <div id="gantt-r"></div>
+    </div></div>
+    <div class="card"><div class="ch"><div class="ct">🗓 Milestone Tracker</div></div><div class="cb"><div class="tl" id="tl-list"></div></div></div>
+  </div>
+</div>
+
+<!-- ════ DATA COLLECTION ════ -->
+<div id="pg-forms" class="pg">
+  <div class="aib"><div class="aib-ic">🤖</div><div><div class="aib-t">AI Data QC & Auto-Query</div><div class="aib-x">2 anomalies detected. P-0033 HbA1c entry inconsistency (8.9% vs. prior 5.6%) — auto-query generated. AI completeness check: 96.2%. On-time submission rate: 91%. All data encrypted, 21 CFR Part 11 compliant.</div></div></div>
+  <div class="g2">
+    <div class="card"><div class="ch"><div class="ct">📝 Recent Submissions</div><button class="btn bp bsm" onclick="openModal('form-modal')">+ New Entry</button></div><div class="cb" style="padding:0">
+      <table class="tbl"><thead><tr><th>Form</th><th>Participant</th><th>Visit</th><th>Submitted</th><th>QC Status</th></tr></thead><tbody>
+        <tr><td>Visit 6 ECG</td><td>P-0044</td><td>V6</td><td>Feb 16</td><td><span class="chip cg">Passed</span></td></tr>
+        <tr><td>Baseline Labs</td><td>P-0082</td><td>V1</td><td>Today</td><td><span class="chip cb2">QC Pending</span></td></tr>
+        <tr><td>AE Report</td><td>P-0071</td><td>—</td><td>Feb 17</td><td><span class="chip cam2">In Review</span></td></tr>
+        <tr><td>Visit 5 CBC</td><td>P-0058</td><td>V5</td><td>Feb 15</td><td><span class="chip cg">Passed</span></td></tr>
+        <tr><td>ECHO Report</td><td>P-0033</td><td>V4</td><td>Feb 14</td><td><span class="chip cr2">Query Open</span></td></tr>
+      </tbody></table>
+    </div></div>
+    <div class="card"><div class="ch"><div class="ct">📊 Data Quality Metrics</div></div><div class="cb">
+      <div class="cb-row"><div class="cb-l"><span>Form Completeness</span><span class="cb-pct">96.2%</span></div><div class="pbg"><div class="pfi" style="width:96.2%"></div></div></div>
+      <div class="cb-row"><div class="cb-l"><span>Query Resolution Rate</span><span class="cb-pct">88%</span></div><div class="pbg"><div class="pfi" style="width:88%;background:linear-gradient(90deg,var(--bl),var(--pu))"></div></div></div>
+      <div class="cb-row"><div class="cb-l"><span>On-Time Submissions</span><span class="cb-pct">91%</span></div><div class="pbg"><div class="pfi" style="width:91%;background:linear-gradient(90deg,var(--am),var(--a))"></div></div></div>
+      <div class="cb-row"><div class="cb-l"><span>Double Data Entry Match</span><span class="cb-pct">99.8%</span></div><div class="pbg"><div class="pfi" style="width:99.8%"></div></div></div>
+    </div></div>
+  </div>
+</div>
+
+<!-- ════ PRO ════ -->
+<div id="pg-pro" class="pg">
+  <div class="aib"><div class="aib-ic">📱</div><div><div class="aib-t">ePRO — Patient-Reported Outcomes</div><div class="aib-x">Digital ePRO completion rate: <b>88%</b>. AI sentiment analysis of free-text responses identifies 4 participants reporting worsening fatigue (flagged for clinical review). KCCQ-12 mean score: 58.4 (moderate limitation).</div></div></div>
+  <div class="g3">
+    <div class="card"><div class="ch"><div class="ct">📊 KCCQ-12 Scores</div></div><div class="cb">
+      <div class="pr-row"><div class="pr-l">Overall Summary</div><div class="pr-bg"><div class="pr-fi" style="width:58%;background:var(--am)"></div></div><div class="pr-pct" style="color:var(--am)">58.4</div></div>
+      <div class="pr-row"><div class="pr-l">Physical Limitation</div><div class="pr-bg"><div class="pr-fi" style="width:55%;background:var(--rd)"></div></div><div class="pr-pct" style="color:var(--rd)">55</div></div>
+      <div class="pr-row"><div class="pr-l">Quality of Life</div><div class="pr-bg"><div class="pr-fi" style="width:62%;background:var(--bl)"></div></div><div class="pr-pct" style="color:var(--bl)">62</div></div>
+      <div class="pr-row"><div class="pr-l">Social Limitation</div><div class="pr-bg"><div class="pr-fi" style="width:48%;background:var(--rd)"></div></div><div class="pr-pct" style="color:var(--rd)">48</div></div>
+    </div></div>
+    <div class="card"><div class="ch"><div class="ct">😔 PHQ-9 Depression</div></div><div class="cb">
+      <div style="text-align:center;padding:10px 0"><div class="risk-big" style="color:var(--am);font-size:36px">8</div><div class="risk-lbl" style="color:var(--am)">MILD DEPRESSION</div><div style="font-size:11px;color:var(--tx3);margin-top:6px">Mean cohort score (range 0–27)</div></div>
+      <div class="divider"></div>
+      <div class="pr-row"><div class="pr-l">Minimal (0–4)</div><div class="pr-bg"><div class="pr-fi" style="width:54%;background:var(--a)"></div></div><div class="pr-pct">46 pts</div></div>
+      <div class="pr-row"><div class="pr-l">Mild (5–9)</div><div class="pr-bg"><div class="pr-fi" style="width:29%;background:var(--am)"></div></div><div class="pr-pct">25 pts</div></div>
+      <div class="pr-row"><div class="pr-l">Moderate+ (≥10)</div><div class="pr-bg"><div class="pr-fi" style="width:15%;background:var(--rd)"></div></div><div class="pr-pct">13 pts</div></div>
+    </div></div>
+    <div class="card"><div class="ch"><div class="ct">😰 GAD-7 Anxiety</div></div><div class="cb">
+      <div style="text-align:center;padding:10px 0"><div class="risk-big" style="color:var(--a);font-size:36px">5</div><div class="risk-lbl" style="color:var(--a)">MINIMAL ANXIETY</div><div style="font-size:11px;color:var(--tx3);margin-top:6px">Mean cohort score (range 0–21)</div></div>
+      <div class="divider"></div>
+      <div class="pr-row"><div class="pr-l">Minimal (0–4)</div><div class="pr-bg"><div class="pr-fi" style="width:62%;background:var(--a)"></div></div><div class="pr-pct">52 pts</div></div>
+      <div class="pr-row"><div class="pr-l">Mild (5–9)</div><div class="pr-bg"><div class="pr-fi" style="width:25%;background:var(--am)"></div></div><div class="pr-pct">21 pts</div></div>
+      <div class="pr-row"><div class="pr-l">Moderate+ (≥10)</div><div class="pr-bg"><div class="pr-fi" style="width:13%;background:var(--rd)"></div></div><div class="pr-pct">11 pts</div></div>
+    </div></div>
+  </div>
+</div>
+
+<!-- ════ TELEMEDICINE ════ -->
+<div id="pg-telemedicine" class="pg">
+  <div class="aib"><div class="aib-ic">📹</div><div><div class="aib-t">Edmed Telehealth Platform</div><div class="aib-x">Integrated video consultation with real-time vital sign overlay, AI transcription, and automated clinical note generation. <b>14 teleconsults</b> completed this week. Average session: 22 minutes. e-Prescription and digital referral fully integrated.</div></div></div>
+  <div class="g2">
+    <div class="card"><div class="ch"><div class="ct">📹 Active & Scheduled Consults</div><button class="btn bp bsm">+ Schedule</button></div><div class="cb" style="padding:0">
+      <table class="tbl"><thead><tr><th>Patient</th><th>Provider</th><th>Time</th><th>Type</th><th>Status</th><th></th></tr></thead><tbody>
+        <tr><td>P-0033 · Maria S.</td><td>Dr. Ifeacho</td><td>Feb 19 · 10:00</td><td>Follow-up</td><td><span class="chip cg">● Live Now</span></td><td><button class="btn bb bsm">Join</button></td></tr>
+        <tr><td>P-0058 · James K.</td><td>Dr. Patel</td><td>Feb 19 · 14:00</td><td>AE Review</td><td><span class="chip cam2">Scheduled</span></td><td><button class="btn bg bsm">Prep</button></td></tr>
+        <tr><td>P-0071 · Lin W.</td><td>Dr. Ifeacho</td><td>Feb 20 · 09:30</td><td>Safety Check</td><td><span class="chip cgr">Upcoming</span></td><td><button class="btn bg bsm">Prep</button></td></tr>
+        <tr><td>P-0019 · Ahmed F.</td><td>Nurse Chen</td><td>Feb 21 · 11:00</td><td>Medication Rev</td><td><span class="chip cgr">Upcoming</span></td><td><button class="btn bg bsm">Prep</button></td></tr>
+      </tbody></table>
+    </div></div>
+    <div class="card"><div class="ch"><div class="ct">🤖 AI Consultation Assistant</div></div><div class="cb">
+      <div class="act-i"><div class="act-ic" style="background:var(--bld);color:var(--bl)">🖊</div><div><div class="act-tx"><b>AI Auto-Transcription</b> — P-0033 session complete. Clinical note drafted.</div><div class="act-tm">Today · 10:22 · Edmed AI</div></div></div>
+      <div class="act-i"><div class="act-ic" style="background:var(--ad);color:var(--a)">💊</div><div><div class="act-tx"><b>e-Prescription</b> generated: Furosemide 80mg QD dose increase for P-0033.</div><div class="act-tm">Today · 10:19 · Dr. Ifeacho</div></div></div>
+      <div class="act-i"><div class="act-ic" style="background:var(--pud);color:var(--pu)">📋</div><div><div class="act-tx"><b>Referral</b> sent to Cardiothoracic Surgery for P-0071 — mitral review.</div><div class="act-tm">Feb 17 · 15:44 · Dr. Patel</div></div></div>
+    </div></div>
+  </div>
+</div>
+
+<!-- ════ WEARABLES ════ -->
+<div id="pg-wearables" class="pg">
+  <div class="aib"><div class="aib-ic">⌚</div><div><div class="aib-t">Wearable IoT Integration Hub</div><div class="aib-x"><b>79/84 devices online</b>. Devices transmit HR, SpO₂, activity, sleep, skin temp, EDA every 30 seconds. AI pattern recognition running continuously. P-0058 device offline for 6 hours — participant contacted. P-0071 battery critical (21%).</div></div></div>
+  <div class="card"><table class="tbl"><thead><tr><th>Participant</th><th>Device</th><th>Status</th><th>Battery</th><th>HR</th><th>SpO₂</th><th>Steps Today</th><th>Last Sync</th></tr></thead><tbody id="wear-body"></tbody></table></div>
+</div>
+
+<!-- ════ AI INSIGHTS ════ -->
+<div id="pg-ai-insights" class="pg">
+  <div class="g3" style="margin-bottom:16px">
+    <div class="card"><div class="ch"><div class="ct">🎯 Study Success Probability</div></div><div class="cb" style="text-align:center;padding:18px"><div class="risk-big" style="color:var(--a)">87%</div><div class="risk-lbl" style="color:var(--a)">HIGH PROBABILITY</div><div style="font-size:11px;color:var(--tx3);margin-top:6px">Primary endpoint achievement · Confidence 94%</div></div></div>
+    <div class="card"><div class="ch"><div class="ct">⏱ Predicted Completion</div></div><div class="cb" style="text-align:center;padding:18px"><div class="risk-big" style="color:var(--bl);font-size:30px">Aug 2025</div><div class="risk-lbl" style="color:var(--bl)">±18 DAYS AHEAD OF PLAN</div><div style="font-size:11px;color:var(--tx3);margin-top:6px">vs. planned Sep 2025</div></div></div>
+    <div class="card"><div class="ch"><div class="ct">🧬 Biomarker Signal Strength</div></div><div class="cb" style="text-align:center;padding:18px"><div class="risk-big" style="color:var(--pu)">3.2×</div><div class="risk-lbl" style="color:var(--pu)">BNP REDUCTION vs. PLACEBO</div><div style="font-size:11px;color:var(--tx3);margin-top:6px">Effect size in treated arm · p=0.0024</div></div></div>
+  </div>
+  <div class="g2">
+    <div class="card"><div class="ch"><div class="ct">📈 Response Prediction by Subgroup</div></div><div class="cb">
+      <div class="pr-row"><div class="pr-l">HFrEF ≤30% (n=22)</div><div class="pr-bg"><div class="pr-fi" style="width:91%;background:var(--a)"></div></div><div class="pr-pct" style="color:var(--a)">91%</div></div>
+      <div class="pr-row"><div class="pr-l">HFrEF 31–40% (n=20)</div><div class="pr-bg"><div class="pr-fi" style="width:79%;background:var(--bl)"></div></div><div class="pr-pct" style="color:var(--bl)">79%</div></div>
+      <div class="pr-row"><div class="pr-l">Male 45–60yr</div><div class="pr-bg"><div class="pr-fi" style="width:82%;background:var(--pu)"></div></div><div class="pr-pct" style="color:var(--pu)">82%</div></div>
+      <div class="pr-row"><div class="pr-l">Female 45–60yr</div><div class="pr-bg"><div class="pr-fi" style="width:78%;background:var(--pk)"></div></div><div class="pr-pct" style="color:var(--pk)">78%</div></div>
+      <div class="pr-row"><div class="pr-l">CYP2C19 Normal</div><div class="pr-bg"><div class="pr-fi" style="width:88%;background:var(--a)"></div></div><div class="pr-pct">88%</div></div>
+      <div class="pr-row"><div class="pr-l">CYP2C19 Poor Met.</div><div class="pr-bg"><div class="pr-fi" style="width:44%;background:var(--rd)"></div></div><div class="pr-pct" style="color:var(--rd)">44%</div></div>
+    </div></div>
+    <div class="card"><div class="ch"><div class="ct">🔮 AI Recommendations</div></div><div class="cb">
+      <div class="act-i"><div class="act-ic" style="background:var(--bld);color:var(--bl)">1</div><div><div class="act-tx"><b>Expand HFrEF ≤30% cohort</b> — strongest responder signal (AUC 0.96)</div><div class="act-tm">Confidence: 94%</div></div></div>
+      <div class="act-i"><div class="act-ic" style="background:var(--amd);color:var(--am)">2</div><div><div class="act-tx"><b>Prioritize retention call</b> for P-0033, P-0058 this week</div><div class="act-tm">Confidence: 81%</div></div></div>
+      <div class="act-i"><div class="act-ic" style="background:var(--ad);color:var(--a)">3</div><div><div class="act-tx"><b>CYP2C19 poor metabolizers</b> showing 44% response — consider dose adjustment protocol amendment</div><div class="act-tm">Confidence: 88%</div></div></div>
+      <div class="act-i"><div class="act-ic" style="background:var(--pud);color:var(--pu)">4</div><div><div class="act-tx"><b>AI visit schedule optimization</b> reduces participant burden by 22%</div><div class="act-tm">Confidence: 96%</div></div></div>
+    </div></div>
+  </div>
+</div>
+
+<!-- ════ AI DIAGNOSTICS ════ -->
+<div id="pg-ai-diagnostics" class="pg">
+  <div class="aib"><div class="aib-ic">🧠</div><div><div class="aib-t">Edmed AI Diagnostic Engine v4.2</div><div class="aib-x">Multi-modal AI: analyzes labs, imaging, ECG, genomics, vitals, clinical notes simultaneously. Differential diagnosis generation, risk stratification, treatment pathway recommendation. FDA-cleared AI diagnostic companion (510(k) pending). HIPAA + NDPA compliant.</div></div></div>
+  <div class="g2">
+    <div class="card"><div class="ch"><div class="ct">🩺 Differential Diagnosis — P-0077</div></div><div class="cb">
+      <div style="margin-bottom:12px">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px"><span style="font-size:12.5px;font-weight:500">HFrEF — Primary Diagnosis</span><span class="chip cg">96% prob</span></div>
+        <div class="pbg"><div class="pfi" style="width:96%"></div></div>
+      </div>
+      <div style="margin-bottom:12px">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px"><span style="font-size:12.5px">Dilated Cardiomyopathy</span><span class="chip cam2">72% prob</span></div>
+        <div class="pbg"><div class="pfi" style="width:72%;background:var(--am)"></div></div>
+      </div>
+      <div style="margin-bottom:12px">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px"><span style="font-size:12.5px">Ischemic Cardiomyopathy</span><span class="chip cb2">48% prob</span></div>
+        <div class="pbg"><div class="pfi" style="width:48%;background:var(--bl)"></div></div>
+      </div>
+      <div style="margin-bottom:12px">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px"><span style="font-size:12.5px">Hypertensive Heart Disease</span><span class="chip cr2">31% prob</span></div>
+        <div class="pbg"><div class="pfi" style="width:31%;background:var(--rd)"></div></div>
+      </div>
+      <div style="font-family:'DM Mono',monospace;font-size:9px;color:var(--tx3);margin-top:8px">Generated from ECG + Echo + Labs + Genomics · Edmed AI v4.2</div>
+    </div></div>
+    <div class="card"><div class="ch"><div class="ct">🛤 AI Treatment Pathway</div></div><div class="cb">
+      <div class="tl">
+        <div class="tli"><div class="tld dn"></div><div class="tlt">Optimize GDMT</div><div class="tld2">Sacubitril/Valsartan + β-blocker + MRA + SGLT2i. AI-verified dosing.</div></div>
+        <div class="tli"><div class="tld dn"></div><div class="tlt">CRT Assessment</div><div class="tld2">LBBB + LVEF ≤35%: CRT-D candidate. Refer EP. AI predicts 71% responder probability.</div></div>
+        <div class="tli"><div class="tld ac"></div><div class="tlt">Study Drug (Compound X)</div><div class="tld2">CARDIO-7 investigational therapy. AI response prediction: 87%.</div></div>
+        <div class="tli"><div class="tld"></div><div class="tlt">Renal Function Monitor</div><div class="tld2">eGFR trending. Adjust diuretics if eGFR &lt;45.</div></div>
+        <div class="tli"><div class="tld"></div><div class="tlt">Device Therapy Escalation</div><div class="tld2">ICD implant if LVEF remains &lt;35% at 6 months despite GDMT.</div></div>
+      </div>
+    </div></div>
+  </div>
+</div>
+
+<!-- ════ PREDICTIVE ANALYTICS ════ -->
+<div id="pg-predictive" class="pg">
+  <div class="sr sr-4">
+    <div class="sc ca"><div class="sl">Enrollment Forecast</div><div class="sv">120</div><div class="ss">by Apr 15 (AI)</div></div>
+    <div class="sc cb"><div class="sl">Predicted Dropouts</div><div class="sv">4</div><div class="ss">next 30 days</div></div>
+    <div class="sc cp"><div class="sl">Primary EP Success</div><div class="sv">87%</div><div class="ss">probability</div></div>
+    <div class="sc cam"><div class="sl">Budget Utilization</div><div class="sv">94%</div><div class="ss">projected on spend</div></div>
+  </div>
+  <div class="g2">
+    <div class="card"><div class="ch"><div class="ct">📉 Dropout Risk Scores</div></div><div class="cb">
+      <div class="pr-row"><div class="pr-l">P-0033 · Maria S.</div><div class="pr-bg"><div class="pr-fi" style="width:62%;background:var(--rd)"></div></div><div class="pr-pct" style="color:var(--rd)">62%</div></div>
+      <div class="pr-row"><div class="pr-l">P-0058 · James K.</div><div class="pr-bg"><div class="pr-fi" style="width:41%;background:var(--am)"></div></div><div class="pr-pct" style="color:var(--am)">41%</div></div>
+      <div class="pr-row"><div class="pr-l">P-0071 · Lin W.</div><div class="pr-bg"><div class="pr-fi" style="width:29%;background:var(--am)"></div></div><div class="pr-pct" style="color:var(--am)">29%</div></div>
+      <div class="pr-row"><div class="pr-l">P-0019 · Ahmed F.</div><div class="pr-bg"><div class="pr-fi" style="width:12%;background:var(--a)"></div></div><div class="pr-pct">12%</div></div>
+      <div class="pr-row"><div class="pr-l">P-0044 · Sarah B.</div><div class="pr-bg"><div class="pr-fi" style="width:8%;background:var(--a)"></div></div><div class="pr-pct">8%</div></div>
+    </div></div>
+    <div class="card"><div class="ch"><div class="ct">🧠 AI Model Performance</div></div><div class="cb">
+      <div class="cb-row"><div class="cb-l"><span>Dropout Pred. AUC</span><span class="cb-pct">0.94</span></div><div class="pbg"><div class="pfi" style="width:94%"></div></div></div>
+      <div class="cb-row"><div class="cb-l"><span>Biomarker Response AUC</span><span class="cb-pct">0.96</span></div><div class="pbg"><div class="pfi" style="width:96%"></div></div></div>
+      <div class="cb-row"><div class="cb-l"><span>AE Detection Sensitivity</span><span class="cb-pct">88%</span></div><div class="pbg"><div class="pfi" style="width:88%;background:linear-gradient(90deg,var(--am),var(--a))"></div></div></div>
+      <div class="cb-row"><div class="cb-l"><span>Enrollment Forecast Acc.</span><span class="cb-pct">96%</span></div><div class="pbg"><div class="pfi" style="width:96%"></div></div></div>
+      <div class="cb-row"><div class="cb-l"><span>ECG Interpretation Acc.</span><span class="cb-pct">99.1%</span></div><div class="pbg"><div class="pfi" style="width:99.1%"></div></div></div>
+    </div></div>
+  </div>
+</div>
+
+<!-- ════ GENOMICS ════ -->
+<div id="pg-genomics" class="pg">
+  <div class="aib"><div class="aib-ic">🧬</div><div><div class="aib-t">Whole Genome Sequencing + AI Variant Calling</div><div class="aib-x">WGS complete for <b>71/84 participants</b>. AI identified BRCA1-adjacent SNP cluster (p=0.0024) correlated with treatment response. Pharmacogenomics: 6 CYP2C19 poor metabolizers, 1 VKORC1 anticoag variant. Polygenic risk score calculated for CVD, DM2, CKD.</div></div></div>
+  <div class="g2">
+    <div class="card"><div class="ch"><div class="ct">🔬 Key Variant Analysis</div></div><div class="cb"><div class="gg" id="gene-grid"></div></div></div>
+    <div class="card"><div class="ch"><div class="ct">💊 Pharmacogenomics Flags</div></div><div class="cb" style="padding:0">
+      <table class="tbl"><thead><tr><th>Participant</th><th>Gene</th><th>Phenotype</th><th>Drug Affected</th><th>Action</th></tr></thead><tbody>
+        <tr><td>P-0012</td><td style="font-family:'DM Mono',monospace;color:var(--a)">CYP2C19*2</td><td><span class="chip cr2">Poor Met.</span></td><td>Clopidogrel, PPIs</td><td><button class="btn bg bsm">Review</button></td></tr>
+        <tr><td>P-0031</td><td style="font-family:'DM Mono',monospace;color:var(--a)">CYP2D6*4</td><td><span class="chip cam2">Intermediate</span></td><td>Metoprolol, Carvedilol</td><td><button class="btn bg bsm">Review</button></td></tr>
+        <tr><td>P-0047</td><td style="font-family:'DM Mono',monospace;color:var(--a)">VKORC1-1639G>A</td><td><span class="chip cam2">Variant Carrier</span></td><td>Warfarin</td><td><button class="btn bg bsm">Review</button></td></tr>
+        <tr><td>P-0059</td><td style="font-family:'DM Mono',monospace;color:var(--a)">CYP2C19*2</td><td><span class="chip cr2">Poor Met.</span></td><td>Clopidogrel</td><td><button class="btn bg bsm">Review</button></td></tr>
+        <tr><td>P-0067</td><td style="font-family:'DM Mono',monospace;color:var(--a)">SLCO1B1*5</td><td><span class="chip cam2">Risk</span></td><td>Statins</td><td><button class="btn bg bsm">Review</button></td></tr>
+      </tbody></table>
+    </div></div>
+  </div>
+</div>
+
+<!-- ════ DRUG INTERACTION ════ -->
+<div id="pg-drug-interact" class="pg">
+  <div class="aib"><div class="aib-ic">⚗</div><div><div class="aib-t">AI Drug Interaction & Dosing System</div><div class="aib-x">Powered by DrugBank 5.1 + FDA Orange Book + WHO DDD database. Real-time interaction checking for all 84 participants. 3 active interactions flagged. Dosing calculator integrates renal/hepatic function, body weight, age, and pharmacogenomics.</div></div></div>
+  <div class="g2">
+    <div class="card"><div class="ch"><div class="ct">🔍 Interaction Checker</div></div><div class="cb">
+      <div class="fg" style="margin-bottom:12px">
+        <div class="fgrp"><div class="flb">Drug A</div><input class="fi" id="di-a2" placeholder="e.g. Furosemide"></div>
+        <div class="fgrp"><div class="flb">Drug B</div><input class="fi" id="di-b2" placeholder="e.g. Spironolactone"></div>
+      </div>
+      <div class="fgrp" style="margin-bottom:12px"><div class="flb">Patient Context</div><input class="fi" placeholder="eGFR, CYP genotype, weight…"></div>
+      <button class="btn bp" style="width:100%;justify-content:center" onclick="checkDrugInt2()">🧠 AI Interaction Analysis</button>
+      <div id="di-res2" style="margin-top:12px"></div>
+    </div></div>
+    <div class="card"><div class="ch"><div class="ct">📋 Active Study Interactions</div></div><div class="cb">
+      <div style="background:var(--amd);border:1px solid rgba(255,190,64,.18);border-radius:7px;padding:11px;margin-bottom:8px">
+        <div style="font-family:'DM Mono',monospace;font-size:9px;color:var(--am);margin-bottom:4px">⚠ MODERATE — Furosemide + Spironolactone</div>
+        <div style="font-size:11.5px;color:var(--tx2)">Risk of hyperkalemia. P-0077 K⁺ = 5.8 mEq/L. Monitor weekly.</div>
+      </div>
+      <div style="background:rgba(255,77,77,.06);border:1px solid rgba(255,77,77,.15);border-radius:7px;padding:11px;margin-bottom:8px">
+        <div style="font-family:'DM Mono',monospace;font-size:9px;color:var(--rd);margin-bottom:4px">⚠ MODERATE — Compound X + CYP2C19 inhibitors</div>
+        <div style="font-size:11.5px;color:var(--tx2)">6 participants with CYP2C19 poor metabolizer phenotype may have increased drug exposure.</div>
+      </div>
+      <div style="background:var(--ad);border:1px solid rgba(0,240,192,.12);border-radius:7px;padding:11px">
+        <div style="font-family:'DM Mono',monospace;font-size:9px;color:var(--a);margin-bottom:4px">✓ MINOR — Carvedilol + Valsartan</div>
+        <div style="font-size:11.5px;color:var(--tx2)">Additive antihypertensive effect. Expected in HF management. Monitor BP.</div>
+      </div>
+    </div></div>
+  </div>
+</div>
+
+<!-- ════ CDS ════ -->
+<div id="pg-cds" class="pg">
+  <div class="aib"><div class="aib-ic">💡</div><div><div class="aib-t">Clinical Decision Support System</div><div class="aib-x">Real-time CDS alerts integrated into clinical workflow. Based on ACC/AHA, ESC, WHO guidelines. AI cross-references 14 specialty guidelines simultaneously. <b>8 actionable alerts</b> generated today across all participants.</div></div></div>
+  <div class="g2">
+    <div class="card"><div class="ch"><div class="ct">🚨 Active CDS Alerts</div></div><div class="cb">
+      <div style="background:var(--rdd);border:1px solid rgba(255,77,77,.2);border-radius:7px;padding:11px;margin-bottom:8px">
+        <div style="display:flex;align-items:center;gap:7px;margin-bottom:5px"><div class="slight sl-r"></div><div style="font-size:12.5px;font-weight:500">Critical: K⁺ 5.8 — Hold Spironolactone</div></div>
+        <div style="font-size:11.5px;color:var(--tx2)">P-0077: Potassium 5.8 mEq/L. ACC/AHA HF guideline: suspend MRA if K⁺ &gt;5.5. Notify physician.</div>
+      </div>
+      <div style="background:var(--amd);border:1px solid rgba(255,190,64,.18);border-radius:7px;padding:11px;margin-bottom:8px">
+        <div style="display:flex;align-items:center;gap:7px;margin-bottom:5px"><div class="slight sl-a"></div><div style="font-size:12.5px;font-weight:500">Warning: eGFR Trend — Monitor Diuretic Dose</div></div>
+        <div style="font-size:11.5px;color:var(--tx2)">P-0033: eGFR declined 12% over 4 weeks. Consider dose reduction per KDIGO 2024.</div>
+      </div>
+      <div style="background:var(--ad);border:1px solid rgba(0,240,192,.12);border-radius:7px;padding:11px">
+        <div style="display:flex;align-items:center;gap:7px;margin-bottom:5px"><div class="slight sl-g"></div><div style="font-size:12.5px;font-weight:500">Reminder: SGLT2i — Add to GDMT</div></div>
+        <div style="font-size:11.5px;color:var(--tx2)">4 participants not yet on SGLT2 inhibitor per 2023 ACC HF guidelines. Consider initiation.</div>
+      </div>
+    </div></div>
+    <div class="card"><div class="ch"><div class="ct">📚 Guideline Reference</div></div><div class="cb">
+      <table class="tbl"><thead><tr><th>Guideline</th><th>Year</th><th>Specialty</th><th>Status</th></tr></thead><tbody>
+        <tr><td>ACC/AHA HF Guidelines</td><td>2022</td><td>Cardiology</td><td><span class="chip cg">Active</span></td></tr>
+        <tr><td>ESC Heart Failure</td><td>2023</td><td>Cardiology</td><td><span class="chip cg">Active</span></td></tr>
+        <tr><td>KDIGO CKD</td><td>2024</td><td>Nephrology</td><td><span class="chip cg">Active</span></td></tr>
+        <tr><td>ADA Diabetes Standards</td><td>2024</td><td>Endocrinology</td><td><span class="chip cg">Active</span></td></tr>
+        <tr><td>WHO Essential Medicines</td><td>2023</td><td>Pharmacology</td><td><span class="chip cg">Active</span></td></tr>
+      </tbody></table>
+    </div></div>
+  </div>
+</div>
+
+<!-- ════ LITERATURE ════ -->
+<div id="pg-literature" class="pg">
+  <div class="aib"><div class="aib-ic">📚</div><div><div class="aib-t">AI Evidence Synthesis Engine</div><div class="aib-x">Real-time PubMed/MEDLINE monitoring. AI summarizes relevant publications daily. <b>14 new publications</b> matched to CARDIO-7 this week. Meta-analysis runner integrated. Citation manager synced with Zotero/Mendeley.</div></div></div>
+  <div class="card"><div class="ch"><div class="ct">🔍 Recent Matched Publications</div><div style="display:flex;gap:7px"><input class="si" placeholder="🔍 Search literature…"><button class="btn bb bsm">Search PubMed</button></div></div><div class="cb" style="padding:0">
+    <table class="tbl"><thead><tr><th>Title (AI Summary)</th><th>Journal</th><th>Year</th><th>Relevance</th><th>Impact</th></tr></thead><tbody>
+      <tr><td style="max-width:280px">Novel ARNI therapy in advanced HFrEF: 18-month outcomes RCT (N=820)</td><td>NEJM</td><td>2025</td><td><span class="chip cg">92% match</span></td><td>IF 96.2</td></tr>
+      <tr><td style="max-width:280px">CYP2C19 pharmacogenomics and drug response in cardiac populations</td><td>JACC</td><td>2024</td><td><span class="chip cg">88% match</span></td><td>IF 24.1</td></tr>
+      <tr><td style="max-width:280px">Wearable biosensor accuracy for HF remote monitoring: systematic review</td><td>Lancet Digital</td><td>2025</td><td><span class="chip cg">85% match</span></td><td>IF 23.8</td></tr>
+      <tr><td style="max-width:280px">Machine learning prediction of HF hospitalization using biomarker panels</td><td>Nat Medicine</td><td>2025</td><td><span class="chip cam2">79% match</span></td><td>IF 82.9</td></tr>
+      <tr><td style="max-width:280px">Multi-omics integration for precision therapy in dilated cardiomyopathy</td><td>Circulation</td><td>2025</td><td><span class="chip cam2">76% match</span></td><td>IF 37.8</td></tr>
+    </tbody></table>
+  </div></div>
+</div>
+
+<!-- ════ CARDIOLOGY ════ -->
+<div id="pg-cardiology" class="pg">
+  <div class="aib"><div class="aib-ic">❤</div><div><div class="aib-t">Cardiology Specialty Module</div><div class="aib-x">Comprehensive cardiac monitoring suite. AI echocardiography, advanced hemodynamic monitoring, arrhythmia detection, cardiac resynchronization therapy (CRT) assessment, and catheterization data integration.</div></div></div>
+  <div class="g3">
+    <div class="card"><div class="ch"><div class="ct">🫀 Echo Parameters</div></div><div class="cb">
+      <div class="lab-row"><span class="lab-name">LVEF (AI)</span><span class="lab-val lab-hi">32%</span><span class="lab-ref">55–70%</span><span class="lab-flag lab-hi">↓ HI</span></div>
+      <div class="lab-row"><span class="lab-name">LVEDd</span><span class="lab-val lab-hi">6.2 cm</span><span class="lab-ref">3.5–5.7</span><span class="lab-flag lab-hi">↑</span></div>
+      <div class="lab-row"><span class="lab-name">LVESd</span><span class="lab-val lab-hi">5.1 cm</span><span class="lab-ref">2.0–3.8</span><span class="lab-flag lab-hi">↑</span></div>
+      <div class="lab-row"><span class="lab-name">LAVI</span><span class="lab-val lab-hi">42 mL/m²</span><span class="lab-ref">&lt;34</span><span class="lab-flag lab-hi">↑</span></div>
+      <div class="lab-row"><span class="lab-name">TAPSE</span>…
